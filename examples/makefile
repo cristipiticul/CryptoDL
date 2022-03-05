@@ -13,9 +13,9 @@ cnn:
 	
 rnn:
 	@echo Building rnn examples
-	g++ -std=c++0x -include../src/data/mnist/include/mnist/mnist_reader_less.hpp -O0 -g3 -Wall -c mnist_rnn/mnist_rnn.cpp
+	g++ -std=c++17 -include../src/data/mnist/include/mnist/mnist_reader_less.hpp $(INCLUDE_DIRS) $(DEP_INCLUDES) -O0 -g3 -Wall -c mnist_rnn/mnist_rnn.cpp
 	@echo Linking rnn examples
-	g++ -o mnist_rnn_example mnist_rnn.o ../Debug/libkalypso.a -lpthread  ../../HElib-master/src/fhe.a -lboost_filesystem -lboost_system -ljpeg -lgmpxx -lntl -lgmp
+	g++ -std=c++17 -o mnist_rnn_example mnist_rnn.o ../Debug/libkalypso.a -lpthread  ../dependencies/install/helib_pack/lib/fhe.a -lboost_filesystem -lboost_system -ljpeg -lgmpxx -lntl -lgmp
 
 clean:
 	-rm mnist_cnn_example mnist_cnn.o mnist_rnn_example mnist_rnn.o

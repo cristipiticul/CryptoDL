@@ -10,6 +10,7 @@
 
 
 #include <map>
+#include <string>
 
 typedef std::map<std::string, std::string> config_section;
 typedef std::map<std::string, config_section> config;
