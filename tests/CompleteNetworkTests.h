@@ -19,6 +19,7 @@
 #include "../src/architecture/Layer.h"
 #include "../src/architecture/PlainTensor.h"
 #include "../src/architecture/Model.h"
+#include "../src/tools/IOStream.h"
 
 inline std::vector<std::vector<std::vector<long>>> getTestBatch( std::vector<std::vector<uint8_t>> data ) {
 	std::vector<std::vector<std::vector<long>>> plainImages = std::vector<std::vector<std::vector<long>>>( 32,

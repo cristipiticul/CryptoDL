@@ -17,6 +17,7 @@
 #include "../src/architecture/Layer.h"
 #include "../src/architecture/PlainTensor.h"
 #include "TestCommons.h"
+#include "../src/tools/IOStream.h"
 
 extern std::vector<std::vector<std::vector<long>>> loadConvLayerOutput( std::string filename, int batchSize, int depth,
 		int size, bool supressOutput = false );

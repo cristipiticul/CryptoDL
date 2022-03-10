@@ -18,7 +18,7 @@ template<class data_t, class weight_t>
 bool completeNetworkTest() {
 	cout << "Running " << __func__<<  " " << flush;
 
-	mnist::MNIST_dataset<uint8_t,uint8_t> dataset = loadMNIST("src/mnist");
+	mnist::MNIST_dataset<uint8_t,uint8_t> dataset = loadMNIST();
 	PlainTensorFactory<data_t> factory;
 
 
@@ -65,7 +65,7 @@ bool completeNetworkTest() {
 					"dense_2", LinearActivation<data_t>::getSharedPointer(), 10,
 					&factory, &factory ) );
 
-	completeNetwork.loadWeights( "savedWeights/" );
+	completeNetwork.loadWeights( "examples/mnist_cnn/weights/" );
 
 	// use only 128 instances because it is fast
 	std::vector<std::vector<uint8_t>> X( dataset.test_images.begin(), dataset.test_images.begin() + 128 );
@@ -84,7 +84,7 @@ bool completeNetworkTestLong() {
 
 bool completeNetworkTestFloat(){
 	cout << "Running " << __func__<<  " " << flush;
-	mnist::MNIST_dataset<uint8_t,uint8_t> dataset = loadMNIST("src/mnist");
+	mnist::MNIST_dataset<uint8_t,uint8_t> dataset = loadMNIST();
 
 	return completeNetworkTest<float, float>();
 }
@@ -96,7 +96,7 @@ bool completeNetworkTestHELibBFV() {
 	typedef long weight_t;
 	cout << "Running " << __func__<< " " << flush;
 
-	mnist::MNIST_dataset<uint8_t,uint8_t> dataset = loadMNIST("src/mnist");
+	mnist::MNIST_dataset<uint8_t,uint8_t> dataset = loadMNIST();
 	HELibCipherTextFactory ctxtFactory;
 
 	HETensorFactory<HELibCipherText> hetfactory( &ctxtFactory );
@@ -150,7 +150,7 @@ bool completeNetworkTestHELibBFV() {
 					&hetfactory, &ptFactory ) );
 
 	cout << "Here" << endl;
-	completeNetwork.loadWeights( "savedWeights/" );
+	completeNetwork.loadWeights( "examples/mnist_cnn/weights/" );
 	std::cout << "batchsize: " << batchSize << std::endl;
 
 	// use only 100 instances because it is fast
@@ -196,7 +196,7 @@ bool completeNetworkTestHELibCKKS() {
 	typedef long weight_t;
 	cout << "Running " << __func__ << " " << flush;
 
-	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST( "src/mnist" );
+	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST();
 	HELibCipherTextFactory ctxtFactory( 0, false );
 
 	HETensorFactory<HELibCipherText> hetfactory( &ctxtFactory );
@@ -238,7 +238,7 @@ bool completeNetworkTestHELibCKKS() {
 					LinearActivation<data_t>::getSharedPointer(), 10, &hetfactory, &ptFactory ) );
 
 	cout << "Here" << endl;
-	completeNetwork.loadWeights( "savedWeights/" );
+	completeNetwork.loadWeights( "examples/mnist_cnn/weights/" );
 	std::cout << "batchsize: " << batchSize << std::endl;
 
 	// use only 100 instances because it is fast
@@ -281,7 +281,7 @@ template<class data_t, class weight_t>
 bool compareLayerByLayer() {
 	cout << "Running " << __func__ << " " << flush;
 
-	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST( "src/mnist" );
+	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST();
 	PlainTensorFactory<data_t> factory;
 
 
@@ -318,7 +318,7 @@ bool compareLayerByLayer() {
 			std::make_shared<Dense<data_t, weight_t, PlainTensor<data_t>, PlainTensor<weight_t> >>( "dense_2",
 					LinearActivation<data_t>::getSharedPointer(), 10, &factory, &factory ) );
 
-	completeNetwork.loadWeights( "savedWeights/" );
+	completeNetwork.loadWeights( "examples/mnist_cnn/weights/" );
 
 	std::vector<TensorP<data_t>> referenceOutPuts;
 
@@ -387,7 +387,7 @@ template<class data_t, class weight_t>
 bool compareLayerByLayerEncrypted() {
 	cout << "Running " << __func__ << " " << flush;
 	/// load the data set
-	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST( "src/mnist" );
+	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST();
 	int batchSize = 32;
 	HELibCipherTextFactory ctxtFactory( /*L*/8192, /*m*/batchSize * 4, /*r*/32 ); // batchsize needs to be fixed at 32 for this
 
@@ -591,7 +591,7 @@ bool compareLayerByLayerEncryptedFloat() {
 bool completeNetworkTestHELibCKKSFloatWeights() {
 	cout << "Running " << __func__ << " " << flush;
 
-	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST( "src/mnist" );
+	mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST();
 	HELibCipherTextFactory ctxtFactory( 1024, 32 * 4, 8 );
 
 
