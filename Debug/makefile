@@ -17,6 +17,7 @@ CXXFLAGS := -std=c++17 -O3 -g0 -Wall -c -fmessage-length=0 -fopenmp
 -include src/tools/subdir.mk
 -include src/data/subdir.mk
 -include src/architecture/HEBackend/helib/subdir.mk
+-include src/architecture/HEBackend/seal/subdir.mk
 -include subdir.mk
 -include objects.mk
 

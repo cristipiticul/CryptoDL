@@ -367,7 +367,7 @@ public:
 	void copyInto( Tensor<ValueType>& target ) {
 		static_assert(shape==target.shape, "");
 		target.createStorage(); // make sure the target storage is ready
-		std::memcpy( mdata, target.mdata, shape.mCapacity * sizeof(ValueType) );
+		std::memcpy( mdata, target.mdata, shape.capacity() * sizeof(ValueType) );
 	}
 
 	void fillString( std::string &nestedString, std::string& arrayString,

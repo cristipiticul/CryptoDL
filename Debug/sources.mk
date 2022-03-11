@@ -24,6 +24,7 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 src/architecture/HEBackend/helib \
+src/architecture/HEBackend/seal \
 src/data \
 src/tools \
 src/tools/json \

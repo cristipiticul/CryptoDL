@@ -1,0 +1,5 @@
+BasedOnStyle: LLVM
+ReflowComments: false # comments can be longer than max line width
+IndentWidth: 4
+AllowShortFunctionsOnASingleLine: false # don't allow int f() { return 1; }
+AccessModifierOffset: -4 # public / private on the same line

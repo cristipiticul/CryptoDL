@@ -184,3 +184,7 @@ dependencies/*
 !dependencies/old_versions.sh
 !dependencies/config_system.sh
 !dependencies/README.MD
+
+tests/kalypso_tests
+datasets/mnist/*-ubyte
+.vscode/

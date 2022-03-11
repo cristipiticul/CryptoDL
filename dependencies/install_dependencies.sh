@@ -40,3 +40,26 @@ cd "${WD}"
 if [ $CLEAN_UP -eq 1 ]; then
     rm -rf HElib
 fi
+
+
+
+
+SEAL_GIT=https://github.com/homenc/HElib.git
+
+git clone ${SEAL_GIT}
+
+# start building
+# build SEAL
+echo "Building SEAL"
+cd SEAL
+# git checkout ${HELIB_COMMIT}
+rm -rf build
+# Note: Microsoft SEAL compiled with Clang++ has much better runtime performance than one compiled with GNU G++.
+CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -S . -B build -DCMAKE_INSTALL_PREFIX="${DEPENDENCIES_DIR}"/install/SEAL
+CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake --build build
+sudo cmake --install build
+cd "${WD}"
+# clean up
+if [ $CLEAN_UP -eq 1 ]; then
+    rm -rf SEAL
+fi

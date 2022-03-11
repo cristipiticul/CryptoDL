@@ -5,17 +5,16 @@
  *      Author: robert
  */
 
-
-#include "TestCommons.h"
-#include "ConvTest.h"
 #include "CompleteNetworkTests.h"
+#include "ConvTest.h"
 #include "DenseTest.h"
 #include "HEBackendTests.h"
-#include "RNNTest.h"
 #include "PoolingTest.h"
+#include "RNNTest.h"
+#include "SealTest.h"
+#include "TestCommons.h"
 
-
-
+/*
 int main(int argc, char **argv) {
 
 	bool success = true;
@@ -115,5 +114,18 @@ int main(int argc, char **argv) {
 	perror("Test run failed");
 	exit(1);
 }
+*/
 
+int main() {
+    bool success = true;
 
+    success &= sealTest();
+
+    if (success) {
+        std::cout << "Test run successful" << std::endl;
+        return 0;
+    }
+    errno = -1;
+    perror("Test run failed");
+    return 1;
+}
