@@ -55,7 +55,7 @@ cd SEAL
 # git checkout ${HELIB_COMMIT}
 rm -rf build
 # Note: Microsoft SEAL compiled with Clang++ has much better runtime performance than one compiled with GNU G++.
-CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -S . -B build -DCMAKE_INSTALL_PREFIX="${DEPENDENCIES_DIR}"/install/SEAL
+CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -S . -B build -DCMAKE_INSTALL_PREFIX="${DEPENDENCIES_DIR}"/install/SEAL -DSEAL_USE_INTEL_HEXL=ON -DSEAL_USE_MSGSL=ON
 CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake --build build
 sudo cmake --install build
 cd "${WD}"
