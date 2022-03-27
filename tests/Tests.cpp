@@ -118,6 +118,24 @@ int main(int argc, char **argv) {
 
 int main() {
     bool success = true;
+    
+    constexpr long L = 500;
+    constexpr long m = 4096; // INCREASE M SO THAT IT MATCHES THE OTHER M
+    constexpr long r = 32;
+
+    HELibCipherTextFactory ctxtFactory(L, m, r);
+    cout << ctxtFactory.batchsize() << endl;
+    helib::Context &context = *ctxtFactory.context;
+    double sumbytes = 0.0;
+    for (long i : context.ctxtPrimes) {
+        cout << context.ithPrime(i) << endl;
+        sumbytes += std::log2(context.ithPrime(i));
+    }
+    cout << endl;
+    cout << "Sumbytes:" << sumbytes << endl;
+
+    SealCipherTextFactory sealFactory(32768, 9, 56);
+    cout << sealFactory.batchsize() << endl;
 
     success &= sealTest();
 
