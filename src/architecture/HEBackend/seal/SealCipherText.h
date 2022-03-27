@@ -2,14 +2,16 @@
 #define ARCHITECTURE_SEALBACKEND_SEAL_SEALCIPHERTEXT_H_
 
 #include "../CipherTextWrapper.h"
-#include "../SealTensor.h"
-#include "../helib/HELIbCipherText.h"
+#include "../HETensor.h"
+#include <seal/seal.h>
 
 class SealCipherTextFactory;
 
 class SealCipherText {
 public:
     static SealCipherTextFactory *defaultFactory; // declaration in cpp
+
+    friend SealCipherTextFactory;
 
     SealCipherText(std::shared_ptr<seal::Ciphertext> cipherText,
                    SealCipherTextFactory *factory)
@@ -20,6 +22,18 @@ public:
         return *mCiphertext;
     }
 
+    virtual SealCipherText &operator+=(SealCipherText &other);
+    virtual SealCipherText &operator*=(SealCipherText &other);
+    virtual SealCipherText &operator+=(SealCipherText *other);
+    virtual SealCipherText &operator*=(SealCipherText *other);
+    virtual SealCipherText &operator=(const SealCipherText &other);
+
+    virtual SealCipherText &operator+=(double x);
+    virtual SealCipherText &operator*=(double x);
+
+    void square();
+    void power(uint p);
+
 private:
     SealCipherTextFactory *mFactory;
     std::shared_ptr<seal::Ciphertext> mCiphertext;
@@ -27,7 +41,10 @@ private:
 
 class SealCipherTextFactory : public CipherTextWrapperFactory<SealCipherText> {
 public:
-    SealCipherTextFactory(size_t poly_modulus_degree, int number_of_coeffs, int coeff_size) {
+    friend SealCipherText;
+
+    SealCipherTextFactory(size_t poly_modulus_degree, int number_of_coeffs,
+                          int coeff_size, int scale_bits) {
         seal::EncryptionParameters parms(seal::scheme_type::ckks);
         parms.set_poly_modulus_degree(poly_modulus_degree);
 
@@ -37,7 +54,7 @@ public:
         }
         parms.set_coeff_modulus(
             seal::CoeffModulus::Create(poly_modulus_degree, coeffSizes));
-        scale = pow(2.0, 1);
+        scale = pow(2.0, scale_bits);
         context = std::make_shared<seal::SEALContext>(parms);
         seal::KeyGenerator keygen(*context);
         auto secret_key = keygen.secret_key();
@@ -52,6 +69,10 @@ public:
         evaluator = std::make_shared<seal::Evaluator>(*context);
         decryptor = std::make_shared<seal::Decryptor>(*context, secret_key);
         encoder = std::make_shared<seal::CKKSEncoder>(*context);
+    }
+
+    seal::SEALContext &getContext() {
+        return *context;
     }
 
     virtual void setAsDefaultFactory() override;
@@ -109,6 +130,8 @@ public:
                                   Tensor<SealCipherText> &tensor);
 
 private:
+    virtual seal::Plaintext createPlainText(double x);
+
     double scale;
     std::shared_ptr<seal::SEALContext> context;
     std::shared_ptr<seal::Encryptor> encryptor;

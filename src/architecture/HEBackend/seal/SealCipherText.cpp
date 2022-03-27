@@ -1,7 +1,50 @@
 #include "SealCipherText.h"
 #include <seal/seal.h>
 
-SealCipherTextFactory* SealCipherText::defaultFactory = nullptr;
+SealCipherTextFactory *SealCipherText::defaultFactory = nullptr;
+
+SealCipherText &SealCipherText::operator+=(SealCipherText &other) {
+    mFactory->evaluator->add_inplace(*mCiphertext, *other.mCiphertext);
+    return *this;
+}
+
+SealCipherText &SealCipherText::operator*=(SealCipherText &other) {
+    mFactory->evaluator->multiply_inplace(*mCiphertext, *other.mCiphertext);
+    return *this;
+}
+
+SealCipherText &SealCipherText::operator+=(SealCipherText *other) {
+    return this->operator+=(*other);
+}
+
+SealCipherText &SealCipherText::operator*=(SealCipherText *other) {
+    return this->operator*=(*other);
+}
+
+SealCipherText &SealCipherText::operator=(const SealCipherText &other) {
+    *this->mCiphertext = other.ctxt();
+    return *this;
+}
+
+SealCipherText &SealCipherText::operator+=(double x) {
+    seal::Plaintext xPlain = mFactory->createPlainText(x);
+    mFactory->evaluator->add_plain_inplace(*mCiphertext, xPlain);
+    return *this;
+}
+
+SealCipherText &SealCipherText::operator*=(double x) {
+    seal::Plaintext xPlain = mFactory->createPlainText(x);
+    mFactory->evaluator->multiply_plain_inplace(*mCiphertext, xPlain);
+    return *this;
+}
+
+void SealCipherText::square() {
+    this->mFactory->evaluator->square_inplace(*this->mCiphertext);
+}
+
+void SealCipherText::power(uint p) {
+    throw std::runtime_error("Not supported!");
+}
 
 void SealCipherTextFactory::setAsDefaultFactory() {
     SealCipherText::defaultFactory = this;
@@ -45,6 +88,12 @@ SealCipherTextFactory::createCipherText(const std::vector<float> &in) {
         input.push_back(static_cast<double>(x));
     }
     return createCipherText(input);
+}
+
+seal::Plaintext SealCipherTextFactory::createPlainText(double x) {
+    seal::Plaintext plain;
+    encoder->encode(x, scale, plain);
+    return plain;
 }
 
 std::vector<double>

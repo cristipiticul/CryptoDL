@@ -101,6 +101,9 @@ bool compareOuput( std::vector<std::vector<T>> one, std::vector<std::vector<T>> 
 	return true;
 };
 
+template<class T>
+bool compareOuput( std::vector<T> one, std::vector<T> two );
+
 
 template<class T>
 bool finishTest(std::vector<std::vector<std::vector<T>>> ourResult, std::vector<std::vector<std::vector<T>>> expectedOutput, std::string testName){
@@ -111,6 +114,13 @@ bool finishTest(std::vector<std::vector<std::vector<T>>> ourResult, std::vector<
 
 template<class T>
 bool finishTest(std::vector<std::vector<T>> ourResult, std::vector<std::vector<T>> expectedOutput, std::string testName){
+	bool result =  compareOuput(ourResult, expectedOutput);
+	printResult(result, ourResult, expectedOutput, testName);
+	return result;
+}
+
+template<class T>
+bool finishTest(std::vector<T> ourResult, std::vector<T> expectedOutput, std::string testName){
 	bool result =  compareOuput(ourResult, expectedOutput);
 	printResult(result, ourResult, expectedOutput, testName);
 	return result;
