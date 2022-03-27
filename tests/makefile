@@ -12,6 +12,8 @@ all: $(OBJ_FILES)
 	@echo Linking tests
 	g++ -std=c++17 -o kalypso_tests $(OBJ_FILES) $(DEP_LIBS) ../Debug/libkalypso.a  -lntl -lboost_filesystem -lboost_system -ljpeg -lpthread -lgmpxx -lgmp $(DEP_RPATH)
 
+-include $(DEP_FILES)
+
 %.o: %.cpp
 	@echo Building tests
 	g++ -std=c++17 $(DEP_INCLUDES) -include../src/data/mnist/include/mnist/mnist_reader_less.hpp -O0 -g3 -Wall -c -fmessage-length=0 -fopenmp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o $@ $<
