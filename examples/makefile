@@ -3,13 +3,19 @@ CRYPTODL_DIR=..
 $(shell $(CRYPTODL_DIR)/dependencies/versions.sh)
 -include $(CRYPTODL_DIR)/dependencies/makefile.versions
 
-all: cnn rnn
+all: cnn cnn_seal rnn
 
 cnn:
 	@echo Building cnn examples
 	g++ -std=c++17 -Wall $(INCLUDE_DIRS) $(DEP_INCLUDES) -O0 -g3 -Wall -c mnist_cnn/mnist_cnn.cpp
 	@echo Linking rnn examples
 	g++ -std=c++17 -Wall -o mnist_cnn_example mnist_cnn.o $(CRYPTODL_DIR)/Debug/libkalypso.a $(DEP_LIBS) $(DEP_RPATH)
+
+cnn_seal:
+	@echo Building cnn seal examples
+	g++ -std=c++17 -Wall $(INCLUDE_DIRS) $(DEP_INCLUDES) -O0 -g3 -Wall -c mnist_cnn/mnist_cnn_seal.cpp
+	@echo Linking cnn seal examples
+	g++ -std=c++17 -Wall -o mnist_cnn_seal_example mnist_cnn_seal.o $(CRYPTODL_DIR)/Debug/libkalypso.a $(DEP_LIBS) $(DEP_RPATH)
 	
 rnn:
 	@echo Building rnn examples

@@ -1,0 +1,19 @@
+If you get error
+cc1plus: error: bad value (‘tigerlake’) for ‘-march=’ switch
+at 
+sudo ./install_dependencies.sh
+you should also
+sudo apt install gcc-10 g++-10
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-10 100 --slave /usr/bin/g++ g++ /usr/bin/g++-10 --slave /usr/bin/gcov gcov /usr/bin/gcov-10
+sudo update-alternatives --config gcc
+
+Install python stuff:
+cd python
+pip install -e ../python
+
+Running examples:
+sudo apt-get install lib ntl-dev libgmp-dev
+cd examples/mnist_cnn/
+python mnist_cnn.py
+cd ../..
+./examples/minst_cnn_example

@@ -13,6 +13,8 @@ public:
 
     friend SealCipherTextFactory;
 
+    SealCipherText();
+
     SealCipherText(std::shared_ptr<seal::Ciphertext> cipherText,
                    SealCipherTextFactory *factory)
         : mFactory(factory), mCiphertext(cipherText) {
@@ -33,6 +35,10 @@ public:
 
     void square();
     void power(uint p);
+
+    bool noiseNearOverflow();
+    void writeToFile(const std::string &fileName);
+    void writeToFile(std::ostream& str);
 
 private:
     SealCipherTextFactory *mFactory;
@@ -77,13 +83,8 @@ public:
 
     virtual void setAsDefaultFactory() override;
 
-    virtual SealCipherText empty() override {
-        seal::Plaintext plain;
-        encoder->encode(0.0, scale, plain);
-        seal::Ciphertext cipher;
-        encryptor->encrypt(plain, cipher);
-        return SealCipherText(std::make_shared<seal::Ciphertext>(cipher), this);
-    }
+    virtual std::shared_ptr<seal::Ciphertext> createRawEmpty();
+    virtual SealCipherText empty() override;
 
     virtual SealCipherText createCipherText(long x);
     virtual SealCipherText createCipherText(const std::vector<long> &in);

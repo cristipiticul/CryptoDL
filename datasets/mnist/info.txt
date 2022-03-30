@@ -1,0 +1,2 @@
+downloaded from http://yann.lecun.com/exdb/mnist/
+renamed from XXX.idx1-ubyte to XXX-idx1-ubyte

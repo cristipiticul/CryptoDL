@@ -3,6 +3,10 @@
 
 SealCipherTextFactory *SealCipherText::defaultFactory = nullptr;
 
+SealCipherText::SealCipherText()
+    : mFactory(defaultFactory), mCiphertext(mFactory->createRawEmpty()) {
+}
+
 SealCipherText &SealCipherText::operator+=(SealCipherText &other) {
     mFactory->evaluator->add_inplace(*mCiphertext, *other.mCiphertext);
     return *this;
@@ -46,8 +50,31 @@ void SealCipherText::power(uint p) {
     throw std::runtime_error("Not supported!");
 }
 
+bool SealCipherText::noiseNearOverflow() {
+    // TODO find out a way to check if noise is near overflow
+    return false;
+}
+
+void SealCipherText::writeToFile(const std::string &fileName) {
+    throw std::runtime_error("Not supported!");
+}
+
+void SealCipherText::writeToFile(std::ostream& str) {
+    throw std::runtime_error("Not supported!");
+}
+
 void SealCipherTextFactory::setAsDefaultFactory() {
     SealCipherText::defaultFactory = this;
+}
+
+SealCipherText SealCipherTextFactory::empty() {
+    return SealCipherText(createRawEmpty(), this);
+}
+
+std::shared_ptr<seal::Ciphertext> SealCipherTextFactory::createRawEmpty() {
+    seal::Ciphertext cipher;
+    encryptor->encrypt(createPlainText(0.0), cipher);
+    return std::make_shared<seal::Ciphertext>(cipher);
 }
 
 SealCipherText
