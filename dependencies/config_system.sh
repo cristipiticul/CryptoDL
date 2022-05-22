@@ -31,7 +31,7 @@ USER=$(stat -c '%U' .)
 GROUP=$(stat -c '%G' .)
 
 # install packages using apt
-apt-get update && DEBIAN_FRONTEND="noninteractive" apt install -y m4 libarmadillo-dev libboost-all-dev libjpeg-dev build-essential wget libcurl4-openssl-dev patchelf
+apt-get update && DEBIAN_FRONTEND="noninteractive" apt install -y m4 libarmadillo-dev libboost-all-dev libjpeg-dev build-essential wget libcurl4-openssl-dev patchelf clang libgmp-dev libntl-dev
 
 # install cmake 
 # helpers

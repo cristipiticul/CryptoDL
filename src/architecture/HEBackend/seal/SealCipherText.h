@@ -38,7 +38,7 @@ public:
 
     bool noiseNearOverflow();
     void writeToFile(const std::string &fileName);
-    void writeToFile(std::ostream& str);
+    void writeToFile(std::ostream &str);
 
 private:
     SealCipherTextFactory *mFactory;
@@ -129,6 +129,10 @@ public:
 
     virtual void feedCipherTensor(const TensorP<double> in,
                                   Tensor<SealCipherText> &tensor);
+
+    virtual void bringToSameLevel(SealCipherText &c1, SealCipherText &c2);
+
+    virtual void fixScale(SealCipherText &c);
 
 private:
     virtual seal::Plaintext createPlainText(double x);

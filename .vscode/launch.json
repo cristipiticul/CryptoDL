@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cnn_seal example",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/examples/mnist_cnn_seal_example",
+            "environment": [
+                {
+                    "name": "config",
+                    "value": "Debug"
+                }
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "make cnn_seal example"
+        }
+    ]
+}

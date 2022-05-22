@@ -44,9 +44,9 @@ fi
 
 
 
-SEAL_GIT=https://github.com/homenc/HElib.git
+SEAL_GIT=https://github.com/microsoft/SEAL
 
-git clone ${SEAL_GIT}
+git clone --branch 4.0.0 ${SEAL_GIT}
 
 # start building
 # build SEAL

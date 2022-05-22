@@ -1,0 +1,45 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make crypto dl",
+            "type": "shell",
+            "command": "make all",
+            "options": {
+                "cwd": "${workspaceFolder}/Debug"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build"
+            }
+        },
+        {
+            "label": "make cnn example",
+            "type": "shell",
+            "command": "make cnn",
+            "options": {
+                "cwd": "${workspaceFolder}/examples"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build"
+            },
+            "dependsOn": ["make crypto dl"]
+        },
+        {
+            "label": "make cnn_seal example",
+            "type": "shell",
+            "command": "make cnn_seal",
+            "options": {
+                "cwd": "${workspaceFolder}/examples"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+            },
+            "dependsOn": ["make crypto dl"]
+        }
+    ]
+}
