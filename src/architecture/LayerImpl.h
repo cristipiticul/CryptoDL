@@ -460,6 +460,7 @@ private:
 				//run activation function over the output
 				for ( int y = 0; y < (signed) this->mOutput->shape [ 2 ]; ++y ) {
 					for ( int x = 0; x < (signed) this->mOutput->shape [ 3 ]; ++x ) {
+						// std::cout << ( *this->mOutput ) [ { batchIdx, sequence, y, x } ].ctxt().scale() << std::endl;
 						if( useConvertedWeights )
 							( *this->mOutput ) [ { batchIdx, sequence, y, x } ] += ( *cBiases ) [ { sequence } ];
 						else

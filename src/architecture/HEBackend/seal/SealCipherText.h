@@ -26,6 +26,8 @@ public:
 
     virtual SealCipherText &operator+=(SealCipherText &other);
     virtual SealCipherText &operator*=(SealCipherText &other);
+    virtual SealCipherText &operator+=(const std::vector<double> &plain);
+    virtual SealCipherText &operator*=(const std::vector<double> &plain);
     virtual SealCipherText &operator+=(SealCipherText *other);
     virtual SealCipherText &operator*=(SealCipherText *other);
     virtual SealCipherText &operator=(const SealCipherText &other);
@@ -41,6 +43,9 @@ public:
     void writeToFile(std::ostream &str);
 
 private:
+    virtual SealCipherText &operator+=(seal::Plaintext &ptxt);
+    virtual SealCipherText &operator*=(seal::Plaintext &ptxt);
+
     SealCipherTextFactory *mFactory;
     std::shared_ptr<seal::Ciphertext> mCiphertext;
 };
@@ -51,13 +56,22 @@ public:
 
     SealCipherTextFactory(size_t poly_modulus_degree, int number_of_coeffs,
                           int coeff_size, int scale_bits) {
-        seal::EncryptionParameters parms(seal::scheme_type::ckks);
-        parms.set_poly_modulus_degree(poly_modulus_degree);
-
         std::vector<int> coeffSizes;
         for (int i = 0; i < number_of_coeffs; i++) {
             coeffSizes.push_back(coeff_size);
         }
+    }
+
+    SealCipherTextFactory(size_t poly_modulus_degree,
+                          std::vector<int> coeffSizes, int scale_bits) {
+        init(poly_modulus_degree, coeffSizes, scale_bits);
+    }
+
+    void init(size_t poly_modulus_degree, std::vector<int> coeffSizes,
+              int scale_bits) {
+        seal::EncryptionParameters parms(seal::scheme_type::ckks);
+        parms.set_poly_modulus_degree(poly_modulus_degree);
+
         parms.set_coeff_modulus(
             seal::CoeffModulus::Create(poly_modulus_degree, coeffSizes));
         scale = pow(2.0, scale_bits);
@@ -136,6 +150,7 @@ public:
 
 private:
     virtual seal::Plaintext createPlainText(double x);
+    virtual seal::Plaintext createPlainText(const std::vector<double> &x);
 
     double scale;
     std::shared_ptr<seal::SEALContext> context;

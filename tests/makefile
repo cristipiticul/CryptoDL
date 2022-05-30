@@ -10,7 +10,7 @@ DEP_FILES := $(patsubst %.cpp,%.d,$(SRC_FILES))
 
 all: $(OBJ_FILES)
 	@echo Linking tests
-	g++ -std=c++17 -o kalypso_tests $(OBJ_FILES) $(DEP_LIBS) ../Debug/libkalypso.a  -lntl -lboost_filesystem -lboost_system -ljpeg -lpthread -lgmpxx -lgmp $(DEP_RPATH)
+	g++ -std=c++17 -O0 -g3 -Wall -o kalypso_tests $(OBJ_FILES) $(DEP_LIBS) ../Debug/libkalypso.a  -lntl -lboost_filesystem -lboost_system -ljpeg -lpthread -lgmpxx -lgmp $(DEP_RPATH)
 
 -include $(DEP_FILES)
 

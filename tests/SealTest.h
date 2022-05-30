@@ -10,7 +10,11 @@ bool sealTestEncryptDecrypt();
 bool sealTestAdd2Ciphertexts();
 bool sealTestMultiply2Ciphertexts();
 bool sealTestAddPlain();
+bool sealTestAddPlainVector();
 bool sealTestMultiplyPlain();
+bool sealTestMultiplyPlainVector();
+bool sealTestMultiplyWithSelf();
 bool sealTestSquare();
+bool sealTestSquareThreeTimes();
 
 #endif /* TEST_SEALTEST_H_ */

@@ -48,11 +48,21 @@ using namespace std;
  *
  **/
 
-size_t poly_modulus_degree = 8192;// TODO: change back to 32768; // smallest poly_modulus_degree that allows L = 500 bits of total
-int number_of_coeffs = 4; // TODO: change back to 9; // used to match HELib (might be useful to use helib::buildModChain instead of hard-coding)
-int coeff_size = 40; // TODO: change back to 56; // used to match HELib
-int scale_bits = 40; // TODO: What is the configuration in HELib?
-                     // TODO: coeff_size and scale_bits should be similar
+// size_t poly_modulus_degree =
+//     8192; // TODO: change back to 32768; // smallest poly_modulus_degree that allows L = 500 bits of total
+// int number_of_coeffs =
+//     4; // TODO: change back to 9; // used to match HELib (might be useful to use helib::buildModChain instead of hard-coding)
+// int coeff_size = 40; // TODO: change back to 56; // used to match HELib
+// int scale_bits = 40; // TODO: What is the configuration in HELib?
+//                      // TODO: coeff_size and scale_bits should be similar
+
+// size_t poly_modulus_degree = 16384;
+// int scale_bits = 40;
+// vector<int> coeffs = {60, 40, 40, 40, 60};
+
+size_t poly_modulus_degree = 8192;
+int scale_bits = 25;
+vector<int> coeffs = {25, 25, 25, 25, 25, 25, 25, 25};
 
 int main(int argc, char *argv[]) {
     cout << getCurrentWorkingDir() << endl;
@@ -61,12 +71,11 @@ int main(int argc, char *argv[]) {
     mnist::MNIST_dataset<uint8_t, uint8_t> dataset = loadMNIST();
 
     /// create a ciphertext factory. The layers need to know how to create new ciphertexts
-    SealCipherTextFactory ctxtFactory(poly_modulus_degree, number_of_coeffs,
-                                      coeff_size, scale_bits);
+    SealCipherTextFactory ctxtFactory(poly_modulus_degree, coeffs, scale_bits);
 
     /// create Tensor factories for both weights and data
     HETensorFactory<SealCipherText> hetfactory(&ctxtFactory);
-    PlainTensorFactory<long> ptFactory;
+    PlainTensorFactory<double> ptFactory;
 
     /// the bachsize is dependent on the parameters of the HE scheme
     uint batchSize = ctxtFactory.batchsize();
@@ -79,42 +88,44 @@ int main(int argc, char *argv[]) {
 
     /// instantiate model
     /// we need to specify the way memory is allocated and pass factories for the data tensors and weight tensors
-    Model<SealCipherText, long, HETensor<SealCipherText>, PlainTensor<long>>
+    Model<SealCipherText, double, HETensor<SealCipherText>, PlainTensor<double>>
         model(MemoryUsage::greedy, &hetfactory, &ptFactory);
 
     /// add layers
     /// the first layer needs to be passed an input tensor. all other tensors will be created automatically
     // conv1
-    model.addLayer(std::make_shared<
-                   Convolution2D<SealCipherText, long,
-                                 HETensor<SealCipherText>, PlainTensor<long>>>(
-        "conv2d_1", SquareActivation<SealCipherText>::getSharedPointer(), 32,
-        5, 2, PADDING_MODE::SAME, input, &hetfactory, &ptFactory));
+    model.addLayer(
+        std::make_shared<
+            Convolution2D<SealCipherText, double, HETensor<SealCipherText>,
+                          PlainTensor<double>>>(
+            "conv2d_1", SquareActivation<SealCipherText>::getSharedPointer(),
+            32, 5, 2, PADDING_MODE::SAME, input, &hetfactory, &ptFactory));
     // conv2
-    model.addLayer(std::make_shared<
-                   Convolution2D<SealCipherText, long,
-                                 HETensor<SealCipherText>, PlainTensor<long>>>(
-        "conv2d_2", LinearActivation<SealCipherText>::getSharedPointer(), 64,
-        5, 2, PADDING_MODE::VALID, &hetfactory, &ptFactory));
+    model.addLayer(
+        std::make_shared<
+            Convolution2D<SealCipherText, double, HETensor<SealCipherText>,
+                          PlainTensor<double>>>(
+            "conv2d_2", LinearActivation<SealCipherText>::getSharedPointer(),
+            64, 5, 2, PADDING_MODE::VALID, &hetfactory, &ptFactory));
 
     // flatten
     model.addLayer(
-        std::make_shared<Flatten<SealCipherText, long,
-                                 HETensor<SealCipherText>, PlainTensor<long>>>(
-            "flatten", &hetfactory, &ptFactory));
+        std::make_shared<
+            Flatten<SealCipherText, double, HETensor<SealCipherText>,
+                    PlainTensor<double>>>("flatten", &hetfactory, &ptFactory));
     // dense 1
     model.addLayer(
-        std::make_shared<Dense<SealCipherText, long, HETensor<SealCipherText>,
-                               PlainTensor<long>>>(
+        std::make_shared<Dense<SealCipherText, double, HETensor<SealCipherText>,
+                               PlainTensor<double>>>(
             "dense_1", SquareActivation<SealCipherText>::getSharedPointer(),
             100, &hetfactory, &ptFactory));
 
     // dense 2
     model.addLayer(
-        std::make_shared<Dense<SealCipherText, long, HETensor<SealCipherText>,
-                               PlainTensor<long>>>(
-            "dense_2", LinearActivation<SealCipherText>::getSharedPointer(),
-            10, &hetfactory, &ptFactory));
+        std::make_shared<Dense<SealCipherText, double, HETensor<SealCipherText>,
+                               PlainTensor<double>>>(
+            "dense_2", LinearActivation<SealCipherText>::getSharedPointer(), 10,
+            &hetfactory, &ptFactory));
 
     /// since we have named the layers the same way they were named in keras we only need to specify the directory that
     /// the exported weights

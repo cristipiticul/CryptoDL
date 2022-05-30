@@ -35,15 +35,33 @@ SealCipherText &SealCipherText::operator=(const SealCipherText &other) {
     return *this;
 }
 
-SealCipherText &SealCipherText::operator+=(double x) {
-    seal::Plaintext xPlain = mFactory->createPlainText(x);
-    mFactory->evaluator->add_plain_inplace(*mCiphertext, xPlain);
+SealCipherText &SealCipherText::operator+=(double plain) {
+    seal::Plaintext xPlain = mFactory->createPlainText(plain);
+    return this->operator+=(xPlain);
+}
+
+SealCipherText &SealCipherText::operator+=(const std::vector<double> &plain) {
+    seal::Plaintext xPlain = mFactory->createPlainText(plain);
+    return this->operator+=(xPlain);
+}
+
+SealCipherText &SealCipherText::operator+=(seal::Plaintext &plain) {
+    mFactory->evaluator->mod_switch_to_inplace(plain, mCiphertext->parms_id());
+    mFactory->evaluator->add_plain_inplace(*mCiphertext, plain);
     return *this;
 }
 
 SealCipherText &SealCipherText::operator*=(double x) {
     seal::Plaintext xPlain = mFactory->createPlainText(x);
-    mFactory->evaluator->multiply_plain_inplace(*mCiphertext, xPlain);
+    return this->operator*=(xPlain);
+}
+SealCipherText &SealCipherText::operator*=(const std::vector<double> &plain) {
+    seal::Plaintext xPlain = mFactory->createPlainText(plain);
+    return this->operator*=(xPlain);
+}
+SealCipherText &SealCipherText::operator*=(seal::Plaintext &plain) {
+    mFactory->evaluator->mod_switch_to_inplace(plain, mCiphertext->parms_id());
+    mFactory->evaluator->multiply_plain_inplace(*mCiphertext, plain);
     // When multiplying with plaintext, we don't need to rescale
     mFactory->evaluator->rescale_to_next_inplace(*mCiphertext);
     mFactory->fixScale(*this);
@@ -129,6 +147,13 @@ SealCipherTextFactory::createCipherText(const std::vector<float> &in) {
 }
 
 seal::Plaintext SealCipherTextFactory::createPlainText(double x) {
+    seal::Plaintext plain;
+    encoder->encode(x, scale, plain);
+    return plain;
+}
+
+seal::Plaintext
+SealCipherTextFactory::createPlainText(const std::vector<double> &x) {
     seal::Plaintext plain;
     encoder->encode(x, scale, plain);
     return plain;

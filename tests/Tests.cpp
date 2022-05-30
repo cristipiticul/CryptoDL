@@ -123,9 +123,13 @@ int main() {
     success &= sealTestEncryptDecrypt();
     success &= sealTestAdd2Ciphertexts();
     success &= sealTestMultiply2Ciphertexts();
+    success &= sealTestMultiplyWithSelf();
     success &= sealTestAddPlain();
+    success &= sealTestAddPlainVector();
     success &= sealTestMultiplyPlain();
+    success &= sealTestMultiplyPlainVector();
     success &= sealTestSquare();
+    success &= sealTestSquareThreeTimes();
 
     if (success) {
         std::cout << "Test run successful" << std::endl;
