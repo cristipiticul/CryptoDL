@@ -54,8 +54,8 @@ public:
 	virtual HELibCipherText& operator*=( double x );
 
 	virtual HELibCipherText& operator+=( HELibCipherText* other ) {
-		// *mCtxt += ( (HELibCipherText*) other )->ctxt();
-		mCtxt->multiplyBy( other->ctxt() );
+		*mCtxt += other->ctxt();
+		// mCtxt->multiplyBy( other->ctxt() );
 		return *this;
 	}
 

@@ -9,9 +9,10 @@ RM := rm -rf
 # INCLUDES := -include../src/mnist/include/mnist/mnist_reader_less.hpp $(DEP_INCLUDES)
 INCLUDES := $(DEP_INCLUDES)
 
-# Re-enable optimization and disable debugging:
-# CXXFLAGS := -std=c++17 -O3 -g0 -Wall -c -fmessage-length=0 -fopenmp
-CXXFLAGS := -std=c++17 -O0 -g3 -Wall -c -fmessage-length=0 -fopenmp
+# Optimization (no debugging)
+CXXFLAGS := -std=c++17 -O3 -g0 -Wall -c -fmessage-length=0 -fopenmp
+# Debugging (no optimization)
+# CXXFLAGS := -std=c++17 -O0 -g3 -Wall -c -fmessage-length=0 -fopenmp
 
 # All of the sources participating in the build are defined here
 -include sources.mk

@@ -62,7 +62,7 @@ SealCipherText &SealCipherText::operator*=(const std::vector<double> &plain) {
 SealCipherText &SealCipherText::operator*=(seal::Plaintext &plain) {
     mFactory->evaluator->mod_switch_to_inplace(plain, mCiphertext->parms_id());
     mFactory->evaluator->multiply_plain_inplace(*mCiphertext, plain);
-    // When multiplying with plaintext, we don't need to rescale
+    // When multiplying with plaintext, we don't need to relinearize
     mFactory->evaluator->rescale_to_next_inplace(*mCiphertext);
     mFactory->fixScale(*this);
     return *this;

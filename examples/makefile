@@ -3,8 +3,10 @@ CRYPTODL_DIR=..
 $(shell $(CRYPTODL_DIR)/dependencies/versions.sh)
 -include $(CRYPTODL_DIR)/dependencies/makefile.versions
 
-# CXXFLAGS := -std=c++17 -O3 -g0 -Wall
-CXXFLAGS := -std=c++17 -O0 -g3 -Wall
+# Optimization (no debugging)
+CXXFLAGS := -std=c++17 -O3 -g0 -Wall
+# Debugging (no optimization)
+# CXXFLAGS := -std=c++17 -O0 -g3 -Wall
 
 all: cnn cnn_seal rnn
 
@@ -27,5 +29,5 @@ rnn:
 	g++ $(CXXFLAGS) -o mnist_rnn_example mnist_rnn.o ../Debug/libkalypso.a -lpthread  ../dependencies/install/helib_pack/lib/fhe.a -lboost_filesystem -lboost_system -ljpeg -lgmpxx -lntl -lgmp
 
 clean:
-	-rm mnist_cnn_example mnist_cnn.o mnist_rnn_example mnist_rnn.o
+	-rm mnist_cnn_example mnist_cnn.o mnist_rnn_example mnist_rnn.o mnist_cnn_seal_example mnist_cnn_seal.o
 	

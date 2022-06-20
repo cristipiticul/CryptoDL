@@ -60,6 +60,7 @@ public:
         for (int i = 0; i < number_of_coeffs; i++) {
             coeffSizes.push_back(coeff_size);
         }
+        init(poly_modulus_degree, coeffSizes, scale_bits);
     }
 
     SealCipherTextFactory(size_t poly_modulus_degree,
