@@ -190,4 +190,4 @@ datasets/mnist/*-ubyte
 .vscode/*.log
 tests/test_comp_performance/1_power_raising
 tests/test_comp_performance/2_multiply_plain
-tests/test_results/tmp/*
+tests/test_comp_performance/test_results/tmp/*
