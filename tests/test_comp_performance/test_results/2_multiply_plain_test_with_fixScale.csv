@@ -1,0 +1,3504 @@
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,1,2,149.255
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4531,427849,3154,0,2579,0.00148728
+86.7891,79.3008,448358,3853,0,2165,0.00143741
+86.7891,79.3008,423839,2920,0,2162,0.00143488
+86.7891,79.3008,442520,2942,0,2191,0.00138016
+86.7891,79.3008,431681,4029,0,2182,0.00142651
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,2,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3789,443459,4241,0,2666,0.00036114
+86.8203,79.2578,454849,4134,0,2490,0.000349018
+86.8203,79.2578,448604,2978,0,2215,0.000361197
+86.8164,79.2539,433127,2873,0,2209,0.000369231
+86.8164,79.2539,419538,2623,0,2170,0.000363831
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,3,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1875,482394,4841,0,2821,8.6267e-05
+86.8359,79.0195,461683,4149,0,2316,8.6719e-05
+86.8359,79.0195,444351,4457,0,2330,8.69076e-05
+86.7109,78.8945,445046,3175,0,2295,8.95405e-05
+86.832,79.0156,464655,2990,0,2346,8.7694e-05
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,4,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.457,467271,3570,0,2753,2.26487e-05
+86.8398,79.3555,468789,3409,0,2262,2.18265e-05
+86.8398,79.3555,422152,3566,0,2147,2.27768e-05
+86.8398,79.3555,419285,3968,0,2126,2.17842e-05
+86.8398,79.3555,437532,2772,0,2189,2.34805e-05
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,5,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5625,438717,3242,0,2667,5.39678e-06
+86.8438,79.4023,436082,3322,0,2313,5.76702e-06
+86.8438,79.4023,441700,2824,0,2237,5.53148e-06
+86.8438,79.4023,429459,2870,0,2252,5.65724e-06
+86.8438,79.4023,428128,2950,0,2240,5.42009e-06
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,6,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3594,470722,3680,0,2801,1.39275e-06
+86.8438,79.1992,476182,3942,0,2301,1.36598e-06
+86.8438,79.1992,444995,3514,0,2333,1.34589e-06
+86.8438,79.1992,452499,2842,0,2304,1.3969e-06
+86.8438,79.1992,441843,3635,0,2159,1.34758e-06
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,7,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4844,473081,3678,0,2831,3.48832e-07
+86.8477,79.3906,455072,3274,0,2319,3.43912e-07
+86.8477,79.3906,463365,5109,1,2301,3.472e-07
+86.8477,79.3906,447996,3331,0,2352,3.40834e-07
+86.8477,79.3906,455621,2812,0,2287,3.4226e-07
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,8,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3672,441162,3841,0,2754,8.59452e-08
+86.8477,79.2109,411595,3789,0,2186,8.58465e-08
+86.8477,79.2109,425966,2818,0,2208,8.55005e-08
+86.8477,79.2109,424208,4041,0,2200,8.58731e-08
+86.8477,79.2109,436403,2989,0,2174,8.62084e-08
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,9,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4492,477679,3444,10,2833,2.14983e-08
+86.8477,79.3555,445031,3481,0,2300,2.20109e-08
+86.8477,79.3555,444729,3438,0,2197,2.2121e-08
+86.8477,79.3555,429534,3273,0,2358,2.2072e-08
+86.8477,79.3555,445826,3192,0,2318,2.19316e-08
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,10,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2539,455951,2992,1,2687,5.5544e-09
+86.8477,79.0977,425919,3825,0,2205,5.38717e-09
+86.8477,79.0977,428639,4061,0,2235,5.53208e-09
+86.8477,79.0977,431144,3544,0,2255,5.57467e-09
+86.8477,79.0977,425548,3743,0,2214,5.41192e-09
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,11,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1406,437931,3764,0,2596,1.24395e-09
+86.8477,78.9844,419601,3543,0,2171,1.31478e-09
+86.8477,78.9844,425218,3927,0,2192,1.39866e-09
+86.8477,78.9844,421790,3982,0,2179,1.32749e-09
+86.8477,78.9844,435149,2585,0,2167,1.34994e-09
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,12,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.0703,473452,4193,0,2812,3.31126e-10
+86.8477,78.9141,438375,3111,0,2805,3.41387e-10
+86.8477,78.9141,451803,3564,0,2290,3.47967e-10
+86.8477,78.9141,458039,3518,0,2326,3.4615e-10
+86.8477,78.9141,450696,6383,0,2323,3.31226e-10
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,13,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5078,438253,2949,0,2678,8.63464e-11
+86.8477,79.3516,419999,3204,0,2206,8.29704e-11
+86.8477,79.3516,425651,3904,0,2186,8.51467e-11
+86.8477,79.3516,427420,3758,0,2196,8.11291e-11
+86.8477,79.3516,416676,2863,0,2187,8.96812e-11
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,14,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4219,470937,3473,0,2818,2.14497e-11
+86.8477,79.3281,444965,3317,0,2398,2.19914e-11
+86.8477,79.3281,448694,3132,0,2318,2.09094e-11
+86.8477,79.3281,454160,3709,0,2315,2.09505e-11
+86.8477,79.3281,446919,3296,0,2296,2.17253e-11
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,15,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4297,439871,2935,0,2604,5.07163e-12
+86.8477,79.3359,423958,3575,0,2172,5.21407e-12
+86.8477,79.3359,435808,3732,0,2164,5.26536e-12
+86.8477,79.3359,424573,3787,0,2251,5.38447e-12
+86.8477,79.3359,427532,3980,0,2270,5.23789e-12
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,16,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5469,454281,3415,0,2734,1.3476e-12
+86.8477,79.3906,428079,3628,0,2192,1.34775e-12
+86.8477,79.3906,448933,2989,0,2167,1.3368e-12
+86.8477,79.3906,449400,3805,0,2249,1.37887e-12
+86.8477,79.3906,439325,3333,0,2168,1.28728e-12
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,17,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1797,452030,3314,0,2714,3.4298e-13
+86.8477,79.0234,441913,3232,0,2274,3.21832e-13
+86.8477,79.0234,427988,2824,0,2195,3.27061e-13
+86.8477,79.0234,452387,3144,0,2217,3.35253e-13
+86.8477,79.0234,426577,3853,0,2163,3.21742e-13
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,18,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2852,475247,5411,0,2663,8.58512e-14
+86.8477,79.1289,457455,4280,0,2186,7.97124e-14
+86.8477,79.1289,444820,3020,0,2271,8.2401e-14
+86.8477,79.1289,439517,3233,0,2272,8.08427e-14
+86.8477,79.1289,421098,3640,0,2231,8.33112e-14
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,19,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4375,466341,4316,0,2742,2.15344e-14
+86.8477,79.2812,437839,3005,0,2199,2.08909e-14
+86.8477,79.2812,439359,2840,0,2185,2.05146e-14
+86.8477,79.2812,430037,2819,0,2210,2.02794e-14
+86.8477,79.2812,446593,2737,0,2297,2.0803e-14
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,20,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3984,452869,3646,0,2681,5.1361e-15
+86.8477,79.3008,427507,2848,0,2129,5.38713e-15
+86.8477,79.3008,438479,3499,0,2212,5.02987e-15
+86.8477,79.3008,440524,2948,0,2175,5.18609e-15
+86.8477,79.3008,439283,4052,0,2204,5.02492e-15
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,21,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5039,474163,3440,0,2766,1.32159e-15
+86.8477,79.3477,439105,3241,0,2239,1.27639e-15
+86.8477,79.3477,448185,3179,0,2227,1.34546e-15
+86.8477,79.3477,443876,2757,0,2224,1.27796e-15
+86.8477,79.3477,454124,4145,0,2293,1.30294e-15
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,22,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4805,448465,4873,0,2785,3.24081e-16
+86.8477,79.4492,435502,3021,0,2263,3.26365e-16
+86.8477,79.4492,428923,3071,0,2237,3.20404e-16
+86.8477,79.4492,427843,2800,0,2175,3.27027e-16
+86.8477,79.4492,431304,3340,0,2177,3.20286e-16
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,23,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4219,450183,4624,0,2734,8.01207e-17
+86.8477,79.2656,440449,3391,0,2273,8.3725e-17
+86.8477,79.2656,429583,4170,0,2259,8.19943e-17
+86.8477,79.2656,437923,2965,0,2288,7.89489e-17
+86.8477,79.2656,448247,4394,0,2181,8.10548e-17
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,24,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1797,471951,4081,0,2818,1.99756e-17
+86.8477,79.0234,442463,2899,0,2285,2.0097e-17
+86.8477,79.0234,434255,4048,0,2171,2.09017e-17
+86.8477,79.0234,444107,3009,0,2200,2.04299e-17
+86.8477,79.0234,439771,3160,0,2158,1.97722e-17
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,25,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4414,457415,2917,0,2662,4.98029e-18
+86.8477,79.2852,439674,3145,0,2216,5.02142e-18
+86.8477,79.2852,433475,3320,0,2166,4.93128e-18
+86.8477,79.2852,424272,2814,0,2289,5.17309e-18
+86.8477,79.2852,434832,2732,0,2195,4.85982e-18
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,26,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4102,451000,3172,0,2786,1.23775e-18
+86.8477,79.2539,435506,2924,0,2182,1.26626e-18
+86.8477,79.2539,438366,2687,1,2261,1.20597e-18
+86.8477,79.2539,444433,3119,0,2308,1.25398e-18
+86.8477,79.2539,438992,2733,0,2244,1.27715e-18
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,27,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2422,470773,3318,0,2767,3.20974e-19
+86.8477,79.0859,430257,2916,0,2255,3.16179e-19
+86.8477,79.0859,438718,3074,0,2211,3.05213e-19
+86.8477,79.0859,436254,2831,0,2274,3.05373e-19
+86.8477,79.0859,440743,3254,0,2394,3.14098e-19
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,28,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3086,458224,3964,0,2793,7.92209e-20
+86.8477,79.1523,436092,3374,0,2279,7.88059e-20
+86.8477,79.1523,432633,3080,0,2239,7.76376e-20
+86.8477,79.1523,441926,3467,0,2272,8.15581e-20
+86.8477,79.1523,444246,3641,0,2241,7.83759e-20
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,29,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3594,473443,3933,0,2902,1.96571e-20
+86.8477,79.2031,454096,3068,0,2353,1.97648e-20
+86.8477,79.2031,457669,3248,0,2376,1.96573e-20
+86.8477,79.2031,474364,3346,0,2386,2.01652e-20
+86.8477,79.2031,461170,3296,0,2375,1.95711e-20
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,30,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5469,484327,3697,0,2842,4.90965e-21
+86.8477,79.3906,449665,5153,0,2377,4.75167e-21
+86.8477,79.3906,459191,4839,0,2227,4.87744e-21
+86.8477,79.3906,451364,2944,0,2325,4.85996e-21
+86.8477,79.3906,460627,3250,0,2389,4.93057e-21
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,31,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1875,473367,3514,0,2811,1.26137e-21
+86.8477,79.0312,458026,3408,0,2329,1.25356e-21
+86.8477,79.0312,456520,3640,0,2380,1.24473e-21
+86.8477,79.0312,452108,3820,0,2387,1.21538e-21
+86.8477,79.0312,449174,2817,0,2282,1.20008e-21
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,32,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2969,449337,2956,0,2623,2.95466e-22
+86.8477,79.1406,434363,2988,0,2202,3.01597e-22
+86.8477,79.1406,441372,4587,0,2218,3.15829e-22
+86.8477,79.1406,444599,2774,0,2181,3.23449e-22
+86.8477,79.1406,436314,4885,0,2177,3.11608e-22
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,33,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4219,478822,3634,5,2758,7.66333e-23
+86.8477,79.2656,454910,3054,0,2326,7.68904e-23
+86.8477,79.2656,461662,3053,0,2325,7.70173e-23
+86.8477,79.2656,465810,4981,0,2398,7.56293e-23
+86.8477,79.2656,460102,2801,0,2304,7.62362e-23
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,34,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.293,448538,3545,0,2668,1.93325e-23
+86.8477,79.1953,444612,3033,0,2195,1.99021e-23
+86.8477,79.1953,421861,2696,0,2236,1.92738e-23
+86.8477,79.1953,431707,3462,0,2218,2.01772e-23
+86.8477,79.1953,429973,3056,0,2184,2.0114e-23
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,35,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.543,476668,3322,1,2857,4.81596e-24
+86.8477,79.3867,460918,3720,0,2249,4.56714e-24
+86.8477,79.3867,465384,3555,0,2311,4.85088e-24
+86.8477,79.3867,469005,3323,0,2344,4.61172e-24
+86.8477,79.3867,470939,3233,0,2379,4.65587e-24
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,36,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2031,452740,4256,0,2736,1.21293e-24
+86.8477,79.1094,425070,2946,0,2189,1.2418e-24
+86.8477,79.1094,432820,2996,0,2225,1.24228e-24
+86.8477,79.1094,444999,2967,0,2200,1.24572e-24
+86.8477,79.1094,433609,3177,0,2215,1.20337e-24
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,37,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3828,469238,3848,0,2882,3.03114e-25
+86.8477,79.2266,468582,3780,1,2399,3.01706e-25
+86.8477,79.2266,455714,3899,0,2334,2.99968e-25
+86.8477,79.2266,464812,2898,0,2324,3.04949e-25
+86.8477,79.2266,441438,3529,0,2304,3.02144e-25
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,38,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4531,469650,3488,0,2812,7.41824e-26
+86.8477,79.3594,456848,4135,0,2354,7.66497e-26
+86.8477,79.3594,456775,3524,0,2295,7.66783e-26
+86.8477,79.3594,440561,3543,0,2138,7.48682e-26
+86.8477,79.3594,420406,3165,0,2181,7.72859e-26
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,39,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.293,444874,4304,0,2672,1.85999e-26
+86.8477,79.1367,436388,2905,0,2193,1.93076e-26
+86.8477,79.1367,438602,2815,0,2164,1.9102e-26
+86.8477,79.1367,441220,3091,0,2187,1.79546e-26
+86.8477,79.1367,433056,3235,0,2093,1.80384e-26
+times_to_square: 1,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,40,2,119.006
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3594,452533,3729,0,2678,4.83241e-27
+86.8477,79.2031,446188,4048,0,2202,4.80444e-27
+86.8477,79.2031,436265,3422,0,2171,4.53032e-27
+86.8477,79.2031,441284,3169,0,2199,4.74161e-27
+86.8477,79.2031,443033,3395,0,2133,4.69647e-27
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,154,60,2,17,17,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7539,42960,2724,337,596,0.000199642
+41.7812,30.3477,17841,1895,215,542,0.000191554
+42.0312,30.6055,16977,1822,207,516,0.000181707
+42.0312,30.6055,16863,1860,210,517,0.000190698
+42.5312,31.1211,16742,1826,210,516,0.000185742
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,156,60,2,18,18,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8867,40708,2082,329,624,3.71609e-05
+41.7812,30.3438,17855,1808,211,583,3.87063e-05
+42.0312,30.6016,17357,1908,228,574,3.70783e-05
+42.0312,30.6016,17081,1879,241,556,3.75765e-05
+42.5312,31.1172,17416,1895,216,558,3.67155e-05
+times_to_square: 1,max_nr:1
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,160,60,2,20,20,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8672,46149,2236,341,609,3.20094e-06
+41.7812,30.4219,18077,1870,226,551,3.49787e-06
+41.7812,30.4219,17023,1871,210,521,3.33153e-06
+41.7812,30.4219,17014,1849,210,528,3.32205e-06
+42.0312,30.6797,16995,1807,210,526,3.46518e-06
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,162,60,2,21,21,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0391,40612,2119,333,617,7.05516e-07
+41.7812,30.5273,17496,1832,208,545,7.65687e-07
+42.0312,30.7852,17240,1790,205,520,7.42275e-07
+42.0312,30.7852,16799,1827,208,531,7.24211e-07
+42.5312,31.3008,16978,1810,226,568,7.22365e-07
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,164,60,2,22,22,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0039,41124,2100,325,615,2.08519e-07
+41.7812,30.4258,17809,1800,212,551,2.09896e-07
+42.0312,30.6836,16976,1889,220,545,2.02674e-07
+42.0312,30.6836,16668,1794,208,539,2.0672e-07
+42.5312,31.1992,17440,1837,211,581,2.09475e-07
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,166,60,2,23,23,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7773,40668,2068,336,609,5.20936e-08
+41.7812,30.3711,17863,1864,209,575,5.34262e-08
+41.7812,30.3711,16867,1869,214,539,5.07998e-08
+41.7812,30.3711,16971,1762,209,525,5.58874e-08
+42.2812,30.8867,17301,1909,212,529,5.13597e-08
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,168,60,2,24,24,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8281,40558,2012,322,598,1.38635e-08
+41.7812,30.3828,17653,1866,220,556,1.27831e-08
+42.0312,30.6406,16733,1828,211,534,1.2743e-08
+42.0312,30.6406,17343,1823,212,541,1.37589e-08
+42.5312,31.1562,16889,1833,212,535,1.25991e-08
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,170,60,2,25,25,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9727,40846,2026,317,584,3.22314e-09
+41.7812,30.3945,17981,1871,215,543,3.39167e-09
+41.7812,30.3945,16980,1809,208,513,3.18871e-09
+41.7812,30.3945,16881,1838,217,522,3.4574e-09
+42.0312,30.6523,16636,1809,205,510,3.25929e-09
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,172,60,2,26,26,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9688,40352,2104,338,610,8.61737e-10
+41.7812,30.5586,17576,1863,209,530,7.79998e-10
+42.0312,30.8164,17244,1845,208,522,8.15287e-10
+42.0312,30.8164,16625,1838,216,527,8.77737e-10
+42.5312,31.332,17054,1788,208,499,8.16025e-10
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,174,60,2,27,27,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9688,40937,2117,326,591,2.0729e-10
+41.7812,30.3906,17825,1784,203,527,2.16061e-10
+42.0312,30.6484,18125,2002,213,519,1.9362e-10
+42.0312,30.6484,17203,1835,216,515,2.02702e-10
+42.5312,31.1641,21714,3171,328,969,2.13529e-10
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,176,60,2,28,28,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9844,40825,2125,324,671,5.31104e-11
+41.7812,30.4414,18105,1820,213,597,5.0884e-11
+42.0312,30.6992,17444,1918,224,595,5.19569e-11
+42.0312,30.6992,17084,1826,210,602,5.12442e-11
+42.5312,31.2148,17652,1883,209,590,5.12005e-11
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,178,60,2,29,29,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9414,41221,2161,321,634,1.34592e-11
+41.7812,30.4492,17545,1788,208,542,1.2603e-11
+41.7812,30.4492,16839,1871,213,564,1.29931e-11
+41.7812,30.4492,16983,1785,207,546,1.31526e-11
+42.2812,30.9648,17742,2219,220,563,1.34571e-11
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,180,60,2,30,30,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8203,41859,2214,333,600,3.26242e-12
+41.7812,30.2266,18083,1900,234,546,3.30564e-12
+42.0312,30.4844,17061,1833,210,517,3.24169e-12
+42.0312,30.4844,17218,1827,209,521,3.41856e-12
+42.5312,31,17439,1855,215,530,3.11221e-12
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,182,60,2,31,31,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9453,40782,1990,308,584,8.11702e-13
+41.7812,30.5,17829,1833,209,554,8.66492e-13
+42.0312,30.7578,16779,1823,207,512,8.05943e-13
+42.0312,30.7578,17034,1788,202,510,8.24575e-13
+42.5312,31.2734,17298,1846,210,517,7.9839e-13
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,184,60,2,32,32,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8828,41991,2038,316,577,1.98558e-13
+41.7812,30.4727,17822,1857,211,530,2.02149e-13
+41.7812,30.4727,16971,1788,208,513,2.07799e-13
+41.7812,30.4727,16994,1893,223,516,2.08965e-13
+42.2812,30.9883,17122,1838,217,516,1.8966e-13
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,186,60,2,33,33,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8906,42346,2085,332,595,4.92057e-14
+41.7812,30.3672,18328,1828,211,528,5.13141e-14
+42.0312,30.625,17266,1849,215,533,4.81434e-14
+42.0312,30.625,17007,1827,209,513,5.02287e-14
+42.5312,31.1406,17202,1792,205,503,5.01897e-14
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,188,60,2,34,34,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0078,42357,2085,326,607,1.24718e-14
+41.7812,30.4102,18273,1779,205,520,1.28452e-14
+42.0312,30.668,17274,1885,213,523,1.25639e-14
+42.0312,30.668,17163,1763,204,508,1.30669e-14
+42.5312,31.1836,17550,1877,216,529,1.28332e-14
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,190,60,2,35,35,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9766,41463,2012,324,594,3.11417e-15
+41.7812,30.4648,17901,1819,210,540,3.193e-15
+42.0312,30.7227,17103,1791,210,514,3.14603e-15
+42.0312,30.7227,17607,1779,202,515,3.0823e-15
+42.5312,31.2383,17137,1840,209,528,3.1878e-15
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,192,60,2,36,36,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9102,42189,2015,313,687,8.28659e-16
+41.7812,30.418,18111,1854,208,548,7.83509e-16
+42.0312,30.6758,17073,1804,210,516,7.78411e-16
+42.0312,30.6758,17276,1870,220,524,7.74193e-16
+42.5312,31.1914,17123,1867,208,517,7.91506e-16
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,194,60,2,37,37,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9141,42211,2083,320,634,1.8683e-16
+41.7812,30.3984,17841,1881,216,615,2.01375e-16
+42.0312,30.6562,17105,1763,207,571,1.89177e-16
+42.0312,30.6562,17199,1801,206,573,1.96487e-16
+42.5312,31.1719,20077,2174,211,574,2.09826e-16
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,196,60,2,38,38,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.957,41754,2085,324,602,5.02396e-17
+41.7812,30.4453,17856,1859,208,534,5.00614e-17
+42.0312,30.7031,17408,1786,209,502,5.02562e-17
+42.0312,30.7031,17128,1841,209,518,4.85581e-17
+42.5312,31.2188,17025,1797,212,530,4.84112e-17
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,198,60,2,39,39,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8125,43493,2115,330,596,1.23374e-17
+41.7812,30.3438,17784,1828,207,534,1.2702e-17
+41.7812,30.3438,17045,1869,207,524,1.24043e-17
+41.7812,30.3438,17016,1810,205,518,1.21516e-17
+42.0312,30.6016,17439,1911,216,552,1.17728e-17
+times_to_square: 1,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,200,60,2,40,40,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9336,42684,2143,338,581,3.13776e-18
+41.7812,30.5234,18218,1880,219,535,3.28372e-18
+41.7812,30.5234,17061,1823,213,514,3.13894e-18
+41.7812,30.5234,17697,1855,211,506,3.07324e-18
+42.0312,30.7812,17457,1840,217,525,3.07003e-18
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,1,2,149.255
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4258,448909,3605,0,2688,2.76894
+86.7891,79.2734,434235,2913,0,2221,2.75557
+86.7891,79.2734,428455,3921,0,2223,2.79762
+86.7891,79.2734,436762,2736,0,2190,2.66791
+86.7891,79.2734,428054,2699,1,2165,2.78087
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,2,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5508,447697,4313,1,2650,0.680279
+86.8203,79.3672,442143,3688,0,2216,0.670031
+86.8203,79.3672,442832,3381,1,2211,0.703628
+86.8164,79.3633,429293,3474,0,2194,0.693737
+86.8164,79.3633,427973,2734,0,2288,0.665247
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,3,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4336,461186,3758,1,2731,0.170491
+86.8359,79.2656,442731,3698,1,2301,0.170482
+86.8359,79.2656,441007,2804,0,2205,0.161292
+86.7109,79.1406,438837,3155,0,2169,0.165252
+86.832,79.2617,427391,3009,0,2204,0.174409
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,4,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4062,445909,3397,1,2688,0.0416454
+86.8398,79.2422,444197,3718,1,2330,0.0419728
+86.8398,79.2422,426298,3351,0,2258,0.0423177
+86.8398,79.2422,428427,2872,0,2211,0.0432846
+86.8398,79.2422,447603,2998,1,2247,0.0423484
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,5,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2461,449652,3283,0,2646,0.0106357
+86.8438,79.0859,437878,3439,0,2248,0.0106221
+86.8438,79.0859,434307,2713,0,2279,0.0105597
+86.8438,79.0859,435945,4135,0,2268,0.0106399
+86.8438,79.0859,434106,2717,0,2244,0.0107011
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,6,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2812,445560,3687,0,2749,0.00264479
+86.8438,79.1211,436015,3961,0,2199,0.00269301
+86.8438,79.1211,431727,2811,0,2196,0.00267104
+86.8438,79.1211,434624,4373,0,2172,0.00269882
+86.8438,79.1211,424166,2962,0,2187,0.00269791
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,7,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1367,461199,5107,0,2583,0.000658364
+86.8477,78.9805,419433,3558,0,2176,0.00066488
+86.8477,78.9805,425482,3700,1,2241,0.000649807
+86.8477,78.9805,430627,3034,1,2299,0.000651666
+86.8477,78.9805,435523,4318,0,2168,0.000663176
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,8,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.332,464748,5339,0,2842,0.000168479
+86.8477,79.1758,441686,3724,1,2352,0.000162297
+86.8477,79.1758,453734,3727,0,2278,0.000164224
+86.8477,79.1758,449340,2938,0,2318,0.000163991
+86.8477,79.1758,446802,4641,0,2308,0.000165169
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,9,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1406,459337,4322,0,2705,4.16649e-05
+86.8477,78.9844,431055,3379,0,2166,4.24567e-05
+86.8477,78.9844,432671,3686,0,2175,4.18935e-05
+86.8477,78.9844,419316,2705,0,2119,4.1322e-05
+86.8477,78.9844,428391,2666,0,2180,4.15202e-05
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,10,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2031,456930,3288,0,2717,1.03065e-05
+86.8477,79.0469,433803,3347,1,2257,1.02062e-05
+86.8477,79.0469,439847,4424,0,2215,1.02769e-05
+86.8477,79.0469,482745,3129,1,2491,1.02267e-05
+86.8477,79.0469,494172,4361,0,2397,1.03711e-05
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,11,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5547,486871,4370,0,2686,2.54451e-06
+86.8477,79.3984,472507,3894,0,2529,2.59083e-06
+86.8477,79.3984,462092,4047,0,2289,2.67685e-06
+86.8477,79.3984,439762,4251,1,2217,2.57374e-06
+86.8477,79.3984,431361,3088,0,2224,2.57725e-06
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,12,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2852,476179,3729,0,2790,6.40387e-07
+86.8477,79.1875,467959,3544,0,2456,6.26391e-07
+86.8477,79.1875,452827,3290,1,2449,6.50665e-07
+86.8477,79.1875,456196,3732,0,2491,6.56667e-07
+86.8477,79.1875,465984,3689,1,2474,6.43345e-07
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,13,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2031,465407,4019,0,2932,1.66448e-07
+86.8477,79.0469,472319,3384,1,2396,1.67193e-07
+86.8477,79.0469,454454,3004,0,2357,1.61656e-07
+86.8477,79.0469,463397,3250,0,2289,1.55659e-07
+86.8477,79.0469,442617,2828,1,2333,1.63316e-07
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,14,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,491426,3553,0,2878,4.06219e-08
+86.8477,79.3008,452021,3446,0,2301,3.99795e-08
+86.8477,79.3008,452685,3290,1,2328,4.12035e-08
+86.8477,79.3008,459932,3665,0,2308,3.95332e-08
+86.8477,79.3008,450181,4271,0,2297,4.04339e-08
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,15,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.168,483500,2988,0,2699,9.92183e-09
+86.8477,79.0117,499830,3390,0,2382,9.98647e-09
+86.8477,79.0117,481195,4254,0,2280,1.00348e-08
+86.8477,79.0117,486969,3221,0,2260,1.02483e-08
+86.8477,79.0117,438489,3045,0,2207,1.0068e-08
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,16,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3555,480629,3186,0,2847,2.49626e-09
+86.8477,79.1992,469998,3834,0,2314,2.53987e-09
+86.8477,79.1992,417831,2866,0,2219,2.5398e-09
+86.8477,79.1992,424993,2783,0,2203,2.55053e-09
+86.8477,79.1992,420630,3890,0,2102,2.52193e-09
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,17,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3008,470839,3671,0,2699,6.38156e-10
+86.8477,79.1445,442979,3613,0,2290,6.20344e-10
+86.8477,79.1445,446794,3087,1,2399,6.3781e-10
+86.8477,79.1445,464634,2871,1,2401,6.17912e-10
+86.8477,79.1445,459520,4042,1,2392,6.34161e-10
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,18,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5039,562447,3569,0,2645,1.59465e-10
+86.8477,79.3477,483722,3540,0,2399,1.58871e-10
+86.8477,79.3477,471015,4547,1,2396,1.59221e-10
+86.8477,79.3477,477976,3363,1,2408,1.60806e-10
+86.8477,79.3477,511983,3554,1,3084,1.5769e-10
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,19,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2695,472514,3079,1,2758,4.01016e-11
+86.8477,79.1133,447633,4069,1,2237,3.94033e-11
+86.8477,79.1133,445444,3080,0,2250,3.85176e-11
+86.8477,79.1133,478538,2974,0,2217,3.90193e-11
+86.8477,79.1133,488044,3172,0,2270,3.97407e-11
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,20,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4258,466455,5628,0,2761,9.73168e-12
+86.8477,79.2695,454567,3381,0,2326,9.89648e-12
+86.8477,79.2695,464241,2716,0,2247,9.9489e-12
+86.8477,79.2695,446891,4689,0,2249,9.6974e-12
+86.8477,79.2695,440283,3424,0,2239,9.95984e-12
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,21,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3125,460111,3617,0,2771,2.47125e-12
+86.8477,79.1562,436306,3373,0,2245,2.46652e-12
+86.8477,79.1562,442453,2967,1,2270,2.49373e-12
+86.8477,79.1562,449876,3420,0,2273,2.48481e-12
+86.8477,79.1562,450864,3814,1,2230,2.49798e-12
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,22,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3516,449340,4984,0,4170,6.11e-13
+86.8477,79.1953,434695,3278,0,2274,6.25315e-13
+86.8477,79.1953,422222,2846,0,2183,6.31027e-13
+86.8477,79.1953,450206,2851,0,2249,6.19629e-13
+86.8477,79.1953,492997,3897,0,2515,6.14002e-13
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,23,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3711,526918,3925,0,2951,1.54218e-13
+86.8477,79.2734,462492,3190,0,2461,1.55733e-13
+86.8477,79.2734,524334,3853,0,2520,1.56284e-13
+86.8477,79.2734,471487,4919,1,2403,1.56592e-13
+86.8477,79.2734,477441,3545,0,2465,1.52655e-13
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,24,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3125,475604,3066,0,2756,3.90791e-14
+86.8477,79.1562,457615,3130,0,2303,3.80671e-14
+86.8477,79.1562,452687,3429,0,2219,3.82346e-14
+86.8477,79.1562,433319,3714,0,2260,3.86522e-14
+86.8477,79.1562,437486,3082,0,2252,3.9051e-14
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,25,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1914,486390,4519,0,2883,9.75811e-15
+86.8477,79.0352,477290,3179,0,2371,9.80427e-15
+86.8477,79.0352,464317,3664,0,2448,9.53051e-15
+86.8477,79.0352,461081,3060,0,2280,9.67012e-15
+86.8477,79.0352,463267,3359,1,2454,9.29564e-15
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,26,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.207,470971,5517,1,2827,2.36708e-15
+86.8477,79.1133,443782,4063,1,2481,2.41316e-15
+86.8477,79.1133,453733,3269,0,2227,2.4612e-15
+86.8477,79.1133,449329,3446,0,2211,2.44198e-15
+86.8477,79.1133,444648,4541,1,2287,2.41408e-15
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,27,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3867,480614,3611,0,2764,5.9081e-16
+86.8477,79.3516,460477,4298,0,2983,6.10317e-16
+86.8477,79.3516,465460,3154,0,2345,6.00884e-16
+86.8477,79.3516,453290,3061,0,2287,5.9667e-16
+86.8477,79.3516,440542,3482,1,2293,5.93835e-16
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,28,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.0781,476586,3490,0,2871,1.53941e-16
+86.8477,78.9219,454327,4195,0,2392,1.52863e-16
+86.8477,78.9219,459788,3560,0,2297,1.49788e-16
+86.8477,78.9219,459711,3256,1,2333,1.50227e-16
+86.8477,78.9219,452043,3505,1,2291,1.49176e-16
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,29,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,459182,3305,0,2607,3.78577e-17
+86.8477,79.2383,424937,3276,0,2236,3.66499e-17
+86.8477,79.2383,435961,3065,0,2422,3.86961e-17
+86.8477,79.2383,468289,3299,1,2275,3.83644e-17
+86.8477,79.2383,436838,3732,0,2355,3.76733e-17
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,30,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2773,478467,3322,0,2836,9.56672e-18
+86.8477,79.2422,452807,3909,0,2405,9.36125e-18
+86.8477,79.2422,459909,4188,0,2293,9.315e-18
+86.8477,79.2422,445266,3509,0,2126,9.43018e-18
+86.8477,79.2422,437837,3433,0,2296,9.33043e-18
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,31,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3008,483204,3287,0,2768,2.34676e-18
+86.8477,79.1445,453332,3403,1,2373,2.38421e-18
+86.8477,79.1445,454215,2877,0,2286,2.34735e-18
+86.8477,79.1445,464501,3994,0,2328,2.34485e-18
+86.8477,79.1445,446929,2728,0,2249,2.34802e-18
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,32,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1836,441710,2933,0,2677,5.8464e-19
+86.8477,79.0273,424154,3592,0,2196,5.93766e-19
+86.8477,79.0273,444063,2635,0,2182,5.91659e-19
+86.8477,79.0273,443424,2658,0,2151,6.06644e-19
+86.8477,79.0273,427483,2780,0,2167,5.83682e-19
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,33,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3906,489968,3862,0,2835,1.4368e-19
+86.8477,79.2969,474878,2796,0,2148,1.46964e-19
+86.8477,79.2969,429350,3117,0,2127,1.46138e-19
+86.8477,79.2969,436434,3101,0,2244,1.47412e-19
+86.8477,79.2969,466866,3247,0,2240,1.48846e-19
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,34,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.332,459069,3641,0,2789,3.70325e-20
+86.8477,79.1758,435660,3147,0,2272,3.62723e-20
+86.8477,79.1758,453914,3391,0,2347,3.72413e-20
+86.8477,79.1758,432144,2912,0,2144,3.69328e-20
+86.8477,79.1758,443137,2918,0,2237,3.74555e-20
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,35,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3828,464738,4175,0,2659,9.36375e-21
+86.8477,79.2266,436982,3447,1,2222,9.16812e-21
+86.8477,79.2266,448119,2745,1,2253,9.25717e-21
+86.8477,79.2266,444025,3203,1,2273,8.97971e-21
+86.8477,79.2266,446327,2743,1,2250,9.11983e-21
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,36,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4531,473867,5586,7,2831,2.26613e-21
+86.8477,79.3594,459192,2981,0,2237,2.32738e-21
+86.8477,79.3594,460350,3347,0,2255,2.27836e-21
+86.8477,79.3594,456394,3654,0,2343,2.35775e-21
+86.8477,79.3594,464330,3761,1,2294,2.24878e-21
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,37,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4219,448213,3389,0,2665,5.8065e-22
+86.8477,79.2656,440537,2974,0,2123,5.72475e-22
+86.8477,79.2656,429001,4568,0,2155,5.7011e-22
+86.8477,79.2656,447447,2762,1,2266,5.7672e-22
+86.8477,79.2656,455745,2724,0,2286,5.73671e-22
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,38,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4453,469473,3009,0,2791,1.43903e-22
+86.8477,79.2891,487530,3772,0,2543,1.446e-22
+86.8477,79.2891,495410,3046,0,2495,1.42452e-22
+86.8477,79.2891,499162,4201,0,2464,1.42625e-22
+86.8477,79.2891,459784,3077,0,2272,1.47171e-22
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,39,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4414,459614,3302,0,2821,3.58059e-23
+86.8477,79.2852,479907,3028,0,2336,3.57419e-23
+86.8477,79.2852,430160,3811,0,2330,3.59547e-23
+86.8477,79.2852,453953,3241,0,2468,3.57549e-23
+86.8477,79.2852,445347,3744,0,2251,3.55969e-23
+times_to_square: 1,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,40,2,119.006
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5,467164,3114,0,3050,8.86688e-24
+86.8477,79.3438,459472,3122,0,2513,9.03704e-24
+86.8477,79.3438,446559,3498,0,2503,9.02426e-24
+86.8477,79.3438,469080,3809,1,2507,9.04942e-24
+86.8477,79.3438,452284,4440,1,2536,8.94542e-24
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,154,60,2,17,17,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9648,44490,2196,337,641,0.00655637
+41.7812,30.4492,19055,1995,225,571,0.00684106
+42.0312,30.707,18223,1999,225,559,0.00681516
+42.0312,30.707,18269,2002,227,558,0.00702285
+42.5312,31.2227,18023,1960,218,545,0.00699457
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,156,60,2,18,18,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8711,42550,2149,333,612,0.00176142
+41.7812,30.4258,19640,1929,222,541,0.00179612
+42.0312,30.6836,18358,1884,215,528,0.00189771
+42.0312,30.6836,18442,1880,216,531,0.00172016
+42.5312,31.1992,18134,1907,223,529,0.00182874
+times_to_square: 1,max_nr:8
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,160,60,2,20,20,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8203,43866,2168,329,612,0.000105364
+41.7812,30.375,18039,1894,225,540,0.000109396
+41.7812,30.375,17148,1830,218,530,0.000107891
+41.7812,30.375,17181,1988,207,510,0.000107062
+42.0312,30.6328,16986,1780,207,526,0.000113483
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,162,60,2,21,21,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8867,40098,2014,310,582,2.85647e-05
+41.7812,30.3633,17626,1771,203,523,2.71338e-05
+42.0312,30.6211,16776,1774,206,507,2.63018e-05
+42.0312,30.6211,17015,1789,204,510,2.79223e-05
+42.5312,31.1367,16940,1795,203,506,2.56868e-05
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,164,60,2,22,22,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0352,41233,2300,317,597,6.97695e-06
+41.7812,30.457,18448,2032,213,541,7.02119e-06
+42.0312,30.7148,17573,2051,214,520,7.04031e-06
+42.0312,30.7148,17673,2064,222,517,6.92076e-06
+42.5312,31.2305,21668,2064,220,520,6.71444e-06
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,166,60,2,23,23,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9414,44401,2534,344,609,1.6149e-06
+41.7812,30.3984,19962,2013,225,551,1.71884e-06
+41.7812,30.3984,19571,1957,222,548,1.67906e-06
+41.7812,30.3984,19491,1981,221,538,1.72368e-06
+42.2812,30.9141,18933,1984,216,546,1.7629e-06
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,168,60,2,24,24,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9375,43608,2092,323,606,4.28897e-07
+41.7812,30.4922,19160,1890,219,540,4.44469e-07
+42.0312,30.75,18372,1894,215,531,4.2082e-07
+42.0312,30.75,18634,1870,216,527,4.51157e-07
+42.5312,31.2656,18659,1886,215,531,4.58165e-07
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,170,60,2,25,25,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8086,41950,2103,325,599,1.11477e-07
+41.7812,30.2148,18238,1915,218,554,1.06698e-07
+41.7812,30.2148,17601,1944,217,530,1.16272e-07
+41.7812,30.2148,17594,1846,217,529,1.09702e-07
+42.0312,30.4727,17160,1836,209,549,1.1109e-07
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,172,60,2,26,26,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8555,41429,2086,326,607,2.60599e-08
+41.7812,30.2617,18712,1875,216,543,2.71538e-08
+42.0312,30.5195,17561,1818,210,518,2.65552e-08
+42.0312,30.5195,17774,1807,209,514,2.64467e-08
+42.5312,31.0352,18046,1850,210,527,2.69012e-08
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,174,60,2,27,27,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8789,42982,2071,338,675,6.95261e-09
+41.7812,30.4062,18537,1931,234,547,6.6402e-09
+42.0312,30.6641,18227,2000,221,530,6.73891e-09
+42.0312,30.6641,17683,1892,221,521,6.85669e-09
+42.5312,31.1797,17892,1924,215,515,6.76768e-09
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,176,60,2,28,28,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,42021,2135,322,605,1.66732e-09
+41.7812,30.4297,18319,1888,217,563,1.64909e-09
+42.0312,30.6875,18170,1885,216,527,1.78176e-09
+42.0312,30.6875,17584,1830,209,517,1.69892e-09
+42.5312,31.2031,18094,1824,207,515,1.74301e-09
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,178,60,2,29,29,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8828,42840,2131,323,596,4.07814e-10
+41.7812,30.3906,18783,1879,215,547,4.36211e-10
+41.7812,30.3906,17721,1848,216,515,4.23181e-10
+41.7812,30.3906,17692,1838,210,513,4.28816e-10
+42.2812,30.9062,17714,1871,211,522,4.09499e-10
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,180,60,2,30,30,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8594,43809,2085,321,601,1.03846e-10
+41.7812,30.3359,18829,2047,219,547,1.04903e-10
+42.0312,30.5938,17746,2074,215,532,1.07188e-10
+42.0312,30.5938,17670,2046,216,526,1.09781e-10
+42.5312,31.1094,17743,1980,216,527,1.06832e-10
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,182,60,2,31,31,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28,44038,2157,336,605,2.60267e-11
+41.7812,30.4883,19409,1902,225,557,2.61353e-11
+42.0312,30.7461,18817,1917,228,547,2.57657e-11
+42.0312,30.7461,18227,1922,237,532,2.72481e-11
+42.5312,31.2617,18769,2045,216,534,2.76903e-11
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,184,60,2,32,32,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9531,42524,2068,319,596,6.54332e-12
+41.7812,30.3906,18419,1877,216,548,6.53633e-12
+41.7812,30.3906,18647,1881,219,544,6.6299e-12
+41.7812,30.3906,18468,1866,216,530,6.67686e-12
+42.2812,30.9062,17926,1880,228,536,6.74757e-12
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,186,60,2,33,33,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9297,43657,2076,334,609,1.72195e-12
+41.7812,30.3867,18804,1907,213,540,1.61828e-12
+42.0312,30.6445,17859,1864,216,521,1.60952e-12
+42.0312,30.6445,17361,1833,216,520,1.59382e-12
+42.5312,31.1602,17618,1824,229,521,1.67175e-12
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,188,60,2,34,34,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7812,43033,2185,327,613,4.09456e-13
+41.7812,30.2578,18836,1928,217,547,4.1636e-13
+42.0312,30.5156,19335,1894,214,530,4.02769e-13
+42.0312,30.5156,18237,1869,240,527,4.02156e-13
+42.5312,31.0312,17925,1836,209,515,4.12137e-13
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,190,60,2,35,35,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0078,42530,2099,321,591,1.02034e-13
+41.7812,30.4102,18265,1858,210,532,1.0497e-13
+42.0312,30.668,17449,1859,209,521,1.02305e-13
+42.0312,30.668,17449,1824,208,519,1.01869e-13
+42.5312,31.1836,17672,1850,209,554,1.07985e-13
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,192,60,2,36,36,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9531,45031,2289,318,595,2.53009e-14
+41.7812,30.543,22029,2678,402,563,2.57827e-14
+42.0312,30.8008,22377,2574,220,591,2.46758e-14
+42.0312,30.8008,22720,3078,460,733,2.39636e-14
+42.5312,31.3164,20721,1988,228,531,2.61268e-14
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,194,60,2,37,37,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8242,44019,1987,306,587,6.35525e-15
+41.7812,30.3789,19126,1807,210,523,6.41734e-15
+42.0312,30.6367,18395,1760,204,501,6.66045e-15
+42.0312,30.6367,17866,1739,204,499,6.61592e-15
+42.5312,31.1523,18107,1784,210,521,6.64148e-15
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,196,60,2,38,38,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8398,43196,2227,335,585,1.65268e-15
+41.7812,30.3672,19112,2049,250,534,1.56388e-15
+42.0312,30.625,18517,1900,215,530,1.6499e-15
+42.0312,30.625,18848,1865,213,532,1.56108e-15
+42.5312,31.1406,18971,1912,214,527,1.58428e-15
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,198,60,2,39,39,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9062,43630,2267,336,629,3.92367e-16
+41.7812,30.4141,19402,1970,214,541,4.01533e-16
+41.7812,30.4141,18324,1918,215,537,3.75129e-16
+41.7812,30.4141,18119,1866,215,512,4.01577e-16
+42.0312,30.6719,17434,1841,209,516,3.87432e-16
+times_to_square: 1,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,200,60,2,40,40,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.918,41758,2075,323,591,1.00126e-16
+41.7812,30.4727,18245,1875,217,527,1.00822e-16
+41.7812,30.4727,17351,1829,222,515,1.01684e-16
+41.7812,30.4727,17597,1835,211,516,9.885e-17
+42.0312,30.7305,17665,1830,215,519,9.16671e-17
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,1,2,149.255
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.0664,477520,3630,0,2779,11166.1
+86.7891,78.9141,453019,3169,0,2363,11076.2
+86.7891,78.9141,461502,2790,0,2283,11184.8
+86.7891,78.9141,447650,3308,0,2297,10715.1
+86.7891,78.9141,436426,4341,0,2253,11160.4
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,2,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4375,470218,3097,0,2763,2740.88
+86.8203,79.2539,437010,4427,0,2209,2692.46
+86.8203,79.2539,433859,3297,0,2329,2833.88
+86.8164,79.25,474729,2939,0,2383,2781.78
+86.8164,79.25,457739,3626,0,2308,2688.48
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,3,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3906,456226,3187,0,2673,685.585
+86.8359,79.2227,430497,3632,0,2198,683.666
+86.8359,79.2227,424239,3009,0,2250,649.111
+86.7109,79.0977,441216,3821,1,2412,661.796
+86.832,79.2188,438245,3962,1,2270,699.958
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,4,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3086,479511,3476,0,2692,168.617
+86.8398,79.207,430442,4100,0,2245,169.7
+86.8398,79.207,449105,2639,0,2188,171.45
+86.8398,79.207,439520,2736,0,2210,174.055
+86.8398,79.207,440476,2995,0,2173,171.07
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,5,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1758,455906,4285,0,2660,42.6954
+86.8438,79.0156,461764,3329,0,2235,42.5767
+86.8438,79.0156,436875,2658,0,2262,42.6861
+86.8438,79.0156,422383,3902,0,2388,42.6822
+86.8438,79.0156,433166,3152,0,2227,42.8377
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,6,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2656,468278,3889,0,2742,10.7069
+86.8438,79.1055,458845,4109,1,2485,10.7128
+86.8438,79.1055,461900,3179,0,2320,10.716
+86.8438,79.1055,447307,3594,0,2297,10.8757
+86.8438,79.1055,466000,2846,0,2287,10.8607
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,7,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1914,466036,3766,0,2661,2.63522
+86.8477,79.0977,435192,4500,0,2282,2.68858
+86.8477,79.0977,455584,2768,0,2232,2.61728
+86.8477,79.0977,428324,3572,0,2283,2.6223
+86.8477,79.0977,480809,5795,1,2381,2.66612
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,8,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3633,466182,3417,1,2778,0.681663
+86.8477,79.207,434334,3353,0,2263,0.654018
+86.8477,79.207,436762,4721,1,2354,0.667052
+86.8477,79.207,465097,5518,0,2397,0.660102
+86.8477,79.207,454473,3275,1,2332,0.664061
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,9,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2852,467871,4159,0,2751,0.167509
+86.8477,79.1289,433846,3349,0,2230,0.169958
+86.8477,79.1289,442929,2768,1,2254,0.168636
+86.8477,79.1289,424943,3167,1,2220,0.166318
+86.8477,79.1289,423266,3718,0,2362,0.166196
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,10,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1875,456109,3909,0,2716,0.0414009
+86.8477,79.0312,431860,3034,0,2253,0.0412173
+86.8477,79.0312,438114,3503,1,2289,0.0413275
+86.8477,79.0312,444083,4968,0,2257,0.0412213
+86.8477,79.0312,426605,2752,0,2244,0.0418885
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,11,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4883,466681,3818,1,2810,0.0102286
+86.8477,79.332,435681,3952,1,2248,0.0104273
+86.8477,79.332,440960,2801,0,2282,0.010793
+86.8477,79.332,436333,5326,0,2264,0.0103385
+86.8477,79.332,440798,2752,0,2246,0.0103585
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,12,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1797,472791,3274,0,2690,0.0025796
+86.8477,79.0234,428626,3822,0,2194,0.00252577
+86.8477,79.0234,427182,3330,0,2169,0.00262639
+86.8477,79.0234,428688,3151,1,2226,0.00264893
+86.8477,79.0234,428370,3845,0,2264,0.00258858
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,13,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3203,462438,3734,0,2824,0.00067175
+86.8477,79.1641,430535,3008,0,2285,0.000670253
+86.8477,79.1641,434098,3942,0,2225,0.00065204
+86.8477,79.1641,439091,3421,0,2273,0.000624618
+86.8477,79.1641,447105,4271,1,2330,0.00066295
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,14,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,470006,3156,0,2738,0.0001637
+86.8477,79.2383,439718,3705,0,2249,0.000160355
+86.8477,79.2383,425341,3648,0,2179,0.000166063
+86.8477,79.2383,432624,3964,1,2208,0.000160825
+86.8477,79.2383,426487,4540,1,2175,0.000161729
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,15,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.168,469464,3286,0,2965,3.97785e-05
+86.8477,79.0117,449075,3511,0,2349,4.0518e-05
+86.8477,79.0117,457278,3921,0,2325,4.02198e-05
+86.8477,79.0117,454801,4218,1,2414,4.10419e-05
+86.8477,79.0117,481477,3608,0,2313,4.02683e-05
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,16,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2031,429736,3711,6,2638,1.00212e-05
+86.8477,79.0469,424407,4530,0,2142,1.0184e-05
+86.8477,79.0469,417776,3563,0,2110,1.02625e-05
+86.8477,79.0469,416632,4030,1,2149,1.02386e-05
+86.8477,79.0469,414563,5679,1,2161,1.01396e-05
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,17,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4336,434887,2897,0,2549,2.54845e-06
+86.8477,79.2773,441794,4512,1,2222,2.49028e-06
+86.8477,79.2773,445341,4318,0,2342,2.57505e-06
+86.8477,79.2773,459003,3556,1,2649,2.49375e-06
+86.8477,79.2773,445157,2879,0,2158,2.57624e-06
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,18,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4453,480904,3111,0,2880,6.40886e-07
+86.8477,79.2891,462843,4052,0,2445,6.39867e-07
+86.8477,79.2891,472435,3109,1,2421,6.39968e-07
+86.8477,79.2891,464100,3653,0,2364,6.41921e-07
+86.8477,79.2891,469559,3204,0,2337,6.3486e-07
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,19,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2891,438283,2874,0,2609,1.61518e-07
+86.8477,79.1328,422779,3790,1,2186,1.58516e-07
+86.8477,79.1328,420732,5179,1,2143,1.55347e-07
+86.8477,79.1328,424364,3041,1,2161,1.56774e-07
+86.8477,79.1328,432485,3437,1,2236,1.59866e-07
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,20,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.25,482893,4886,1,2776,3.90951e-08
+86.8477,79.0938,474218,3492,0,2499,3.99026e-08
+86.8477,79.0938,467665,5145,1,2343,4.00364e-08
+86.8477,79.0938,460872,3286,0,2422,3.91956e-08
+86.8477,79.0938,474089,3312,0,2345,4.02168e-08
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,21,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.0742,444916,3005,0,2755,9.8685e-09
+86.8477,78.918,435682,3736,0,2602,9.90884e-09
+86.8477,78.918,444084,3488,0,2241,1.0034e-08
+86.8477,78.918,453106,3118,0,2276,9.97988e-09
+86.8477,78.918,442000,3339,0,2145,1.00772e-08
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,22,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5469,477141,5238,0,2833,2.48383e-09
+86.8477,79.3906,454111,3841,0,2623,2.53098e-09
+86.8477,79.3906,464180,4808,0,2286,2.52322e-09
+86.8477,79.3906,474690,3031,1,2493,2.48505e-09
+86.8477,79.3906,456980,2816,0,2308,2.46908e-09
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,23,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3242,454975,2973,0,2731,6.21302e-10
+86.8477,79.168,429115,3155,0,2176,6.27407e-10
+86.8477,79.168,432594,3063,1,2184,6.26778e-10
+86.8477,79.168,422048,3035,0,2144,6.2886e-10
+86.8477,79.168,433594,3894,0,2197,6.15035e-10
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,24,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5508,458822,3627,5,2612,1.56538e-10
+86.8477,79.3945,448739,3309,1,2241,1.53e-10
+86.8477,79.3945,448412,3408,1,2111,1.54342e-10
+86.8477,79.3945,433664,3980,1,2186,1.55508e-10
+86.8477,79.3945,449960,3082,1,2411,1.55494e-10
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,25,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2891,472570,4382,0,2832,3.92681e-11
+86.8477,79.1914,458685,3416,1,2428,3.95526e-11
+86.8477,79.1914,467243,2849,1,2391,3.83971e-11
+86.8477,79.1914,465341,2920,1,2294,3.90842e-11
+86.8477,79.1914,473387,4564,2,2385,3.74937e-11
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,26,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3047,425195,2961,0,2698,9.50296e-12
+86.8477,79.1484,439819,3958,0,2454,9.60267e-12
+86.8477,79.1484,441969,2959,0,2274,9.87998e-12
+86.8477,79.1484,457639,5449,0,2297,9.78904e-12
+86.8477,79.1484,467349,3235,1,2342,9.78516e-12
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,27,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1406,474994,3638,1,2769,2.39064e-12
+86.8477,78.9844,452777,3849,0,2188,2.45528e-12
+86.8477,78.9844,445139,2989,0,2158,2.4263e-12
+86.8477,78.9844,440274,3218,0,2185,2.39985e-12
+86.8477,78.9844,480182,4199,1,3068,2.39413e-12
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,28,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1367,467082,4165,1,2792,6.16123e-13
+86.8477,78.9805,445159,3016,0,2264,6.14146e-13
+86.8477,78.9805,446061,3596,0,2254,6.02194e-13
+86.8477,78.9805,450620,3097,1,2182,6.0688e-13
+86.8477,78.9805,429005,3356,1,2262,6.02553e-13
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,29,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.457,479800,4247,0,2877,1.50896e-13
+86.8477,79.3633,454669,3759,0,2253,1.47678e-13
+86.8477,79.3633,447334,2712,0,2338,1.55208e-13
+86.8477,79.3633,445829,3733,0,2300,1.55123e-13
+86.8477,79.3633,463663,2729,0,2224,1.50207e-13
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,30,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3984,477896,4032,0,2858,3.85363e-14
+86.8477,79.2422,465834,3662,0,2310,3.80573e-14
+86.8477,79.2422,459677,2804,0,2318,3.79492e-14
+86.8477,79.2422,464155,3281,1,2325,3.77437e-14
+86.8477,79.2422,457146,2719,0,2363,3.73048e-14
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,31,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5508,471895,4644,1,2851,9.39164e-15
+86.8477,79.3945,417923,3870,0,2198,9.56634e-15
+86.8477,79.3945,451880,2980,0,2300,9.4095e-15
+86.8477,79.3945,451328,2815,0,2206,9.51561e-15
+86.8477,79.3945,455525,3089,0,2225,9.4216e-15
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,32,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4336,474995,3716,1,2783,2.35151e-15
+86.8477,79.2773,459897,4085,1,2282,2.3841e-15
+86.8477,79.2773,455549,2898,1,2435,2.3738e-15
+86.8477,79.2773,440646,5655,0,2854,2.44407e-15
+86.8477,79.2773,453650,3194,1,2279,2.35285e-15
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,33,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4492,483008,3020,5,2881,5.78174e-16
+86.8477,79.3555,469608,2957,0,2302,5.88751e-16
+86.8477,79.3555,445033,3444,0,2249,5.90059e-16
+86.8477,79.3555,446818,2935,0,2192,5.95417e-16
+86.8477,79.3555,442639,2743,0,2175,5.92567e-16
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,34,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4727,487018,3168,1,2883,1.49182e-16
+86.8477,79.3164,456190,5924,0,2305,1.45439e-16
+86.8477,79.3164,459206,2859,0,2304,1.49836e-16
+86.8477,79.3164,472537,3303,0,2313,1.48252e-16
+86.8477,79.3164,486597,3006,0,2353,1.50413e-16
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,35,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3984,474083,3316,0,2742,3.75743e-17
+86.8477,79.2422,446658,2973,0,2321,3.68689e-17
+86.8477,79.2422,461053,3020,0,2285,3.73211e-17
+86.8477,79.2422,456619,4078,0,2239,3.59697e-17
+86.8477,79.2422,433118,2971,0,2247,3.61719e-17
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,36,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4219,478645,3570,0,2916,9.10026e-18
+86.8477,79.2656,446986,3799,0,2408,9.42524e-18
+86.8477,79.2656,471243,3176,0,2405,9.11894e-18
+86.8477,79.2656,464311,3231,0,2431,9.53674e-18
+86.8477,79.2656,454769,3465,0,2450,9.07279e-18
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,37,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,496027,4166,1,3160,2.33746e-18
+86.8477,79.2383,470005,4164,0,2343,2.32542e-18
+86.8477,79.2383,457625,3667,0,2341,2.27739e-18
+86.8477,79.2383,447041,3044,0,2349,2.30606e-18
+86.8477,79.2383,443459,3018,0,2348,2.30713e-18
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,38,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3086,474027,3319,0,3006,5.81137e-19
+86.8477,79.2109,477312,4463,0,2452,5.81583e-19
+86.8477,79.2109,500944,2703,1,2584,5.75691e-19
+86.8477,79.2109,461466,3504,0,2517,5.752e-19
+86.8477,79.2109,432835,3176,0,2364,5.88966e-19
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,39,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4336,487880,3320,1,3270,1.43148e-19
+86.8477,79.3398,461115,3740,0,2421,1.43435e-19
+86.8477,79.3398,438918,3253,1,2399,1.45264e-19
+86.8477,79.3398,461608,3236,0,2485,1.44728e-19
+86.8477,79.3398,438692,2730,0,2430,1.44075e-19
+times_to_square: 1,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,40,2,119.006
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4375,469634,5019,1,4223,3.54974e-20
+86.8477,79.2812,448647,5343,0,2393,3.63608e-20
+86.8477,79.2812,435156,2656,0,2360,3.6174e-20
+86.8477,79.2812,451716,2995,0,2425,3.61689e-20
+86.8477,79.2812,447621,3522,0,2459,3.57456e-20
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,154,60,2,17,17,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9297,43227,2231,335,617,0.455853
+41.7812,30.4375,19524,1953,219,544,0.4405
+42.0312,30.6953,18203,1928,221,551,0.447918
+42.0312,30.6953,19374,1914,217,529,0.458709
+42.5312,31.2109,18308,1875,218,528,0.446788
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,156,60,2,18,18,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.875,46217,2172,331,676,0.110288
+41.7812,30.4297,19166,1953,206,519,0.107201
+42.0312,30.6875,17909,1979,211,529,0.120753
+42.0312,30.6875,18013,2011,228,536,0.114971
+42.5312,31.2031,17946,2013,215,537,0.1112
+times_to_square: 1,max_nr:64
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,160,60,2,20,20,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8594,43142,2144,323,625,0.00694929
+41.7812,30.3359,18784,1825,218,530,0.00696468
+41.7812,30.3359,17888,1780,209,521,0.00660369
+41.7812,30.3359,17484,1782,208,520,0.00672499
+42.0312,30.5938,18378,1818,217,503,0.00696741
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,162,60,2,21,21,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8242,40901,2066,328,597,0.0017659
+41.7812,30.3008,18167,1973,222,561,0.00175491
+42.0312,30.5586,17552,1936,226,550,0.00172248
+42.0312,30.5586,17543,1875,217,530,0.00175608
+42.5312,31.0742,17983,1962,220,541,0.00170893
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,164,60,2,22,22,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9258,43701,2005,306,585,0.000400933
+41.7812,30.4805,19082,1798,207,519,0.000432255
+42.0312,30.7383,17410,1798,203,519,0.000423603
+42.0312,30.7383,17823,1980,232,555,0.000421774
+42.5312,31.2539,20881,2031,211,521,0.000448889
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,166,60,2,23,23,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9062,44452,2210,338,615,0.000110137
+41.7812,30.4336,19386,1924,212,608,0.000105336
+41.7812,30.4336,19157,1998,229,521,0.000107152
+41.7812,30.4336,17709,2200,282,757,0.00010801
+42.2812,30.9492,18426,1835,213,518,0.000109818
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,168,60,2,24,24,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0586,40589,2032,312,577,2.61525e-05
+41.7812,30.4609,17695,1842,209,530,2.81093e-05
+42.0312,30.7188,16944,1854,208,534,2.68076e-05
+42.0312,30.7188,16919,1933,218,516,2.65137e-05
+42.5312,31.2344,17045,1902,222,537,2.80139e-05
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,170,60,2,25,25,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8164,39977,2012,315,583,6.77329e-06
+41.7812,30.3711,17274,1788,205,522,6.88041e-06
+41.7812,30.3711,17152,1787,205,508,6.61234e-06
+41.7812,30.3711,16757,1813,213,506,7.08466e-06
+42.0312,30.6289,16768,1867,204,513,6.73397e-06
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,172,60,2,26,26,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,40886,2039,325,580,1.69741e-06
+41.7812,30.4766,18233,1876,232,526,1.80585e-06
+42.0312,30.7344,17811,1959,216,520,1.6436e-06
+42.0312,30.7344,18066,2092,219,523,1.70432e-06
+42.5312,31.25,18295,1956,222,536,1.76984e-06
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,174,60,2,27,27,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9414,44415,2199,333,666,4.14619e-07
+41.7812,30.5312,21110,2049,230,562,4.27992e-07
+42.0312,30.7891,19574,2047,226,547,4.14779e-07
+42.0312,30.7891,19170,3013,391,842,4.21848e-07
+42.5312,31.3047,20120,1943,221,551,4.12287e-07
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,176,60,2,28,28,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9688,43076,2159,323,610,1.07261e-07
+41.7812,30.457,18414,1876,216,553,1.11322e-07
+42.0312,30.7148,17453,1860,222,530,1.05668e-07
+42.0312,30.7148,17373,1899,217,541,1.09026e-07
+42.5312,31.2305,17496,1950,219,529,1.04249e-07
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,178,60,2,29,29,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,41128,2222,342,597,2.49825e-08
+41.7812,30.3789,17889,1893,215,541,2.69763e-08
+41.7812,30.3789,17483,1870,215,528,2.63891e-08
+41.7812,30.3789,17337,1860,214,530,2.77816e-08
+42.2812,30.8945,17497,2030,227,527,2.65817e-08
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,180,60,2,30,30,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8867,44025,2115,320,604,6.48326e-09
+41.7812,30.4414,19715,1876,214,567,6.7645e-09
+42.0312,30.6992,18496,2031,222,543,6.66804e-09
+42.0312,30.6992,19851,2152,224,538,6.57448e-09
+42.5312,31.2148,19008,2022,230,565,6.42872e-09
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,182,60,2,31,31,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,46571,2428,446,726,1.72573e-09
+41.7812,30.3789,23540,2620,329,836,1.62915e-09
+42.0312,30.6367,22899,2348,231,578,1.66894e-09
+42.0312,30.6367,18007,1992,221,541,1.728e-09
+42.5312,31.1523,17810,1954,220,549,1.74182e-09
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,184,60,2,32,32,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8203,42349,2142,326,611,4.10732e-10
+41.7812,30.2266,18464,1946,228,557,4.18098e-10
+41.7812,30.2266,17867,1971,222,542,4.00063e-10
+41.7812,30.2266,17705,1942,219,542,4.17409e-10
+42.2812,30.7422,17475,1910,215,528,4.06788e-10
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,186,60,2,33,33,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9453,43572,2056,330,608,1.00298e-10
+41.7812,30.4531,19282,1875,216,544,1.01211e-10
+42.0312,30.7109,19417,1878,214,538,1.0314e-10
+42.0312,30.7109,18535,1889,214,534,1.0505e-10
+42.5312,31.2266,18967,2021,239,545,1.03281e-10
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,188,60,2,34,34,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.918,44783,2464,357,724,2.60869e-11
+41.7812,30.4727,20362,2070,235,589,2.56153e-11
+42.0312,30.7305,20931,2552,227,603,2.5629e-11
+42.0312,30.7305,20358,2080,256,583,2.66126e-11
+42.5312,31.2461,21278,2077,229,681,2.56259e-11
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,190,60,2,35,35,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8789,45130,2213,326,614,6.53621e-12
+41.7812,30.4062,18763,1938,221,561,6.25192e-12
+42.0312,30.6641,18102,1944,238,546,6.32668e-12
+42.0312,30.6641,18060,1971,223,552,6.08096e-12
+42.5312,31.1797,18064,1972,226,542,6.52857e-12
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,192,60,2,36,36,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8047,43403,2164,347,620,1.56322e-12
+41.7812,30.3359,18287,1921,217,543,1.58093e-12
+42.0312,30.5938,17647,1882,215,529,1.62536e-12
+42.0312,30.5938,17780,1866,213,532,1.62515e-12
+42.5312,31.1094,21367,2051,229,544,1.5601e-12
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,194,60,2,37,37,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,44358,2202,353,630,3.9392e-13
+41.7812,30.4766,20582,2075,227,561,3.99718e-13
+42.0312,30.7344,19295,2125,228,551,4.03438e-13
+42.0312,30.7344,20502,2913,335,859,4.20282e-13
+42.5312,31.25,21156,2166,235,581,4.11661e-13
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,196,60,2,38,38,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9805,48519,2336,370,635,1.04413e-13
+41.7812,30.4648,21173,2069,241,623,1.0447e-13
+42.0312,30.7227,19540,2112,226,558,9.99701e-14
+42.0312,30.7227,19777,1996,236,559,1.03593e-13
+42.5312,31.2383,19758,2005,284,605,9.83599e-14
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,198,60,2,39,39,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9531,44341,2157,339,619,2.57088e-14
+41.7812,30.4102,18808,1959,221,565,2.61009e-14
+41.7812,30.4102,18042,1923,221,549,2.67362e-14
+41.7812,30.4102,20594,2874,319,813,2.51921e-14
+42.0312,30.668,17917,1939,216,541,2.62353e-14
+times_to_square: 1,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,200,60,2,40,40,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8984,42470,2206,333,593,6.1879e-15
+41.7812,30.4531,19074,1892,215,542,6.09006e-15
+41.7812,30.4531,19889,1867,214,528,6.24227e-15
+41.7812,30.4531,19511,2898,232,811,6.00647e-15
+42.0312,30.7109,23137,3170,331,774,6.53983e-15
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,1,2,149.255
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4336,483205,4143,0,3018,0.00141375
+86.7891,79.2812,469646,3886,0,2375,0.00140437
+86.7891,79.2812,468348,3375,0,2306,0.00146666
+86.7891,79.2812,455567,5099,1,2402,0.00138856
+86.7891,79.2812,441896,4116,0,2139,0.00143242
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,2,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2617,464278,3010,1,2707,0.00035258
+86.8203,79.0781,450308,3047,0,2296,0.000355452
+86.8203,79.0781,442405,3255,0,2287,0.000353054
+86.8164,79.0742,451617,3512,0,2337,0.000359156
+86.8164,79.0742,434510,3085,0,2283,0.000348488
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,3,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.457,465530,3359,0,2779,8.94983e-05
+86.8359,79.3516,439577,3199,0,2246,8.89586e-05
+86.8359,79.3516,439982,2667,0,2193,8.75084e-05
+86.8359,79.3516,428005,3115,0,2294,8.96728e-05
+86.8359,79.3516,458434,3610,0,2326,8.8543e-05
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,4,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1875,459137,3608,0,2666,2.13783e-05
+86.8398,79.0234,431446,3120,0,2198,2.25905e-05
+86.8398,79.0234,464572,3366,1,2368,2.20358e-05
+86.8398,79.0234,440106,3165,0,2297,2.27528e-05
+86.8398,79.0234,441720,3879,0,2299,2.21726e-05
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,5,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1953,486506,3939,0,2847,5.58097e-06
+86.8438,79.0352,460275,4436,0,2455,5.35433e-06
+86.8438,79.0352,460293,4767,0,2421,5.60907e-06
+86.8438,79.0352,468118,3342,0,2423,5.71703e-06
+86.8438,79.0352,468399,2715,0,2190,5.56287e-06
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,6,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3438,480824,3239,0,2821,1.39657e-06
+86.8438,79.2461,419856,5004,0,2123,1.39721e-06
+86.8438,79.2461,436467,4310,0,2221,1.36834e-06
+86.8438,79.2461,430973,2997,0,2132,1.39707e-06
+86.8438,79.2461,439185,3141,0,2129,1.38551e-06
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,7,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4883,460186,4126,0,2710,3.44354e-07
+86.8477,79.457,432510,3375,0,2204,3.56259e-07
+86.8477,79.457,501832,3644,1,2414,3.30776e-07
+86.8477,79.457,490980,6493,1,3995,3.35955e-07
+86.8477,79.457,475285,3402,0,2239,3.37654e-07
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,8,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4023,449728,4004,0,2727,8.81978e-08
+86.8477,79.2461,437286,4047,0,2216,8.40987e-08
+86.8477,79.2461,431763,2904,0,2243,8.92946e-08
+86.8477,79.2461,446012,5935,1,2361,8.44953e-08
+86.8477,79.2461,451482,3278,0,2318,8.89534e-08
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,9,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.0781,474375,3576,0,2710,2.22835e-08
+86.8477,78.9219,436137,2950,0,2266,2.13861e-08
+86.8477,78.9219,443961,3407,0,2247,2.18061e-08
+86.8477,78.9219,439247,3242,0,2346,2.21914e-08
+86.8477,78.9219,450162,4963,0,2234,2.17725e-08
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,10,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3516,472758,3137,0,2822,5.34193e-09
+86.8477,79.2539,455159,3937,0,2361,5.31371e-09
+86.8477,79.2539,461203,3194,0,2365,5.42988e-09
+86.8477,79.2539,444724,3363,0,2258,5.47541e-09
+86.8477,79.2539,460110,3524,0,2440,5.32483e-09
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,11,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1406,460328,3033,0,2772,1.29359e-09
+86.8477,78.9844,452144,3913,0,2250,1.39042e-09
+86.8477,78.9844,441528,2888,0,2285,1.3431e-09
+86.8477,78.9844,433153,3196,0,2262,1.35227e-09
+86.8477,78.9844,437578,2912,0,2259,1.30826e-09
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,12,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4531,469738,3397,0,2737,3.43677e-10
+86.8477,79.3594,501395,5827,0,2299,3.29737e-10
+86.8477,79.3594,429562,4501,0,2263,3.32147e-10
+86.8477,79.3594,489639,2863,0,2260,3.43251e-10
+86.8477,79.3594,453169,2919,0,2253,3.40078e-10
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,13,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3594,463479,2854,0,2690,8.83559e-11
+86.8477,79.2656,424830,4480,1,2291,8.77144e-11
+86.8477,79.2656,433362,3437,0,2235,8.32625e-11
+86.8477,79.2656,437052,3133,0,2165,8.52051e-11
+86.8477,79.2656,434162,2664,0,2201,8.5018e-11
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,14,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4453,468871,3550,0,2762,2.14191e-11
+86.8477,79.2891,429672,2972,0,2222,2.08802e-11
+86.8477,79.2891,433583,3500,0,2227,2.18178e-11
+86.8477,79.2891,437347,2845,0,2236,2.16493e-11
+86.8477,79.2891,453212,2733,0,2339,2.06383e-11
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,15,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4453,465668,3379,0,2724,4.98721e-12
+86.8477,79.2891,433388,4729,1,2337,5.44608e-12
+86.8477,79.2891,446942,3273,1,2242,5.35798e-12
+86.8477,79.2891,426509,3423,1,2138,5.52977e-12
+86.8477,79.2891,418984,2732,0,2281,5.38166e-12
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,16,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3672,457880,2984,0,2716,1.30107e-12
+86.8477,79.2734,442711,3677,0,2324,1.33423e-12
+86.8477,79.2734,464860,3510,0,2238,1.30961e-12
+86.8477,79.2734,457203,2852,0,2254,1.35859e-12
+86.8477,79.2734,447683,3162,0,2287,1.334e-12
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,17,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2695,464569,3567,0,2833,3.3341e-13
+86.8477,79.1133,442090,3680,0,2255,3.26039e-13
+86.8477,79.1133,438011,4121,0,2295,3.41259e-13
+86.8477,79.1133,436010,4274,0,2268,3.25502e-13
+86.8477,79.1133,433905,2716,0,2307,3.26406e-13
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,18,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5391,493651,4192,0,2704,8.50004e-14
+86.8477,79.4453,443413,3058,0,2379,8.42707e-14
+86.8477,79.4453,450419,2766,0,2221,8.38568e-14
+86.8477,79.4453,456513,2965,0,2192,8.53332e-14
+86.8477,79.4453,451805,4101,0,2242,7.91651e-14
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,19,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1914,470633,3852,0,2923,2.11905e-14
+86.8477,79.0352,487924,3183,0,2383,2.06972e-14
+86.8477,79.0352,467690,3418,0,2345,2.03843e-14
+86.8477,79.0352,457988,4283,0,2316,2.01879e-14
+86.8477,79.0352,463574,3276,0,2274,2.10536e-14
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,20,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5391,463384,3827,0,2698,5.40141e-15
+86.8477,79.3828,447980,3390,0,2262,5.2011e-15
+86.8477,79.3828,461296,3114,0,2284,5.27172e-15
+86.8477,79.3828,437063,4086,0,2402,5.10096e-15
+86.8477,79.3828,468963,4375,0,2334,5.26658e-15
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,21,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3633,452125,3418,6,2708,1.28881e-15
+86.8477,79.207,444217,2890,0,2249,1.26034e-15
+86.8477,79.207,448122,3885,0,2284,1.27512e-15
+86.8477,79.207,470283,3308,1,2361,1.35433e-15
+86.8477,79.207,464530,3100,0,2388,1.25544e-15
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,22,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.418,449957,4197,0,2710,3.2909e-16
+86.8477,79.2617,434835,3032,0,2238,3.29217e-16
+86.8477,79.2617,452384,2929,0,2247,3.21659e-16
+86.8477,79.2617,442348,3257,0,2268,3.31723e-16
+86.8477,79.2617,431864,3599,0,2263,3.10317e-16
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,23,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2695,470772,2929,0,2667,8.11985e-17
+86.8477,79.1133,450497,2885,0,2165,8.39843e-17
+86.8477,79.1133,430179,4077,0,2220,8.37622e-17
+86.8477,79.1133,467938,3479,0,2288,8.25194e-17
+86.8477,79.1133,449276,3099,0,2311,8.18449e-17
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,24,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3164,470777,3370,0,2726,2.05742e-17
+86.8477,79.2227,458390,3002,0,2254,2.10722e-17
+86.8477,79.2227,444343,3075,0,2288,2.00511e-17
+86.8477,79.2227,450685,3258,0,2210,2.05696e-17
+86.8477,79.2227,441896,2700,0,2187,2.05557e-17
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,25,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.0781,474974,3096,0,2874,4.94176e-18
+86.8477,78.9219,455495,3553,0,2372,5.06544e-18
+86.8477,78.9219,464575,4041,0,2407,4.88991e-18
+86.8477,78.9219,481616,3022,0,2385,4.95001e-18
+86.8477,78.9219,461725,2835,0,2325,5.09115e-18
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,26,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1875,472142,3583,0,2742,1.21175e-18
+86.8477,79.0312,435865,4385,0,2248,1.24987e-18
+86.8477,79.0312,445474,3288,0,2237,1.27258e-18
+86.8477,79.0312,468664,4579,0,2228,1.20098e-18
+86.8477,79.0312,457128,2899,0,2259,1.28165e-18
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,27,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3555,473654,4043,1,2680,3.2387e-19
+86.8477,79.2578,438381,3344,0,2494,3.20601e-19
+86.8477,79.2578,457739,2876,0,2350,3.16997e-19
+86.8477,79.2578,451704,3302,0,2319,3.14781e-19
+86.8477,79.2578,448811,2780,0,2235,3.20807e-19
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,28,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5547,510412,3787,0,2888,7.82599e-20
+86.8477,79.3984,449966,3529,0,2260,8.02612e-20
+86.8477,79.3984,443729,2775,0,2267,7.9359e-20
+86.8477,79.3984,438738,3170,0,2262,7.85612e-20
+86.8477,79.3984,447879,2936,0,2264,7.73423e-20
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,29,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4414,460020,3568,0,2813,1.96658e-20
+86.8477,79.2852,463531,4035,0,2378,2.01036e-20
+86.8477,79.2852,460295,2821,1,2294,1.98934e-20
+86.8477,79.2852,453587,3270,0,2308,2.04441e-20
+86.8477,79.2852,435085,2790,0,2151,1.98263e-20
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,30,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3477,456034,3427,0,2780,4.93925e-21
+86.8477,79.25,442761,2939,0,2253,4.82298e-21
+86.8477,79.25,448697,2706,0,2230,4.94402e-21
+86.8477,79.25,439378,2774,0,2198,4.95692e-21
+86.8477,79.25,433061,3107,0,2214,4.89332e-21
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,31,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3281,463540,3288,0,2672,1.23731e-21
+86.8477,79.1719,447314,3957,0,2224,1.20873e-21
+86.8477,79.1719,447748,2722,0,2206,1.28417e-21
+86.8477,79.1719,426395,3168,0,2254,1.25866e-21
+86.8477,79.1719,437096,3645,0,2185,1.21075e-21
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,32,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1211,499546,3311,0,2853,3.1678e-22
+86.8477,78.9648,470825,3438,0,2295,3.14422e-22
+86.8477,78.9648,462667,2811,0,2325,3.13807e-22
+86.8477,78.9648,466695,4928,0,2362,3.04086e-22
+86.8477,78.9648,463360,2840,0,2346,3.03069e-22
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,33,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3242,460470,3106,0,2544,7.44885e-23
+86.8477,79.168,426995,3041,0,2273,7.63255e-23
+86.8477,79.168,436968,2659,0,2153,7.54226e-23
+86.8477,79.168,438727,2838,0,2222,7.9507e-23
+86.8477,79.168,457203,2898,0,2310,7.56735e-23
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,34,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2852,484791,4124,0,2951,1.86382e-23
+86.8477,79.1289,446578,3082,0,2307,1.90747e-23
+86.8477,79.1289,451856,2992,0,2329,1.90843e-23
+86.8477,79.1289,460780,4297,0,2406,1.8466e-23
+86.8477,79.1289,462057,3588,0,2385,1.93804e-23
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,35,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5,461493,2922,0,2771,4.77894e-24
+86.8477,79.4062,425943,4238,0,2297,4.84266e-24
+86.8477,79.4062,438320,3907,0,2265,4.86762e-24
+86.8477,79.4062,447149,3433,0,2221,4.89242e-24
+86.8477,79.4062,434458,2811,0,2175,4.84511e-24
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,36,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,472272,3233,1,2830,1.20168e-24
+86.8477,79.2383,474491,5387,0,2370,1.18153e-24
+86.8477,79.2383,466796,3628,1,2277,1.21782e-24
+86.8477,79.2383,453810,3176,0,2321,1.21923e-24
+86.8477,79.2383,460484,3112,0,2314,1.184e-24
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,37,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2422,452494,3133,0,2633,3.10454e-25
+86.8477,79.1484,436648,4322,0,2249,2.99799e-25
+86.8477,79.1484,444990,2650,0,2204,2.93769e-25
+86.8477,79.1484,440776,3576,0,2237,3.10944e-25
+86.8477,79.1484,440438,3127,0,2180,2.96378e-25
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,38,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1758,497229,3168,0,2821,7.47699e-26
+86.8477,79.0195,470761,3791,0,2334,7.35697e-26
+86.8477,79.0195,474404,3250,0,2311,7.65211e-26
+86.8477,79.0195,466524,3264,0,2305,7.63691e-26
+86.8477,79.0195,473788,4717,0,2307,7.51264e-26
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,39,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3047,463476,3038,0,2773,1.83708e-26
+86.8477,79.2109,458673,4209,0,2325,1.81991e-26
+86.8477,79.2109,469614,5175,0,2361,1.87653e-26
+86.8477,79.2109,460885,5362,0,2338,1.93654e-26
+86.8477,79.2109,464963,3143,0,2345,1.88543e-26
+times_to_square: 2,max_nr:1
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,40,2,119.006
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3555,462893,5489,0,2703,4.6957e-27
+86.8477,79.2578,444102,4040,0,2261,4.69551e-27
+86.8477,79.2578,432686,2772,0,2165,4.78382e-27
+86.8477,79.2578,448067,4104,0,2223,4.87961e-27
+86.8477,79.2578,454078,3064,0,2220,4.74659e-27
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,154,60,2,17,17,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,44277,2145,546,237,0.000217444
+41.7812,30.4766,18570,1948,377,233,0.000231725
+42.0312,30.7344,17875,1871,356,217,0.000213169
+42.0312,30.7344,17537,1875,376,230,0.000218412
+42.5312,31.25,17439,1842,362,227,0.000216554
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,156,60,2,18,18,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9492,40941,2154,564,237,4.07702e-05
+41.7812,30.4336,18223,1856,376,236,4.12102e-05
+42.0312,30.6914,18110,1922,371,232,4.18206e-05
+42.0312,30.6914,17589,1879,379,241,4.14368e-05
+42.5312,31.207,18412,1943,378,232,3.95589e-05
+times_to_square: 2,max_nr:1
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,160,60,2,20,20,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8047,50424,3105,619,261,4.36715e-06
+41.7812,30.3984,22345,3394,561,408,4.13379e-06
+41.7812,30.3984,19873,2005,395,253,4.21812e-06
+41.7812,30.3984,18545,1972,386,232,4.26314e-06
+42.0312,30.6562,17855,1863,363,223,4.30627e-06
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,162,60,2,21,21,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8711,38983,2069,513,220,9.55178e-07
+41.7812,30.4844,16926,1925,378,223,9.49193e-07
+42.0312,30.7422,16982,1817,423,230,9.57461e-07
+42.0312,30.7422,16593,1798,364,222,9.05653e-07
+42.5312,31.2578,17077,1841,362,225,9.33886e-07
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,164,60,2,22,22,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9766,38033,1921,526,224,2.92585e-07
+41.7812,30.3984,17372,1814,371,233,2.87569e-07
+42.0312,30.6562,18623,1826,379,243,3.02193e-07
+42.0312,30.6562,17833,1892,383,251,3.1357e-07
+42.5312,31.1719,18524,1854,410,239,3.11209e-07
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,166,60,2,23,23,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,42229,2088,615,253,7.72089e-08
+41.7812,30.3281,18028,1832,369,222,7.62955e-08
+41.7812,30.3281,17093,1848,364,235,7.78977e-08
+41.7812,30.3281,16727,1844,362,221,7.77467e-08
+42.2812,30.8438,20546,2031,372,231,7.61551e-08
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,168,60,2,24,24,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8633,41254,2077,627,249,1.92846e-08
+41.7812,30.4766,18558,1979,386,231,2.01017e-08
+42.0312,30.7344,17866,1957,383,231,1.94967e-08
+42.0312,30.7344,17952,1929,385,232,2.07438e-08
+42.5312,31.25,17508,1930,376,245,1.90603e-08
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,170,60,2,25,25,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7305,43472,2177,558,241,4.99513e-09
+41.7812,30.3242,18418,2069,383,242,4.92089e-09
+41.7812,30.3242,17748,1947,376,240,4.71351e-09
+41.7812,30.3242,17347,2125,386,245,5.22387e-09
+42.0312,30.582,17722,2078,374,229,4.88464e-09
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,172,60,2,26,26,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9102,42894,2166,544,248,1.25975e-09
+41.7812,30.4375,18319,1834,368,223,1.29851e-09
+42.0312,30.6953,17928,1875,365,224,1.24325e-09
+42.0312,30.6953,17171,1935,373,231,1.26522e-09
+42.5312,31.2109,17751,1943,363,222,1.22522e-09
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,174,60,2,27,27,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7578,41781,2168,557,232,2.99743e-10
+41.7812,30.4102,18296,1985,377,232,3.02168e-10
+42.0312,30.668,17732,2112,381,237,3.19964e-10
+42.0312,30.668,17520,1926,379,247,3.02716e-10
+42.5312,31.1836,17768,1982,376,238,3.21766e-10
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,176,60,2,28,28,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9219,43582,2149,548,232,7.41384e-11
+41.7812,30.3789,18328,1831,376,232,7.81434e-11
+42.0312,30.6367,17639,1810,367,224,7.49214e-11
+42.0312,30.6367,17531,1963,385,231,7.46748e-11
+42.5312,31.1523,18016,1952,385,235,8.22063e-11
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,178,60,2,29,29,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7422,42938,2105,543,230,1.98303e-11
+41.7812,30.2969,18648,1914,384,250,2.00471e-11
+41.7812,30.2969,18714,1859,376,228,1.90026e-11
+41.7812,30.2969,18844,1901,385,236,1.98534e-11
+42.2812,30.8125,20120,2067,386,233,1.97576e-11
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,180,60,2,30,30,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8828,43160,2261,553,231,4.90601e-12
+41.7812,30.3398,18055,1841,366,227,4.57884e-12
+42.0312,30.5977,17595,1958,374,227,4.8288e-12
+42.0312,30.5977,17130,1866,370,238,4.62331e-12
+42.5312,31.1133,18470,2139,394,238,4.93571e-12
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,182,60,2,31,31,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8242,41858,2140,550,231,1.2037e-12
+41.7812,30.3789,17987,1996,376,229,1.18072e-12
+42.0312,30.6367,17900,1958,375,230,1.22893e-12
+42.0312,30.6367,17476,2010,392,240,1.26825e-12
+42.5312,31.1523,17973,2064,402,237,1.22869e-12
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,184,60,2,32,32,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9688,44431,2179,580,237,2.97844e-13
+41.7812,30.4531,18893,1834,368,230,3.12192e-13
+41.7812,30.4531,17853,1873,383,232,3.27419e-13
+41.7812,30.4531,17776,1803,361,255,3.15521e-13
+42.2812,30.9688,18194,1889,377,230,3.02101e-13
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,186,60,2,33,33,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0742,44536,2109,639,233,7.08735e-14
+41.7812,30.4961,18594,2006,378,242,7.47406e-14
+42.0312,30.7539,17606,1883,372,226,7.73297e-14
+42.0312,30.7539,18077,1985,412,228,7.48721e-14
+42.5312,31.2695,17428,1932,423,231,7.24451e-14
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,188,60,2,34,34,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9766,43109,2211,568,236,1.83555e-14
+41.7812,30.4844,18217,1916,377,229,1.82272e-14
+42.0312,30.7422,18552,1892,379,232,2.02863e-14
+42.0312,30.7422,18493,1897,375,228,1.89242e-14
+42.5312,31.2578,18429,1869,375,232,1.8577e-14
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,190,60,2,35,35,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.875,44913,2088,553,234,4.74297e-15
+41.7812,30.4883,19247,1853,374,223,4.8029e-15
+42.0312,30.7461,18389,1918,367,224,4.73429e-15
+42.0312,30.7461,17755,1931,375,230,4.47313e-15
+42.5312,31.2617,18324,1870,367,226,4.49876e-15
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,192,60,2,36,36,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9023,43454,2160,565,235,1.22528e-15
+41.7812,30.457,19420,1943,376,231,1.17026e-15
+42.0312,30.7148,18608,2002,439,240,1.21065e-15
+42.0312,30.7148,19103,2051,412,338,1.24605e-15
+42.5312,31.2305,21532,1960,383,240,1.2224e-15
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,194,60,2,37,37,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8672,42986,2077,548,230,2.99767e-16
+41.7812,30.2734,18101,1870,374,227,2.96824e-16
+42.0312,30.5312,17390,1775,356,222,2.81403e-16
+42.0312,30.5312,17419,1852,374,245,2.92706e-16
+42.5312,31.0469,17419,1818,365,230,3.1475e-16
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,196,60,2,38,38,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0078,42090,2105,583,319,7.39315e-17
+41.7812,30.4102,18045,1936,375,229,6.90101e-17
+42.0312,30.668,18046,2010,381,237,7.21478e-17
+42.0312,30.668,17465,1931,409,238,7.1146e-17
+42.5312,31.1836,18560,1870,374,229,7.60731e-17
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,198,60,2,39,39,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8516,44616,2111,731,231,1.85376e-17
+41.7812,30.3828,18767,1942,384,235,1.81317e-17
+41.7812,30.3828,17524,2056,377,233,1.85171e-17
+41.7812,30.3828,17724,2026,370,223,1.88103e-17
+42.0312,30.6406,17922,2114,407,242,2.007e-17
+times_to_square: 2,max_nr:1
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,200,60,2,40,40,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8711,43249,2205,562,230,4.68758e-18
+41.7812,30.2773,18945,1921,378,241,4.54763e-18
+41.7812,30.2773,18848,1861,375,224,4.74669e-18
+41.7812,30.2773,18871,1879,364,222,4.54761e-18
+42.0312,30.5352,18437,1973,389,236,4.68213e-18
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,1,2,149.255
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2773,479387,3607,0,2995,178.649
+86.7891,79.125,471216,3462,1,2315,176.448
+86.7891,79.125,462584,3903,1,2386,177.831
+86.7891,79.125,471335,3563,1,2331,170.705
+86.7891,79.125,453666,3564,1,2366,177.547
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,2,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3789,463837,3010,0,2765,43.4248
+86.8203,79.1953,440311,3576,1,2224,42.8561
+86.8203,79.1953,458055,3476,1,2357,44.7859
+86.8164,79.1914,459101,3255,0,2305,44.196
+86.8164,79.1914,474631,3399,0,2302,42.6656
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,3,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2266,445893,3060,8,2835,10.8898
+86.8359,79.0586,447521,3687,1,2270,10.8524
+86.8359,79.0586,424674,3888,0,2234,10.354
+86.7109,78.9336,437319,2912,0,2272,10.4553
+86.832,79.0547,438805,2890,0,2294,11.173
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,4,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1953,481997,4287,1,2790,2.66916
+86.8398,79.0312,465859,4566,0,2361,2.70197
+86.8398,79.0312,458015,3385,0,2283,2.72585
+86.8398,79.0312,474136,2864,0,2421,2.76394
+86.8398,79.0312,451986,3913,0,2414,2.72792
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,5,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2539,444643,3738,0,2658,0.677425
+86.8438,79.0938,418530,3513,1,2226,0.683657
+86.8438,79.0938,441996,3607,1,2232,0.676245
+86.8438,79.0938,448092,3009,1,2297,0.680935
+86.8438,79.0938,435960,3761,1,2235,0.680745
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,6,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3984,488179,4224,0,3836,0.170501
+86.8438,79.2383,461690,3176,1,2417,0.169392
+86.8438,79.2383,459235,3560,1,3139,0.170677
+86.8438,79.2383,461168,3754,0,2316,0.172144
+86.8438,79.2383,461045,2842,2,2390,0.172661
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,7,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.332,449258,2994,0,2673,0.0420197
+86.8477,79.1758,435976,3689,0,2278,0.0429507
+86.8477,79.1758,430393,3765,1,2239,0.0415071
+86.8477,79.1758,442751,2776,0,2204,0.0413636
+86.8477,79.1758,444587,3037,0,2239,0.0424625
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,8,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3906,457429,3511,0,2889,0.0108496
+86.8477,79.2969,470375,3123,0,2357,0.0103874
+86.8477,79.2969,454055,2903,1,2312,0.0106032
+86.8477,79.2969,474606,4364,0,2436,0.0105555
+86.8477,79.2969,478042,2905,1,2362,0.010566
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,9,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3008,442059,3788,1,2697,0.00269399
+86.8477,79.1445,453907,2997,1,2189,0.0026954
+86.8477,79.1445,429064,4520,0,2323,0.00266707
+86.8477,79.1445,428543,3561,1,2293,0.0026387
+86.8477,79.1445,447154,4034,1,3774,0.00264041
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,10,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1641,477945,3256,1,2857,0.000657676
+86.8477,79.0078,460257,3184,1,2470,0.00065415
+86.8477,79.0078,453941,3232,0,2376,0.00065557
+86.8477,79.0078,476754,2953,1,2331,0.000653061
+86.8477,79.0078,476508,4069,1,2303,0.000667094
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,11,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1367,446260,3797,1,2751,0.000163634
+86.8477,78.9805,429444,3154,0,2264,0.000165986
+86.8477,78.9805,431500,3828,0,2267,0.000171214
+86.8477,78.9805,441955,3393,0,2260,0.000163414
+86.8477,78.9805,443620,2735,0,2265,0.000163741
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,12,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1484,477948,5337,0,2735,4.09178e-05
+86.8477,78.9922,467536,4060,1,2388,4.02512e-05
+86.8477,78.9922,471316,2831,1,2318,4.18835e-05
+86.8477,78.9922,461186,4540,0,2304,4.23472e-05
+86.8477,78.9922,457957,4380,1,2388,4.15239e-05
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,13,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2031,453046,3869,0,2791,1.06734e-05
+86.8477,79.1094,432038,3735,0,2269,1.06912e-05
+86.8477,79.1094,440022,2733,0,2214,1.03786e-05
+86.8477,79.1094,422079,3047,0,2275,9.91763e-06
+86.8477,79.1094,426382,4177,0,2265,1.05976e-05
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,14,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3281,466745,3139,0,2810,2.60875e-06
+86.8477,79.1719,448363,3074,0,2311,2.55642e-06
+86.8477,79.1719,464171,3872,0,2429,2.644e-06
+86.8477,79.1719,459258,3497,0,2303,2.55887e-06
+86.8477,79.1719,461328,5412,1,2289,2.58618e-06
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,15,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4219,458828,3752,1,2720,6.32971e-07
+86.8477,79.2656,428618,4365,0,2243,6.4781e-07
+86.8477,79.2656,429831,3200,1,2242,6.44666e-07
+86.8477,79.2656,441863,3606,0,2270,6.44592e-07
+86.8477,79.2656,434408,3475,0,2229,6.37613e-07
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,16,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4375,486512,3502,0,2929,1.59694e-07
+86.8477,79.3438,459001,3146,1,2390,1.6128e-07
+86.8477,79.3438,460322,4541,1,2286,1.62699e-07
+86.8477,79.3438,458879,3486,1,2305,1.64097e-07
+86.8477,79.3438,462219,3188,0,2293,1.6209e-07
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,17,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5469,464271,4922,0,2738,4.06662e-08
+86.8477,79.3906,445799,3689,0,2311,3.95981e-08
+86.8477,79.3906,435870,3463,0,2220,4.10353e-08
+86.8477,79.3906,457678,4980,1,2297,3.97466e-08
+86.8477,79.3906,456673,2760,1,2348,4.12271e-08
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,18,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.332,471407,4232,0,2863,1.01615e-08
+86.8477,79.1758,467101,4744,0,2425,1.02052e-08
+86.8477,79.1758,468107,3054,0,2355,1.01963e-08
+86.8477,79.1758,464949,3217,0,2138,1.02309e-08
+86.8477,79.1758,460892,3057,1,2557,1.0104e-08
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,19,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4844,486928,3531,1,2792,2.56739e-09
+86.8477,79.3281,458512,3103,1,2332,2.50955e-09
+86.8477,79.3281,464532,3425,1,2277,2.48423e-09
+86.8477,79.3281,454005,4003,1,2364,2.48723e-09
+86.8477,79.3281,459267,3744,0,2302,2.54984e-09
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,20,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1367,480490,3519,1,2753,6.25237e-10
+86.8477,78.9805,439873,3291,0,2326,6.33222e-10
+86.8477,78.9805,439429,2730,0,2253,6.42056e-10
+86.8477,78.9805,455612,3211,1,2245,6.2134e-10
+86.8477,78.9805,462926,4188,0,2182,6.3821e-10
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,21,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2656,469512,3485,0,2879,1.57281e-10
+86.8477,79.1094,431450,3238,1,2234,1.5791e-10
+86.8477,79.1094,473479,4274,1,2615,1.58914e-10
+86.8477,79.1094,469926,3815,1,2553,1.59457e-10
+86.8477,79.1094,437570,2718,1,2258,1.60352e-10
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,22,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1172,447385,4971,1,2662,3.95285e-11
+86.8477,78.9609,428467,2938,0,2140,3.99309e-11
+86.8477,78.9609,436443,3832,0,2320,4.00837e-11
+86.8477,78.9609,437133,3866,0,2175,3.95145e-11
+86.8477,78.9609,424111,3372,0,2189,3.92235e-11
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,23,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3555,471485,3353,0,2713,9.92981e-12
+86.8477,79.2578,466156,3372,0,2377,1.00128e-11
+86.8477,79.2578,488501,2982,0,2441,9.92571e-12
+86.8477,79.2578,476476,3222,0,2441,9.98227e-12
+86.8477,79.2578,466674,2863,0,2344,9.84348e-12
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,24,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4023,464304,3985,1,2847,2.4701e-12
+86.8477,79.2461,439969,2973,0,2205,2.4359e-12
+86.8477,79.2461,435547,3178,1,2262,2.44737e-12
+86.8477,79.2461,439882,3378,0,2272,2.45498e-12
+86.8477,79.2461,450681,3050,1,2202,2.48982e-12
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,25,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4453,472146,4254,0,2924,6.26248e-13
+86.8477,79.2891,447667,3683,0,2272,6.28698e-13
+86.8477,79.2891,448393,3081,0,2358,6.1023e-13
+86.8477,79.2891,449219,2895,0,2233,6.21128e-13
+86.8477,79.2891,484914,3621,1,2372,5.96442e-13
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,26,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3125,458519,3751,0,2858,1.52276e-13
+86.8477,79.1562,445457,3017,0,2280,1.51547e-13
+86.8477,79.1562,427721,3550,1,2308,1.57768e-13
+86.8477,79.1562,440730,2942,0,2254,1.55314e-13
+86.8477,79.1562,445218,2798,1,2298,1.55822e-13
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,27,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4453,442778,3487,1,2687,3.786e-14
+86.8477,79.2891,445396,2914,0,2172,3.93879e-14
+86.8477,79.2891,426622,3003,1,2202,3.86957e-14
+86.8477,79.2891,437717,3402,0,2157,3.84101e-14
+86.8477,79.2891,423443,2845,0,2184,3.81717e-14
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,28,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3125,506994,4121,1,2958,9.80989e-15
+86.8477,79.1562,462025,5346,0,2403,9.78392e-15
+86.8477,79.1562,471085,3592,0,2356,9.5805e-15
+86.8477,79.1562,470985,3371,0,2369,9.68319e-15
+86.8477,79.1562,480690,3480,0,2399,9.5385e-15
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,29,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.293,441378,2975,1,2706,2.41547e-15
+86.8477,79.1992,441594,3324,1,2331,2.35144e-15
+86.8477,79.1992,470108,3990,1,2351,2.4624e-15
+86.8477,79.1992,460111,3660,1,2349,2.442e-15
+86.8477,79.1992,470012,2841,0,2316,2.37762e-15
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,30,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.543,501406,3119,1,2709,6.12547e-16
+86.8477,79.4492,462733,3295,1,2283,6.07773e-16
+86.8477,79.4492,457646,3732,1,2381,6.01674e-16
+86.8477,79.4492,490827,4728,1,2532,6.01935e-16
+86.8477,79.4492,505489,3767,1,2625,5.95384e-16
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,31,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,532595,3925,1,3231,1.49508e-16
+86.8477,79.2383,507970,3066,0,2328,1.52066e-16
+86.8477,79.2383,451135,3067,1,2239,1.49486e-16
+86.8477,79.2383,460368,4387,0,2420,1.51228e-16
+86.8477,79.2383,493774,3126,1,2573,1.50403e-16
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,32,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3828,508473,3117,0,2808,3.73906e-17
+86.8477,79.2266,517849,4734,0,2837,3.77624e-17
+86.8477,79.2266,512661,3155,0,2308,3.79114e-17
+86.8477,79.2266,454673,4004,0,2687,3.87841e-17
+86.8477,79.2266,454800,4746,0,2399,3.77494e-17
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,33,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.418,550028,5341,0,2956,9.22615e-18
+86.8477,79.2617,464548,4563,0,2328,9.35415e-18
+86.8477,79.2617,452180,6943,1,2293,9.41511e-18
+86.8477,79.2617,457547,3403,0,2250,9.45568e-18
+86.8477,79.2617,452183,2774,1,2249,9.39059e-18
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,34,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2656,470034,3562,0,2722,2.36602e-18
+86.8477,79.1719,438680,3014,0,2311,2.29501e-18
+86.8477,79.1719,442018,3607,1,2246,2.39274e-18
+86.8477,79.1719,444565,3636,0,2199,2.36127e-18
+86.8477,79.1719,461354,3534,1,2313,2.41057e-18
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,35,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3789,494504,3591,1,3068,5.98053e-19
+86.8477,79.2227,480671,3594,1,2511,5.88152e-19
+86.8477,79.2227,448423,3700,1,2211,5.892e-19
+86.8477,79.2227,456020,3129,1,2272,5.70148e-19
+86.8477,79.2227,472938,2896,1,2299,5.75683e-19
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,36,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5,506593,3768,7,2935,1.44617e-19
+86.8477,79.3438,481973,3402,0,2275,1.49383e-19
+86.8477,79.3438,466160,3655,0,2365,1.4569e-19
+86.8477,79.3438,468149,4589,0,2332,1.51262e-19
+86.8477,79.3438,475770,3083,0,2357,1.45061e-19
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,37,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1875,480468,3022,0,2753,3.71394e-20
+86.8477,79.0312,422764,4924,1,2160,3.69369e-20
+86.8477,79.0312,430201,2873,0,2125,3.62313e-20
+86.8477,79.0312,425916,2842,0,2167,3.67465e-20
+86.8477,79.0312,424973,3241,1,2161,3.63747e-20
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,38,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2812,465325,4408,1,4485,9.23132e-21
+86.8477,79.125,477916,3446,1,2368,9.21067e-21
+86.8477,79.125,490090,3449,1,2573,9.16556e-21
+86.8477,79.125,481730,4469,0,2443,9.09684e-21
+86.8477,79.125,457785,4110,1,2490,9.30497e-21
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,39,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3672,512334,3384,1,3151,2.28057e-21
+86.8477,79.2109,469719,3206,0,2350,2.29621e-21
+86.8477,79.2109,457585,3058,0,2396,2.30034e-21
+86.8477,79.2109,465111,3105,1,2610,2.31048e-21
+86.8477,79.2109,461633,2912,1,2573,2.30021e-21
+times_to_square: 2,max_nr:8
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,40,2,119.006
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.543,523849,3297,1,2995,5.67281e-22
+86.8477,79.3867,461131,3853,0,2514,5.74808e-22
+86.8477,79.3867,473724,3665,1,2500,5.70646e-22
+86.8477,79.3867,476028,3469,0,2483,5.73107e-22
+86.8477,79.3867,454143,4066,1,2492,5.67388e-22
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,154,60,2,17,17,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0039,44903,2295,648,260,0.451572
+41.7812,30.4922,19964,2086,403,248,0.449208
+42.0312,30.75,18912,1997,397,245,0.46111
+42.0312,30.75,19544,2004,397,242,0.436464
+42.5312,31.2656,19027,1986,385,244,0.438166
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,156,60,2,18,18,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.918,42509,2144,561,236,0.113694
+41.7812,30.375,18869,2070,387,235,0.110687
+42.0312,30.6328,17802,1940,384,236,0.113627
+42.0312,30.6328,17696,1888,374,231,0.109128
+42.5312,31.1484,20285,1904,378,228,0.112898
+times_to_square: 2,max_nr:8
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,160,60,2,20,20,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7812,45962,2209,590,246,0.00716711
+41.7812,30.3672,19585,2035,387,238,0.00708721
+41.7812,30.3672,18039,2042,393,241,0.00726388
+41.7812,30.3672,18235,2152,387,237,0.00722033
+42.0312,30.625,18062,2123,385,235,0.00688529
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,162,60,2,21,21,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9922,42779,2205,568,237,0.00177639
+41.7812,30.582,19546,1995,390,254,0.00174598
+42.0312,30.8398,19111,1991,403,252,0.00171866
+42.0312,30.8398,19588,1957,387,237,0.00181086
+42.5312,31.3555,20958,1991,413,244,0.00167498
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,164,60,2,22,22,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9414,42018,2125,566,242,0.000440626
+41.7812,30.4883,18929,1897,377,232,0.000432882
+42.0312,30.7461,17563,1901,376,232,0.000445585
+42.0312,30.7461,17610,1851,383,237,0.000438076
+42.5312,31.2617,17784,1916,385,235,0.000468544
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,166,60,2,23,23,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7617,41830,2112,553,227,0.000110899
+41.7812,30.3555,18190,1893,394,231,0.000102649
+41.7812,30.3555,17662,1914,375,226,0.000109156
+41.7812,30.3555,17713,1919,375,228,0.0001064
+42.2812,30.8711,21121,2517,382,229,0.000117503
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,168,60,2,24,24,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9102,41818,2204,580,236,2.80502e-05
+41.7812,30.4375,19348,2163,400,236,2.71375e-05
+42.0312,30.6953,19027,2024,399,267,2.67266e-05
+42.0312,30.6953,21881,2985,555,379,2.76599e-05
+42.5312,31.2109,22952,2989,593,402,2.88476e-05
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,170,60,2,25,25,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7969,48095,2333,631,258,6.60291e-06
+41.7812,30.3867,19453,2228,430,251,6.89356e-06
+41.7812,30.3867,18810,2059,409,250,6.66417e-06
+41.7812,30.3867,19014,2120,426,260,6.55698e-06
+42.0312,30.6445,19321,2169,425,278,6.69767e-06
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,172,60,2,26,26,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9883,47957,2360,643,258,1.80025e-06
+41.7812,30.5781,20095,2140,425,258,1.75436e-06
+42.0312,30.8359,20152,2117,421,256,1.82687e-06
+42.0312,30.8359,19591,2136,425,258,1.76251e-06
+42.5312,31.3516,20141,2210,433,261,1.74076e-06
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,174,60,2,27,27,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9727,46757,2307,607,247,4.33307e-07
+41.7812,30.5273,19963,2044,410,248,4.2651e-07
+42.0312,30.7852,19274,2060,414,262,4.30256e-07
+42.0312,30.7852,19537,2083,410,262,4.54863e-07
+42.5312,31.3008,19911,2102,411,256,4.19565e-07
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,176,60,2,28,28,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9648,49799,2367,614,248,1.09343e-07
+41.7812,30.4531,20708,2065,411,248,1.12933e-07
+42.0312,30.7109,19878,2164,435,251,1.11997e-07
+42.0312,30.7109,22795,2459,483,253,1.04045e-07
+42.5312,31.2266,19475,2302,419,250,1.10402e-07
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,178,60,2,29,29,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.875,45437,2308,608,255,2.71578e-08
+41.7812,30.4883,19417,2040,405,249,2.71884e-08
+41.7812,30.4883,18914,2062,407,249,2.85113e-08
+41.7812,30.4883,18607,2114,408,249,2.80488e-08
+42.2812,31.0039,18636,2071,407,251,2.55639e-08
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,180,60,2,30,30,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.957,52326,3557,812,270,6.38078e-09
+41.7812,30.418,20497,2128,420,261,6.53913e-09
+42.0312,30.6758,19476,2133,420,258,6.57932e-09
+42.0312,30.6758,19164,2111,418,264,7.08115e-09
+42.5312,31.1914,20306,2076,406,248,6.70407e-09
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,182,60,2,31,31,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9531,46709,2305,606,248,1.67544e-09
+41.7812,30.4375,20274,2193,455,250,1.75121e-09
+42.0312,30.6953,19945,2112,410,249,1.73098e-09
+42.0312,30.6953,20316,2090,443,249,1.66488e-09
+42.5312,31.2109,20978,2292,421,252,1.64172e-09
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,184,60,2,32,32,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8047,46734,2343,640,253,4.26493e-10
+41.7812,30.3359,21458,2073,426,249,4.45673e-10
+41.7812,30.3359,20194,2127,415,251,4.27536e-10
+41.7812,30.3359,24234,2221,427,259,4.06809e-10
+42.2812,30.8516,21912,2216,425,258,4.45518e-10
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,186,60,2,33,33,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0078,49151,2397,636,261,1.09738e-10
+41.7812,30.4297,22348,2196,443,259,1.02535e-10
+42.0312,30.6875,21750,2271,464,261,1.07855e-10
+42.0312,30.6875,20939,2143,426,268,1.02905e-10
+42.5312,31.2031,20616,2181,415,297,1.046e-10
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,188,60,2,34,34,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8672,48416,2313,715,298,2.55307e-11
+41.7812,30.3438,21188,2054,406,248,2.54411e-11
+42.0312,30.6016,20836,2161,409,291,2.61773e-11
+42.0312,30.6016,19943,2027,401,242,2.77249e-11
+42.5312,31.1172,19521,2071,401,287,2.648e-11
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,190,60,2,35,35,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.7773,47797,2406,598,255,6.99379e-12
+41.7812,30.3906,22012,2057,417,257,6.3073e-12
+42.0312,30.6484,20014,2135,407,239,6.66653e-12
+42.0312,30.6484,19472,1960,390,239,6.56969e-12
+42.5312,31.1641,19863,1983,413,271,6.5281e-12
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,192,60,2,36,36,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8438,44269,2272,579,235,1.66496e-12
+41.7812,30.3711,19566,1949,395,236,1.63231e-12
+42.0312,30.6289,18844,1893,387,232,1.56957e-12
+42.0312,30.6289,18573,1911,381,231,1.73894e-12
+42.5312,31.1445,18886,2935,492,319,1.69909e-12
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,194,60,2,37,37,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9648,42500,2081,563,236,4.15606e-13
+41.7812,30.3867,18705,2026,377,229,4.13164e-13
+42.0312,30.6445,17925,1876,381,229,4.07594e-13
+42.0312,30.6445,17789,1904,378,239,4.23724e-13
+42.5312,31.1602,18486,2030,379,231,3.93743e-13
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,196,60,2,38,38,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0195,45403,2093,567,233,1.04563e-13
+41.7812,30.5039,18934,1986,393,269,1.04903e-13
+42.0312,30.7617,18987,1979,392,231,1.05294e-13
+42.0312,30.7617,17741,1938,398,231,9.83736e-14
+42.5312,31.2773,17977,2017,386,231,1.05015e-13
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,198,60,2,39,39,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0391,43829,2168,573,236,2.38709e-14
+41.7812,30.4609,19778,1965,389,237,2.62651e-14
+41.7812,30.4609,18720,1876,386,229,2.57464e-14
+41.7812,30.4609,18813,1918,431,229,2.51443e-14
+42.0312,30.7188,19163,2088,406,236,2.58269e-14
+times_to_square: 2,max_nr:8
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,200,60,2,40,40,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8516,47513,2234,681,405,6.37142e-15
+41.7812,30.3828,19857,2159,394,246,6.62385e-15
+41.7812,30.3828,19361,1990,412,247,6.2181e-15
+41.7812,30.3828,19555,1986,381,239,6.83665e-15
+42.0312,30.6406,19746,2117,390,239,6.22647e-15
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,1,2,149.255
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1445,479051,3110,0,2845,4.57438e+07
+86.7891,78.9297,454732,2804,0,2151,4.53101e+07
+86.7891,78.9297,428981,3123,1,2235,4.58526e+07
+86.7891,78.9297,430251,3576,0,2255,4.38379e+07
+86.7891,78.9297,440605,3478,0,2450,4.56692e+07
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,2,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4805,515978,4516,1,3137,1.12226e+07
+86.8203,79.3594,476292,4277,0,2241,1.10266e+07
+86.8203,79.3594,484800,3380,1,2417,1.15968e+07
+86.8164,79.3555,484066,4789,0,2332,1.13924e+07
+86.8164,79.3555,460267,2809,0,2319,1.1009e+07
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,3,2,147.406
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1797,466599,2829,1,2618,2.8086e+06
+86.8359,79.0117,443152,3398,1,2318,2.80135e+06
+86.8359,79.0117,434624,4302,0,2231,2.65513e+06
+86.7109,78.8867,428069,3371,0,2184,2.71063e+06
+86.832,79.0078,436638,2814,0,2244,2.86419e+06
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,4,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1094,463661,4413,0,2831,690631
+86.8398,79.0078,444392,3468,0,2298,695123
+86.8398,79.0078,458389,4290,0,2325,701399
+86.8398,79.0078,486649,3250,1,2457,712522
+86.8398,79.0078,497612,4014,0,2418,701830
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,5,2,145.638
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2617,470287,3145,0,2807,174859
+86.8438,79.1016,453621,3427,0,2332,174206
+86.8438,79.1016,450701,2789,1,2333,174584
+86.8438,79.1016,462455,3496,1,2327,174818
+86.8438,79.1016,470571,2961,1,2416,175513
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,6,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2812,481109,5756,1,2892,43871.4
+86.8438,79.1211,483605,4658,0,2504,43843.9
+86.8438,79.1211,455227,3166,1,2330,43941.5
+86.8438,79.1211,456686,4431,0,2336,44487.8
+86.8438,79.1211,473840,3596,1,2462,44453.9
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,7,2,143.811
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3867,473490,3516,0,2857,10798.3
+86.8477,79.2305,469920,3890,1,2301,11008.7
+86.8477,79.2305,439997,3068,1,2337,10715.8
+86.8477,79.2305,512613,3454,0,2324,10732.7
+86.8477,79.2305,485597,2885,0,2373,10918.4
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,8,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3789,480318,4052,0,2795,2790.04
+86.8477,79.2227,460710,3875,1,2346,2676.46
+86.8477,79.2227,463443,3695,0,2294,2734.06
+86.8477,79.2227,455088,2880,0,2297,2703.23
+86.8477,79.2227,473647,3145,1,2330,2716.72
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,9,2,142.163
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5078,459595,3916,0,2825,685.325
+86.8477,79.3516,418750,3285,0,2185,696.1
+86.8477,79.3516,446368,2735,0,2316,690.261
+86.8477,79.3516,465099,3597,1,2387,681.521
+86.8477,79.3516,492118,3664,0,2373,681.223
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,10,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.293,459366,2998,0,2672,169.502
+86.8477,79.1992,434817,4537,1,2365,168.648
+86.8477,79.1992,471179,4972,0,2314,169.206
+86.8477,79.1992,441057,3675,1,2195,169.073
+86.8477,79.1992,457094,2969,1,2258,171.662
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,11,2,140.482
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.125,441693,3190,1,2646,41.9278
+86.8477,78.9688,448937,3420,1,2434,42.7289
+86.8477,78.9688,446662,4430,1,2327,44.1351
+86.8477,78.9688,445046,3672,1,2358,42.3173
+86.8477,78.9688,454534,3573,0,2298,42.3673
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,12,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4375,478685,3926,1,2851,10.5721
+86.8477,79.2812,509674,5438,1,2332,10.3344
+86.8477,79.2812,481357,3836,1,2422,10.7435
+86.8477,79.2812,466707,3789,1,2335,10.8471
+86.8477,79.2812,459870,4270,1,2374,10.6154
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,13,2,138.794
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4453,428200,4465,0,2551,2.7503
+86.8477,79.3516,420061,2861,0,2124,2.7429
+86.8477,79.3516,423526,3168,1,2179,2.66885
+86.8477,79.3516,430784,3113,1,2191,2.56247
+86.8477,79.3516,478419,3560,0,2500,2.71684
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,14,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2891,517104,4632,1,2970,0.671124
+86.8477,79.1914,456658,3370,0,2335,0.656519
+86.8477,79.1914,430203,2759,0,2340,0.680457
+86.8477,79.1914,508966,3794,1,2412,0.658658
+86.8477,79.1914,482184,4278,0,2341,0.662546
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,15,2,137.178
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3984,471753,3087,0,2846,0.162958
+86.8477,79.3047,444823,3036,1,2259,0.165984
+86.8477,79.3047,443030,3472,0,2241,0.164795
+86.8477,79.3047,445455,3770,1,2263,0.168157
+86.8477,79.3047,480486,3194,1,2766,0.164911
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,16,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.293,492006,3548,0,2847,0.0410545
+86.8477,79.1367,472026,3182,1,2434,0.0416817
+86.8477,79.1367,519655,3495,1,2483,0.0420538
+86.8477,79.1367,500578,3835,1,2388,0.0419355
+86.8477,79.1367,466041,3601,0,2357,0.0415611
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,17,2,135.661
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3008,533928,4429,1,3103,0.0104367
+86.8477,79.1445,489990,3987,0,2430,0.0101898
+86.8477,79.1445,494396,3497,0,2362,0.0105451
+86.8477,79.1445,477962,3925,1,2283,0.0102108
+86.8477,79.1445,456161,2937,1,2259,0.0105462
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,18,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,477683,3261,0,2757,0.00262347
+86.8477,79.2383,456445,3589,1,2170,0.00261677
+86.8477,79.2383,443254,2930,1,2252,0.00262139
+86.8477,79.2383,454170,4768,1,2256,0.00262986
+86.8477,79.2383,494438,3822,1,2663,0.00259936
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,19,2,134.056
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2031,535686,4883,1,2999,0.000661655
+86.8477,79.0469,467439,3589,0,2525,0.00064949
+86.8477,79.0469,469439,2903,1,3436,0.000636391
+86.8477,79.0469,487365,4604,1,2406,0.000641633
+86.8477,79.0469,475581,3135,1,2174,0.000655558
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,20,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3359,472679,4716,0,2794,0.000160439
+86.8477,79.1797,460850,3701,0,2311,0.000163624
+86.8477,79.1797,466093,3027,1,2341,0.000163812
+86.8477,79.1797,452532,3508,1,2316,0.000160335
+86.8477,79.1797,455409,3390,0,2581,0.00016451
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,21,2,132.565
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5469,534841,4575,0,2683,4.04479e-05
+86.8477,79.3906,461710,3435,0,2303,4.05686e-05
+86.8477,79.3906,460111,4175,0,2401,4.11017e-05
+86.8477,79.3906,462303,3288,0,2312,4.08746e-05
+86.8477,79.3906,452190,3358,0,2295,4.13054e-05
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,22,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.207,435798,2881,0,2660,1.01879e-05
+86.8477,79.0508,432626,3106,0,2206,1.03565e-05
+86.8477,79.0508,449603,2661,0,2192,1.03348e-05
+86.8477,79.0508,440337,3297,1,2230,1.01788e-05
+86.8477,79.0508,435050,3516,1,2217,1.0102e-05
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,23,2,131.053
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1406,474626,3656,0,2929,2.54484e-06
+86.8477,78.9844,446637,3975,1,2400,2.57137e-06
+86.8477,78.9844,465739,3304,1,2435,2.56527e-06
+86.8477,78.9844,491174,3817,1,2602,2.57546e-06
+86.8477,78.9844,473844,2802,0,2327,2.52187e-06
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,24,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2422,492934,3109,1,2821,6.41064e-07
+86.8477,79.0859,462626,3395,0,2317,6.26269e-07
+86.8477,79.0859,448878,3856,0,2319,6.3237e-07
+86.8477,79.0859,462548,3842,0,2348,6.37229e-07
+86.8477,79.0859,452436,3369,1,2398,6.3752e-07
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,25,2,129.743
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3242,457425,3920,0,2772,1.60766e-07
+86.8477,79.168,461282,3842,1,2372,1.61761e-07
+86.8477,79.168,438459,2721,0,2171,1.57337e-07
+86.8477,79.168,437893,3794,0,2201,1.60154e-07
+86.8477,79.168,453246,2911,0,2238,1.53424e-07
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,26,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3828,481395,4355,1,2952,3.89147e-08
+86.8477,79.2266,456189,3904,0,2332,3.93176e-08
+86.8477,79.2266,461586,3248,1,2346,4.05065e-08
+86.8477,79.2266,459310,3565,0,2312,4.01091e-08
+86.8477,79.2266,442275,3390,0,2242,4.00194e-08
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,27,2,128.221
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4648,460045,3036,0,2777,9.79897e-09
+86.8477,79.3086,447062,3221,1,2278,1.00404e-08
+86.8477,79.3086,459209,3177,9,2537,9.94841e-09
+86.8477,79.3086,497624,3572,1,2554,9.82834e-09
+86.8477,79.3086,497608,3297,0,2279,9.79018e-09
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,28,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2969,469266,3994,0,2779,2.5231e-09
+86.8477,79.1406,480458,3428,1,3066,2.51495e-09
+86.8477,79.1406,498253,3950,1,2312,2.4666e-09
+86.8477,79.1406,491437,4043,1,2491,2.48877e-09
+86.8477,79.1406,457041,3437,0,2235,2.46767e-09
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,29,2,126.792
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5,482416,3774,0,2752,6.18325e-10
+86.8477,79.3438,462856,3648,0,2232,6.05277e-10
+86.8477,79.3438,451629,3103,0,2305,6.36093e-10
+86.8477,79.3438,441313,2848,0,2264,6.35809e-10
+86.8477,79.3438,444572,3549,0,2163,6.15712e-10
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,30,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.207,463737,4156,0,2764,1.57743e-10
+86.8477,79.1133,440399,5100,0,2336,1.55913e-10
+86.8477,79.1133,448109,2784,1,2257,1.55691e-10
+86.8477,79.1133,442721,3784,1,2268,1.5434e-10
+86.8477,79.1133,453805,3619,0,2243,1.52846e-10
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,31,2,125.5
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4492,446224,4636,6,2675,3.84779e-11
+86.8477,79.3555,435195,3576,0,2251,3.91518e-11
+86.8477,79.3555,441080,3641,0,2253,3.85205e-11
+86.8477,79.3555,460945,3102,0,2244,3.89773e-11
+86.8477,79.3555,446585,3687,0,2396,3.8584e-11
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,32,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3086,485958,3497,0,2823,9.62535e-12
+86.8477,79.1523,449752,3352,1,2295,9.75911e-12
+86.8477,79.1523,443360,4241,1,2214,9.72821e-12
+86.8477,79.1523,448570,3233,1,2272,1.00184e-11
+86.8477,79.1523,431525,3019,1,2213,9.64379e-12
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,33,2,124.096
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1875,495307,3281,0,2852,2.36821e-12
+86.8477,79.0312,458892,3523,0,2357,2.41293e-12
+86.8477,79.0312,469304,3527,0,2357,2.42047e-12
+86.8477,79.0312,460990,3278,0,2342,2.43953e-12
+86.8477,79.0312,463246,3262,0,2316,2.42802e-12
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,34,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3672,459876,3273,0,2643,6.11509e-13
+86.8477,79.2109,429488,3122,0,2168,5.95499e-13
+86.8477,79.2109,430505,3158,1,2197,6.13335e-13
+86.8477,79.2109,428328,3763,0,2183,6.0733e-13
+86.8477,79.2109,430955,3295,0,2236,6.1551e-13
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,35,2,122.718
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.1719,485440,3489,0,2776,1.54075e-13
+86.8477,79.0781,461020,3845,0,2356,1.51048e-13
+86.8477,79.0781,444383,2974,1,2357,1.52863e-13
+86.8477,79.0781,446183,3556,1,2355,1.47273e-13
+86.8477,79.0781,451436,2991,1,2190,1.48248e-13
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,36,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.4219,455909,3324,1,2760,3.73099e-14
+86.8477,79.2656,430796,4613,0,2309,3.85635e-14
+86.8477,79.2656,444539,3181,1,2331,3.7314e-14
+86.8477,79.2656,438928,3204,1,2286,3.90629e-14
+86.8477,79.2656,475282,3044,1,2490,3.71491e-14
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,37,2,121.465
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3672,510165,3470,0,2997,9.56493e-15
+86.8477,79.2109,464562,3632,1,2513,9.51757e-15
+86.8477,79.2109,474990,3930,0,2517,9.32871e-15
+86.8477,79.2109,474073,3238,0,2560,9.44885e-15
+86.8477,79.2109,474271,3335,0,2611,9.45024e-15
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,38,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.3945,486848,3379,6,2986,2.37723e-15
+86.8477,79.2383,461711,4212,1,2580,2.38346e-15
+86.8477,79.2383,469389,2704,0,2365,2.36099e-15
+86.8477,79.2383,442943,3663,1,2284,2.35874e-15
+86.8477,79.2383,436116,2739,1,2423,2.41354e-15
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,39,2,120.226
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.2422,486832,3127,0,2951,5.86169e-16
+86.8477,79.0859,455878,4132,0,2488,5.87234e-16
+86.8477,79.0859,455173,3863,1,2445,5.95241e-16
+86.8477,79.0859,477124,5189,1,2799,5.92979e-16
+86.8477,79.0859,509446,3371,1,2668,5.90151e-16
+times_to_square: 2,max_nr:64
+library,batch_size,m,bits,,,,scale,c,security
+HELib,4096,16384,119,,,,40,2,119.006
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+86.0664,78.5,500780,3115,0,3153,1.45268e-16
+86.8477,79.3438,446485,3806,1,2551,1.49062e-16
+86.8477,79.3438,489754,4763,0,2566,1.48034e-16
+86.8477,79.3438,468317,3180,1,2484,1.48468e-16
+86.8477,79.3438,484413,3769,0,2674,1.46361e-16
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,154,60,2,17,17,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9258,46915,2380,654,258,1947.88
+41.7812,30.4805,20038,2155,433,260,1817.47
+42.0312,30.7383,19514,2126,424,258,1785.01
+42.0312,30.7383,19263,2130,422,260,1773.39
+42.5312,31.2539,19300,2047,425,249,1775.76
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,156,60,2,18,18,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8789,44824,2267,654,276,453.21
+41.7812,30.3867,20085,2104,412,249,442.699
+42.0312,30.6445,19346,2078,414,256,451.027
+42.0312,30.6445,19488,2103,435,246,473.005
+42.5312,31.1602,18612,2143,400,242,459.862
+times_to_square: 2,max_nr:64
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,160,60,2,20,20,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9258,54110,3627,919,440,28.0486
+41.7812,30.4023,22426,2215,418,269,30.3964
+41.7812,30.4023,19046,2090,409,251,27.8234
+41.7812,30.4023,18701,2119,412,251,26.1926
+42.0312,30.6602,18400,1996,396,248,28.3066
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,162,60,2,21,21,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.918,43405,2194,575,245,6.91123
+41.7812,30.4609,18655,1961,386,238,7.32611
+42.0312,30.7188,18147,1990,391,240,6.936
+42.0312,30.7188,17978,1983,401,238,6.87319
+42.5312,31.2344,18040,1977,388,236,6.8782
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,164,60,2,22,22,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8086,42932,2398,592,248,1.77525
+41.7812,30.3984,18731,1947,385,236,1.7133
+42.0312,30.6562,17968,2017,409,245,1.81295
+42.0312,30.6562,18238,2023,397,241,1.75783
+42.5312,31.1719,18382,2014,397,245,1.85676
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,166,60,2,23,23,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8477,45050,2274,597,251,0.442426
+41.7812,30.375,19513,2094,407,249,0.436304
+41.7812,30.375,18773,2102,421,251,0.456553
+41.7812,30.375,18783,2102,418,253,0.473253
+42.2812,30.8906,19191,2077,406,251,0.432518
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,168,60,2,24,24,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0195,45835,2360,636,257,0.11493
+41.7812,30.5039,19871,2131,424,259,0.109548
+42.0312,30.7617,21655,2121,422,268,0.115136
+42.0312,30.7617,19033,2140,425,259,0.105762
+42.5312,31.2773,20226,2129,425,259,0.108083
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,170,60,2,25,25,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9922,45848,2332,629,257,0.0279788
+41.7812,30.3945,19788,2146,424,257,0.0274423
+41.7812,30.3945,19074,2127,421,278,0.0274944
+41.7812,30.3945,19017,2146,423,255,0.027412
+42.0312,30.6523,19136,2160,423,271,0.0274503
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,172,60,2,26,26,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8672,46741,2372,649,266,0.00666084
+41.7812,30.4805,20031,2151,425,257,0.00673219
+42.0312,30.7383,21470,2080,420,251,0.00683563
+42.0312,30.7383,18641,2023,411,249,0.00678987
+42.5312,31.2539,18894,2080,408,250,0.00686366
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,174,60,2,27,27,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8594,45566,2271,600,255,0.00175281
+41.7812,30.4141,19517,2070,429,250,0.00179209
+42.0312,30.6719,18873,2259,413,258,0.00173691
+42.0312,30.6719,18920,2031,426,259,0.00173546
+42.5312,31.1875,18501,2002,396,242,0.00182176
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,176,60,2,28,28,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9297,44324,2198,587,247,0.000415721
+41.7812,30.4766,18848,2032,396,244,0.000440644
+42.0312,30.7344,18206,2014,385,249,0.000443454
+42.0312,30.7344,17687,1984,389,235,0.000419767
+42.5312,31.25,17942,1948,395,239,0.000447467
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,178,60,2,29,29,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9688,44380,2134,574,238,0.000106868
+41.7812,30.4492,18483,1887,375,236,0.000108406
+41.7812,30.4492,17468,1893,374,230,0.000106173
+41.7812,30.4492,17522,1998,375,229,0.00010922
+42.2812,30.9648,17748,1875,377,228,0.000113506
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,180,60,2,30,30,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0586,41357,2098,613,230,2.53098e-05
+41.7812,30.4609,18048,1889,375,229,2.64183e-05
+42.0312,30.7188,17482,1942,379,246,2.71968e-05
+42.0312,30.7188,17614,1864,386,229,2.74506e-05
+42.5312,31.2344,17581,1902,385,230,2.65358e-05
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,182,60,2,31,31,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8828,41990,2088,554,232,6.61879e-06
+41.7812,30.3398,18425,1865,383,230,6.41745e-06
+42.0312,30.5977,17710,1888,382,229,6.90352e-06
+42.0312,30.5977,17591,1815,366,225,6.85752e-06
+42.5312,31.1133,17078,1815,368,229,6.43388e-06
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,184,60,2,32,32,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,28.0195,43350,2124,544,233,1.75888e-06
+41.7812,30.4219,18059,1975,374,228,1.63379e-06
+41.7812,30.4219,17266,1874,362,226,1.6189e-06
+41.7812,30.4219,17004,1900,363,222,1.73023e-06
+42.2812,30.9375,17095,1864,364,225,1.75169e-06
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,186,60,2,33,33,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9727,41417,2148,550,231,4.2e-07
+41.7812,30.3945,18533,1894,375,230,4.21024e-07
+42.0312,30.6523,17978,1882,373,251,4.4398e-07
+42.0312,30.6523,17756,1866,383,236,4.10538e-07
+42.5312,31.168,17765,1862,379,225,4.1047e-07
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,188,60,2,34,34,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9453,48837,3266,597,245,1.16164e-07
+41.7812,30.4531,19385,2059,400,246,1.01438e-07
+42.0312,30.7109,18942,2011,397,244,1.0886e-07
+42.0312,30.7109,18472,2010,397,245,1.03415e-07
+42.5312,31.2266,19487,2009,386,238,1.01588e-07
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,190,60,2,35,35,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.875,44732,2146,567,236,2.81769e-08
+41.7812,30.3516,19076,1972,384,234,2.76226e-08
+42.0312,30.6094,18303,1974,387,246,2.52219e-08
+42.0312,30.6094,18248,1946,385,235,2.64633e-08
+42.5312,31.125,17967,1875,374,230,2.6326e-08
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,192,60,2,36,36,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9609,42261,2114,555,238,6.1607e-09
+41.7812,30.4219,18353,1886,374,236,6.5973e-09
+42.0312,30.6797,17850,1903,377,230,6.50363e-09
+42.0312,30.6797,17895,1869,378,233,6.61712e-09
+42.5312,31.1953,18404,1907,381,230,6.61141e-09
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,194,60,2,37,37,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9297,43967,2124,563,232,1.66356e-09
+41.7812,30.4062,18867,1896,453,229,1.66761e-09
+42.0312,30.6641,18005,2016,376,252,1.61007e-09
+42.0312,30.6641,17987,1971,397,237,1.65296e-09
+42.5312,31.1797,18225,2080,388,242,1.66297e-09
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,196,60,2,38,38,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.75,45859,2161,581,256,4.20957e-10
+41.7812,30.3398,20725,3024,541,326,4.06707e-10
+42.0312,30.5977,22793,3031,526,375,4.23545e-10
+42.0312,30.5977,20572,1965,386,237,4.13536e-10
+42.5312,31.1133,18818,1944,387,242,4.22463e-10
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,198,60,2,39,39,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.8672,44251,2160,569,237,1.00626e-10
+41.7812,30.4219,19040,1957,386,234,1.02364e-10
+41.7812,30.4219,18653,1984,388,242,1.02561e-10
+41.7812,30.4219,19138,2020,401,236,1.01319e-10
+42.0312,30.6797,18116,1951,377,229,9.98567e-11
+times_to_square: 2,max_nr:64
+library,batch_size,N,logQ,log_big_primes,nr_small_primes,log_small_primes,scale,,
+SEAL,4096,8192,200,60,2,40,40,,
+virtual_memory[MB],resident_memory[MB],keygen_duration[us],encryption_duration[us],operations_duration[us],decryption_duration[us],mean_squared_error
+39.5312,27.9688,43577,2159,564,236,2.60025e-11
+41.7812,30.457,18203,1883,375,229,2.53858e-11
+41.7812,30.457,17550,1885,377,230,2.64474e-11
+41.7812,30.457,17684,1871,374,228,2.60991e-11
+42.0312,30.7148,17837,1878,373,233,2.52899e-11
