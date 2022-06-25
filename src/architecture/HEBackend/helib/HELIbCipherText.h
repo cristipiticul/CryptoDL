@@ -255,7 +255,7 @@ public:
 
 			secretKey = std::make_shared<helib::SecKey>( *context );
 			secretKey->GenSecKey( w );
-			helib::addSome1DMatrices( *secretKey );					// compute key-switching matrices that we need
+			// helib::addSome1DMatrices( *secretKey );					// compute key-switching matrices that we need
 			publicKey = secretKey;
 			G = helib::makeIrredPoly( p, d );
 
@@ -276,7 +276,7 @@ public:
 			buildModChain( *context, L, c ); 				// Modify the context, adding primes to the modulus chain
 			secretKey = std::make_shared<helib::SecKey>( *context );
 			secretKey->GenSecKey();
-			helib::addSome1DMatrices( *secretKey );					// compute key-switching matrices that we need
+			// helib::addSome1DMatrices( *secretKey );					// compute key-switching matrices that we need
 			publicKey = secretKey;
 			ea = std::make_shared<helib::EncryptedArray>( *context );
 		}
@@ -300,7 +300,7 @@ public:
 		helib::buildModChain( *context, L, c ); 				// Modify the context, adding primes to the modulus chain
 		secretKey = std::make_shared<helib::SecKey>( *context );
 		secretKey->GenSecKey();
-		helib::addSome1DMatrices( *secretKey );					// compute key-switching matrices that we need
+		// helib::addSome1DMatrices( *secretKey );					// compute key-switching matrices that we need
 		// helib::addAllMatrices( *secretKey );
 		publicKey = secretKey;
 		ea = std::make_shared<helib::EncryptedArray>( *context );
