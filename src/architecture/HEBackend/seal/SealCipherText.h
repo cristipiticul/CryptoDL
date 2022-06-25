@@ -147,11 +147,12 @@ public:
 
     virtual void bringToSameLevel(SealCipherText &c1, SealCipherText &c2);
 
-    virtual void fixScale(SealCipherText &c);
+    // virtual void fixScale(SealCipherText &c);
 
 private:
-    virtual seal::Plaintext createPlainText(double x);
-    virtual seal::Plaintext createPlainText(const std::vector<double> &x);
+    virtual seal::Plaintext createPlainText(double x, double ciphertextScale);
+    virtual seal::Plaintext createPlainText(const std::vector<double> &x,
+                                            double ciphertextScale);
 
     double scale;
     std::shared_ptr<seal::SEALContext> context;

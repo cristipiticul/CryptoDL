@@ -14,11 +14,12 @@ SealCipherText &SealCipherText::operator+=(SealCipherText &other) {
 }
 
 SealCipherText &SealCipherText::operator*=(SealCipherText &other) {
+    mFactory->bringToSameLevel(*this, other);
     mFactory->evaluator->multiply_inplace(*mCiphertext, *other.mCiphertext);
     mFactory->evaluator->relinearize_inplace(*mCiphertext,
                                              *mFactory->relin_keys);
     mFactory->evaluator->rescale_to_next_inplace(*mCiphertext);
-    mFactory->fixScale(*this);
+    // mFactory->fixScale(*this);
     return *this;
 }
 
@@ -36,12 +37,14 @@ SealCipherText &SealCipherText::operator=(const SealCipherText &other) {
 }
 
 SealCipherText &SealCipherText::operator+=(double plain) {
-    seal::Plaintext xPlain = mFactory->createPlainText(plain);
+    seal::Plaintext xPlain =
+        mFactory->createPlainText(plain, mCiphertext->scale());
     return this->operator+=(xPlain);
 }
 
 SealCipherText &SealCipherText::operator+=(const std::vector<double> &plain) {
-    seal::Plaintext xPlain = mFactory->createPlainText(plain);
+    seal::Plaintext xPlain =
+        mFactory->createPlainText(plain, mCiphertext->scale());
     return this->operator+=(xPlain);
 }
 
@@ -52,11 +55,12 @@ SealCipherText &SealCipherText::operator+=(seal::Plaintext &plain) {
 }
 
 SealCipherText &SealCipherText::operator*=(double x) {
-    seal::Plaintext xPlain = mFactory->createPlainText(x);
+    seal::Plaintext xPlain = mFactory->createPlainText(x, mCiphertext->scale());
     return this->operator*=(xPlain);
 }
 SealCipherText &SealCipherText::operator*=(const std::vector<double> &plain) {
-    seal::Plaintext xPlain = mFactory->createPlainText(plain);
+    seal::Plaintext xPlain =
+        mFactory->createPlainText(plain, mCiphertext->scale());
     return this->operator*=(xPlain);
 }
 SealCipherText &SealCipherText::operator*=(seal::Plaintext &plain) {
@@ -64,7 +68,7 @@ SealCipherText &SealCipherText::operator*=(seal::Plaintext &plain) {
     mFactory->evaluator->multiply_plain_inplace(*mCiphertext, plain);
     // When multiplying with plaintext, we don't need to relinearize
     mFactory->evaluator->rescale_to_next_inplace(*mCiphertext);
-    mFactory->fixScale(*this);
+    // mFactory->fixScale(*this);
     return *this;
 }
 
@@ -73,7 +77,7 @@ void SealCipherText::square() {
     mFactory->evaluator->relinearize_inplace(*mCiphertext,
                                              *mFactory->relin_keys);
     mFactory->evaluator->rescale_to_next_inplace(*mCiphertext);
-    mFactory->fixScale(*this);
+    // mFactory->fixScale(*this);
 }
 
 void SealCipherText::power(uint p) {
@@ -103,7 +107,7 @@ SealCipherText SealCipherTextFactory::empty() {
 
 std::shared_ptr<seal::Ciphertext> SealCipherTextFactory::createRawEmpty() {
     seal::Ciphertext cipher;
-    encryptor->encrypt(createPlainText(0.0), cipher);
+    encryptor->encrypt(createPlainText(0.0, scale), cipher);
     return std::make_shared<seal::Ciphertext>(cipher);
 }
 
@@ -146,16 +150,18 @@ SealCipherTextFactory::createCipherText(const std::vector<float> &in) {
     return createCipherText(input);
 }
 
-seal::Plaintext SealCipherTextFactory::createPlainText(double x) {
+seal::Plaintext SealCipherTextFactory::createPlainText(double x,
+                                                       double ciphertextScale) {
     seal::Plaintext plain;
-    encoder->encode(x, scale, plain);
+    encoder->encode(x, ciphertextScale, plain);
     return plain;
 }
 
 seal::Plaintext
-SealCipherTextFactory::createPlainText(const std::vector<double> &x) {
+SealCipherTextFactory::createPlainText(const std::vector<double> &x,
+                                       double ciphertextScale) {
     seal::Plaintext plain;
-    encoder->encode(x, scale, plain);
+    encoder->encode(x, ciphertextScale, plain);
     return plain;
 }
 
@@ -217,23 +223,34 @@ void SealCipherTextFactory::bringToSameLevel(SealCipherText &c1,
     size_t c2Level =
         context->get_context_data(c2.ctxt().parms_id())->chain_index();
     if (c1Level > c2Level) {
-        evaluator->mod_switch_to_inplace(c1.ctxt(), c2.ctxt().parms_id());
+        // Bring to same level & scale by multiplying with 1 (includes rescale)
+        // Better than mod_switch_to_inplace from accuracy perspective
+        // because it also refreshes scale (without we need fixScale method below).
+        // Worse than mod_switch_to_inplace from performance perspective
+        // because it doesn't need to multiply.
+        for (int i = c2Level; i < c1Level; i++) {
+            c2 *= 1.0;
+        }
     } else if (c1Level < c2Level) {
-        evaluator->mod_switch_to_inplace(c2.ctxt(), c1.ctxt().parms_id());
+        for (int i = c1Level; i < c2Level; i++) {
+            c1 *= 1.0;
+        }
     }
 }
 
+// REPLACED WITH SOLUTION IN bringToSameLevel
 // Problem: when multiplying A * B, if both have scale 2^40 (for example),
 // the result has scale 2^80. Then we do rescale, this divides scale by the last
 // prime coeff modulus, which should be close to 2^40, but not exactly 2^40.
 // In SEAL/native/examples/5_ckks_basics.cpp, they suggest 2 solutions:
 // 1. Approximation: adjust the scale as if the prime number was exactly 2^40 (what we do here)
 // 2. More exact: multiply by 1 to get to the same scale
-void SealCipherTextFactory::fixScale(SealCipherText &c) {
-    double ratio = c.ctxt().scale() / scale;
-    if (std::fabs(ratio - 1.0) >= 0.05) {
-        std::wcout << "The scale changed with more than 5%. Initial: " << scale
-                   << ", got: " << c.ctxt().scale() << std::endl;
-    }
-    c.ctxt().scale() = scale;
-}
+
+// void SealCipherTextFactory::fixScale(SealCipherText &c) {
+//     double ratio = c.ctxt().scale() / scale;
+//     if (std::fabs(ratio - 1.0) >= 0.05) {
+//         std::wcout << "The scale changed with more than 5%. Initial: " << scale
+//                    << ", got: " << c.ctxt().scale() << std::endl;
+//     }
+//     c.ctxt().scale() = scale;
+// }

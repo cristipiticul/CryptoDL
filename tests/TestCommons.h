@@ -24,15 +24,7 @@
 
 
 std::vector<double> createRandomVector(std::size_t size, double min = -100.0,
-                                       double max = 100.0) {
-    std::vector<double> plain;
-    plain.reserve(size);
-    for (std::size_t i = 0; i < size; i++) {
-        plain.push_back(
-            static_cast<double>(std::rand()) / RAND_MAX * (max - min) + min);
-    }
-    return plain;
-}
+                                       double max = 100.0);
 
 template<class T, class U>
 bool finishTest( TensorP<T> output, TensorP<U> expectedOutput, std::string testName ) {
