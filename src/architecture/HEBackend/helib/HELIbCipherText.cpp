@@ -166,6 +166,9 @@ std::vector<double> HELibCipherTextFactory::decryptDouble( const HELibCipherText
 		throw std::logic_error( "cant decrypt doubles with BFV" );
 	std::vector<double> plain( batchsize(), 0.0 );
 	helib::EncryptedArrayCx ea = context.get()->ea->getCx();
+	// if (ctx.ctxt().capacity() < 1.0) {
+	// 	throw std::runtime_error("Capacity < 1! Probably decryption error!");
+	// }
 	ea.decrypt( ctx.ctxt(), *secretKey, plain );
 	return plain;
 }

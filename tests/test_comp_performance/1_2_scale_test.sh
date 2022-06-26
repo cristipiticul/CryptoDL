@@ -39,7 +39,7 @@ do
             if [[ "$HELIB_C" -eq 6 ]]; then HELIB_BITS=358; fi
             if [[ "$HELIB_C" -eq 3 ]]; then HELIB_BITS=299; fi
             if [[ "$HELIB_C" -eq 2 ]]; then HELIB_BITS=239; fi
-            for HELIB_SCALE in {1..40} # Faster: 1 5 10 15 20 25 30 35 40
+            for HELIB_SCALE in {1..40}
             do
                 ./1_power_raising $TIMES_TO_SQUARE $PRINT_HEADERS $MAX_NR helib $HELIB_M $HELIB_BITS $HELIB_SCALE $HELIB_C
                 # ./2_multiply_plain $TIMES_TO_SQUARE $PRINT_HEADERS $MAX_NR helib $HELIB_M $HELIB_BITS $HELIB_SCALE $HELIB_C
@@ -52,4 +52,28 @@ do
             # ./2_multiply_plain $TIMES_TO_SQUARE $PRINT_HEADERS $MAX_NR seal $SEAL_N $SEAL_BIG_PRIMES_BITS $SEAL_NUM_SMALL_PRIMES $SEAL_SCALE $SEAL_SCALE
         done
     done
+done
+
+BATCH_SIZE=16384
+HELIB_M=$(( BATCH_SIZE * 4 ))
+SEAL_N=$(( BATCH_SIZE * 2 ))
+SEAL_NUM_SMALL_PRIMES=17
+TIMES_TO_SQUARE=1
+MAX_NR=1
+HELIB_C=8 # for scale, C doesn't matter so much
+if [[ "$HELIB_C" -eq 8 ]]; then HELIB_BITS=725; fi
+if [[ "$HELIB_C" -eq 6 ]]; then HELIB_BITS=717; fi
+if [[ "$HELIB_C" -eq 4 ]]; then HELIB_BITS=669; fi
+if [[ "$HELIB_C" -eq 3 ]]; then HELIB_BITS=613; fi
+if [[ "$HELIB_C" -eq 2 ]]; then HELIB_BITS=558; fi
+for HELIB_SCALE in {1..40}
+do
+    ./1_power_raising $TIMES_TO_SQUARE $PRINT_HEADERS $MAX_NR helib $HELIB_M $HELIB_BITS $HELIB_SCALE $HELIB_C
+    # ./2_multiply_plain $TIMES_TO_SQUARE $PRINT_HEADERS $MAX_NR helib $HELIB_M $HELIB_BITS $HELIB_SCALE $HELIB_C
+    PRINT_HEADERS=0
+done
+for SEAL_SCALE in {1..40}
+do
+    ./1_power_raising $TIMES_TO_SQUARE $PRINT_HEADERS $MAX_NR seal $SEAL_N $SEAL_BIG_PRIMES_BITS $SEAL_NUM_SMALL_PRIMES $SEAL_SCALE $SEAL_SCALE
+    # ./2_multiply_plain $TIMES_TO_SQUARE $PRINT_HEADERS $MAX_NR seal $SEAL_N $SEAL_BIG_PRIMES_BITS $SEAL_NUM_SMALL_PRIMES $SEAL_SCALE $SEAL_SCALE
 done
