@@ -10,8 +10,12 @@
 #include "architecture/PlainTensor.h"
 #include "performance_tests_common.h"
 #include "tools/IOStream.h"
+#include <map>
 
 using namespace std;
+
+extern vector<string> program_argument_names;
+extern vector<int> program_argument_values;
 
 #define MODEL_TEMPLATE                                                         \
     Model<CiphertextT, double, HETensor<CiphertextT>, PlainTensor<double>>
@@ -116,7 +120,8 @@ void test_nn(ParamsT params) {
 template <typename FactoryT, typename CiphertextT, typename DatasetT,
           typename ParamsT>
 void read_params_and_test_nn(int argc, char *argv[]) {
-    ParamsT params = getParams<ParamsT>(argc, argv, 4);
+    ParamsT params =
+        getParams<ParamsT>(argc, argv, program_argument_names.size() + 4);
     printGenericParamsHeader(fout);
     fout << endl;
     printParams<ParamsT>(fout, params);
@@ -132,12 +137,13 @@ void read_params_and_test_nn(int argc, char *argv[]) {
 template <typename ParamsT> void printAverages(ParamsT params) {
     if (print_avg_header == 1) {
         printGenericParamsHeader(fout_avg);
+        fout_avg << "," << join(program_argument_names, ',');
         fout_avg << ",number_of_tests,";
         printExperimentsHeader(fout_avg);
         fout_avg << endl;
     }
     printParams(fout_avg, params);
-    fout_avg << ",";
+    fout_avg << "," << join(program_argument_values, ',') << ",";
     fout_avg << number_of_tests << ",";
     fout_avg << sum_virtual_memory / number_of_tests << ",";
     fout_avg << sum_resident_memory / number_of_tests << ",";
@@ -152,24 +158,30 @@ template <typename ParamsT> void printAverages(ParamsT params) {
 }
 
 template <typename DatasetT> void do_all_tests_nn(int argc, char *argv[]) {
-    if (argc < 8) {
+    int num_prog_arguments = program_argument_names.size();
+    if (argc < 8 + num_prog_arguments) {
+        string program_arguments = join(program_argument_names, ' ');
         cerr << "Usage:" << endl;
-        cerr << "Variant 1: " << argv[0]
-             << " number_of_tests print_avg_header(0/1) seal N "
-                "log_big_primes "
-                "nr_small_primes log_small_primes scale"
+        cerr << "Variant 1: " << argv[0] << program_arguments
+             << " number_of_tests print_avg_header(0/1) "
+                "seal " SEAL_PARAMS_ARGUMENTS
              << endl;
-        cerr << "Variant 2: " << argv[0]
-             << " number_of_tests print_avg_header(0/1) helib m bits "
-                "scale c"
+        cerr << "Variant 2: " << argv[0] << program_arguments
+             << " number_of_tests print_avg_header(0/1) "
+                "helib " HELIB_PARAMS_ARGUMENTS
              << endl;
         return;
     }
-    number_of_tests = atoi(argv[1]);
-    print_avg_header = atoi(argv[2]);
-    char *library = argv[3];
+    for (int i = 0; i < num_prog_arguments; i++) {
+        program_argument_values.push_back(atoi(argv[i + 1]));
+    }
+    number_of_tests = atoi(argv[num_prog_arguments + 1]);
+    print_avg_header = atoi(argv[num_prog_arguments + 2]);
+    char *library = argv[num_prog_arguments + 3];
 
-    fout << "number_of_tests: " << number_of_tests << endl;
+    fout << "number_of_tests," << join(program_argument_names, ',') << endl;
+    fout << number_of_tests << "," << join(program_argument_values, ',')
+         << endl;
     if (strcmp(library, "seal") == 0) {
         read_params_and_test_nn<SealCipherTextFactory, SealCipherText, DatasetT,
                                 SealParams>(argc, argv);

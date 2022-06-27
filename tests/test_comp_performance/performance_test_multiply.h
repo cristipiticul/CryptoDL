@@ -142,19 +142,6 @@ template <typename ParamsT> void printAverages(ParamsT params) {
 }
 
 void do_all_tests(int argc, char *argv[]) {
-    if (argc < 9) {
-        cerr << "Usage:" << endl;
-        cerr << "Variant 1: " << argv[0]
-             << " times_to_square print_avg_header(0/1) max_nr seal N "
-                "log_big_primes "
-                "nr_small_primes log_small_primes scale"
-             << endl;
-        cerr << "Variant 2: " << argv[0]
-             << " times_to_square print_avg_header(0/1) max_nr helib m bits "
-                "scale c"
-             << endl;
-        return;
-    }
     times_to_square = atoi(argv[1]);
     print_avg_header = atoi(argv[2]);
     max_nr = atoi(argv[3]);

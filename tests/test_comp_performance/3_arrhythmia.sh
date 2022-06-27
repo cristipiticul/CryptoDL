@@ -14,10 +14,20 @@ CONFIGURATIONS=(
     "helib 65536 717 23 6"
     "seal 32768 60 17 40 40"
 )
+NUM_TESTS=1
 PRINT_HEADERS=1
-for CFG in "${CONFIGURATIONS[@]}"
+for NUM_LAYERS in {0..8}
 do
-    echo "./arrhythmia/arrhythmia 3 $PRINT_HEADERS $CFG"
-    ./arrhythmia/arrhythmia 3 $PRINT_HEADERS $CFG
-    PRINT_HEADERS=0
+    (
+        echo "Unloading weights for NUM_LAYERS=$NUM_LAYERS"
+        cd arrhythmia/
+        rm -r weights
+        python3 arrhythmia.py arrhythmia_L${NUM_LAYERS}_N32.h5
+    )
+    for CFG in "${CONFIGURATIONS[@]}"
+    do
+        echo "./arrhythmia/arrhythmia $NUM_LAYERS 32 $NUM_TESTS $PRINT_HEADERS $CFG"
+        ./arrhythmia/arrhythmia $NUM_LAYERS 32 $NUM_TESTS $PRINT_HEADERS $CFG
+        PRINT_HEADERS=0
+    done
 done

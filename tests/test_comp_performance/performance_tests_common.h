@@ -12,6 +12,9 @@ using namespace std;
 extern ofstream fout;
 extern ofstream fout_avg;
 
+#define SEAL_PARAMS_ARGUMENTS                                                  \
+    "N log_big_primes nr_small_primes log_small_primes scale"
+#define NUM_SEAL_PARAMS_ARGUMENTS 5
 struct SealParams {
     size_t poly_modulus_degree;
     int log_big_primes;
@@ -21,6 +24,8 @@ struct SealParams {
     uint batch_size;
 };
 
+#define HELIB_PARAMS_ARGUMENTS "m bits scale c"
+#define NUM_HELIB_PARAMS_ARGUMENTS 4
 struct HELibParams {
     int m;
     int bits;
@@ -170,4 +175,17 @@ template <> HELibCipherTextFactory initializeFactory(HELibParams params) {
     HELibCipherTextFactory factory(params.bits, params.m, params.scale,
                                    params.c);
     return factory;
+}
+
+template <typename T> std::string join(vector<T> vec, char separator = '.') {
+    std::ostringstream o;
+    bool isFirst = true;
+    for (T item : vec) {
+        if (!isFirst) {
+            o << separator;
+        }
+        o << item;
+        isFirst = false;
+    }
+    return o.str();
 }

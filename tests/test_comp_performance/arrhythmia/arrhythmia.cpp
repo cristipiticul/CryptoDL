@@ -7,11 +7,15 @@
 #include "tools/json/JSONModel.h"
 using namespace std;
 
+vector<string> program_argument_names{"num_layers", "neurons_per_layer"};
+vector<int> program_argument_values;
+
 ofstream fout("test_results/tmp/3_nn_test.csv", ios_base::app);
 ofstream fout_avg("test_results/tmp/3_nn_test_averages.csv", ios_base::app);
 
 // Relative to test_comp_performance (parent) folder
 #define WEIGHTS_FOLDER "arrhythmia/weights/"
+#define NUM_OUTPUTS 16
 
 // TODO: move Dataset stuff to src/data/
 struct ArrhythmiaDataset {
@@ -56,21 +60,47 @@ MODEL_TEMPLATE createModel(FactoryT &factory) {
     Model<CiphertextT, double, HETensor<CiphertextT>, PlainTensor<double>>
         model(MemoryUsage::greedy, &hetfactory, &ptFactory);
 
-    /// add layers
-    /// the first layer needs to be passed an input tensor. all other tensors will be created automatically
-    // dense 1
-    model.addLayer(
-        std::make_shared<Dense<CiphertextT, double, HETensor<CiphertextT>,
-                               PlainTensor<double>>>(
-            "dense1", SquareActivation<CiphertextT>::getSharedPointer(), 64,
-            input, &hetfactory, &ptFactory));
+    int num_layers = program_argument_values[0];
+    int num_neurons = program_argument_values[1];
 
-    // dense 2
-    model.addLayer(
-        std::make_shared<Dense<CiphertextT, double, HETensor<CiphertextT>,
-                               PlainTensor<double>>>(
-            "dense2", LinearActivation<CiphertextT>::getSharedPointer(), 16,
-            &hetfactory, &ptFactory));
+    if (num_layers == 0) {
+        // only output layer
+        model.addLayer(
+            std::make_shared<Dense<CiphertextT, double, HETensor<CiphertextT>,
+                                   PlainTensor<double>>>(
+                "dense_0", LinearActivation<CiphertextT>::getSharedPointer(),
+                NUM_OUTPUTS, input, &hetfactory, &ptFactory));
+    } else {
+        /// the first layer needs to be passed an input tensor. all other tensors will be created automatically
+        model.addLayer(
+            std::make_shared<Dense<CiphertextT, double, HETensor<CiphertextT>,
+                                   PlainTensor<double>>>(
+                "dense_0", SquareActivation<CiphertextT>::getSharedPointer(),
+                num_neurons, input, &hetfactory, &ptFactory));
+
+        for (int i = 1; i < num_layers; i++) {
+            stringstream layer_name;
+            layer_name << "dense_";
+            layer_name << i;
+            model.addLayer(std::make_shared<
+                           Dense<CiphertextT, double, HETensor<CiphertextT>,
+                                 PlainTensor<double>>>(
+                layer_name.str(),
+                SquareActivation<CiphertextT>::getSharedPointer(), num_neurons,
+                &hetfactory, &ptFactory));
+        }
+
+        // Output layer
+        stringstream out_layer_name;
+        out_layer_name << "dense_";
+        out_layer_name << num_layers;
+        model.addLayer(
+            std::make_shared<Dense<CiphertextT, double, HETensor<CiphertextT>,
+                                   PlainTensor<double>>>(
+                out_layer_name.str(),
+                LinearActivation<CiphertextT>::getSharedPointer(), NUM_OUTPUTS,
+                &hetfactory, &ptFactory));
+    }
 
     /// since we have named the layers the same way they were named in keras we only need to specify the directory that
     /// the exported weights
