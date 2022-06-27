@@ -28,6 +28,53 @@
             ],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "make tests"
+        },
+        {
+            "name": "arrhythmia helib",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/test_comp_performance/arrhythmia/arrhythmia",
+            "environment": [
+                {
+                    "name": "config",
+                    "value": "Debug"
+                }
+            ],
+            "args": [
+                "3",
+                "1",
+                "helib",
+                "16384",
+                "119",
+                "5",
+                "2"
+            ],
+            "cwd": "${workspaceFolder}/tests/test_comp_performance/",
+            "preLaunchTask": "make tests comp performance"
+        },
+        {
+            "name": "arrhythmia seal",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/test_comp_performance/arrhythmia/arrhythmia",
+            "environment": [
+                {
+                    "name": "config",
+                    "value": "Debug"
+                }
+            ],
+            "args": [
+                "3",
+                "1",
+                "seal",
+                "8192",
+                "60",
+                "4",
+                "20",
+                "20"
+            ],
+            "cwd": "${workspaceFolder}/tests/test_comp_performance/",
+            "preLaunchTask": "make tests comp performance"
         }
     ]
 }

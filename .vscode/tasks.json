@@ -56,6 +56,24 @@
             "group": {
                 "kind": "build",
             },
+            "dependsOn": [
+                "make crypto dl"
+            ]
+        },
+        {
+            "label": "make tests comp performance",
+            "type": "shell",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/tests/test_comp_performance"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+            },
+            "dependsOn": [
+                "make crypto dl"
+            ]
         }
     ]
 }

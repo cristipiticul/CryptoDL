@@ -152,7 +152,7 @@ template <typename ParamsT> void printAverages(ParamsT params) {
 }
 
 template <typename DatasetT> void do_all_tests_nn(int argc, char *argv[]) {
-    if (argc < 9) {
+    if (argc < 8) {
         cerr << "Usage:" << endl;
         cerr << "Variant 1: " << argv[0]
              << " number_of_tests print_avg_header(0/1) seal N "

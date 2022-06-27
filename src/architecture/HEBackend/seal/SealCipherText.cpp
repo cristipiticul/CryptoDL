@@ -228,12 +228,12 @@ void SealCipherTextFactory::bringToSameLevel(SealCipherText &c1,
         // because it also refreshes scale (without we need fixScale method below).
         // Worse than mod_switch_to_inplace from performance perspective
         // because it doesn't need to multiply.
-        for (int i = c2Level; i < c1Level; i++) {
-            c2 *= 1.0;
+        for (int i = c1Level; i > c2Level; i--) {
+            c1 *= 1.0;
         }
     } else if (c1Level < c2Level) {
-        for (int i = c1Level; i < c2Level; i++) {
-            c1 *= 1.0;
+        for (int i = c2Level; i > c1Level; i--) {
+            c2 *= 1.0;
         }
     }
 }
