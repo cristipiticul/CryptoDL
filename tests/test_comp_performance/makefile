@@ -4,7 +4,7 @@ CRYPTODL_DIR=../..
 $(shell $(CRYPTODL_DIR)/dependencies/versions.sh)
 -include $(CRYPTODL_DIR)/dependencies/makefile.versions
 
-SRC_FILES := $(wildcard *.cpp)
+SRC_FILES := $(wildcard *.cpp) $(wildcard */*.cpp)
 OBJ_FILES := $(patsubst %.cpp,%.o,$(SRC_FILES))
 DEP_FILES := $(patsubst %.cpp,%.d,$(SRC_FILES))
 EXEC_FILES := $(patsubst %.cpp,%,$(SRC_FILES))
@@ -27,7 +27,7 @@ all: $(EXEC_FILES)
 
 %.o: %.cpp
 	@echo Building tests
-	g++ -std=c++17 $(CXXFLAGS) $(DEP_INCLUDES) -include../../src/data/mnist/include/mnist/mnist_reader_less.hpp -c -fmessage-length=0 -fopenmp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o $@ $<
+	g++ -std=c++17 $(CXXFLAGS) $(DEP_INCLUDES) -I../../src -include../../src/data/mnist/include/mnist/mnist_reader_less.hpp -c -fmessage-length=0 -fopenmp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o $@ $<
 
 clean:
 	rm $(EXEC_FILES) $(DEP_FILES) $(OBJ_FILES)

@@ -1,0 +1,4 @@
+Download the arrhythmia.data from here https://archive.ics.uci.edu/ml/datasets/Arrhythmia
+and place it in this folder.
+Use crypto_dl/python/training/preproc_arrhythmia.py to preprocess this file,
+then training_arrhythmia.py to train a model on it.

@@ -1,4 +1,4 @@
-#include "performance_tests_common.h"
+#include "performance_test_multiply.h"
 
 ofstream fout("test_results/tmp/2_multiply_plain_test.csv", ios_base::app);
 ofstream fout_avg("test_results/tmp/2_multiply_plain_test_averages.csv",

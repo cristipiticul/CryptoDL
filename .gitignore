@@ -187,6 +187,8 @@ dependencies/*
 
 tests/kalypso_tests
 datasets/mnist/*-ubyte
+datasets/arrhythmia/*.data
+datasets/arrhythmia/*.names
 .vscode/*.log
 tests/test_comp_performance/1_power_raising
 tests/test_comp_performance/2_multiply_plain
