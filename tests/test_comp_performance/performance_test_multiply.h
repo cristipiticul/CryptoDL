@@ -38,6 +38,11 @@ void multiply_inplace(vector<double> &v1, double constant) {
         v1[i] *= constant;
     }
 }
+void add_inplace(vector<double> &v1, vector<double> &v2) {
+    for (unsigned int i = 0; i < v1.size(); i++) {
+        v1[i] += v2[i];
+    }
+}
 
 double mean_squared_error(const vector<double> &v1, const vector<double> &v2) {
     assert(v1.size() == v2.size());

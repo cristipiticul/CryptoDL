@@ -87,6 +87,17 @@ void test_nn(ParamsT params) {
     /** Run model */
     time_start = chrono::high_resolution_clock::now();
     model.run();
+    // for (auto layer : model.layers()) {
+    //     cout << "Layer " << layer->name() << " output: ";
+    //     HETensor<CiphertextT> *output =
+    //         dynamic_cast<HETensor<CiphertextT> *>(layer->output().get());
+    //     TensorP<double> out = output->decryptDouble();
+    //     for (size_t i = 0; i < out->shape[1]; i++) {
+    //         cout << fixed << showpoint << setprecision(5)
+    //              << out->operator[]({0, i}) << " ";
+    //     }
+    //     cout << endl;
+    // }
     time_end = chrono::high_resolution_clock::now();
     operations_duration =
         chrono::duration_cast<chrono::microseconds>(time_end - time_start);

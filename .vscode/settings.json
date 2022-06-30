@@ -88,7 +88,10 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "gsl_byte": "cpp",
+        "multi_span": "cpp",
+        "*.inc": "cpp"
     },
     "python.formatting.provider": "black"
 }
