@@ -189,10 +189,15 @@ tests/kalypso_tests
 datasets/mnist/*-ubyte
 datasets/arrhythmia/*.data
 datasets/arrhythmia/*.names
+datasets/chestmnist/*.npz
+datasets/chestmnist/*.csv
 .vscode/*.log
 tests/test_comp_performance/1_power_raising
 tests/test_comp_performance/2_multiply_plain
 tests/test_comp_performance/4_neuron_mock
 tests/test_comp_performance/arrhythmia/arrhythmia
 tests/test_comp_performance/arrhythmia/weights
+tests/test_comp_performance/chest/weights
+tests/test_comp_performance/chest/prediction*.csv
+tests/test_comp_performance/chest/chestmnist
 tests/test_comp_performance/test_results/tmp/*

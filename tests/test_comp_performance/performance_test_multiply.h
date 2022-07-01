@@ -44,15 +44,6 @@ void add_inplace(vector<double> &v1, vector<double> &v2) {
     }
 }
 
-double mean_squared_error(const vector<double> &v1, const vector<double> &v2) {
-    assert(v1.size() == v2.size());
-    double sum_of_distances = 0.0;
-    for (unsigned int i = 0; i < v1.size(); i++) {
-        sum_of_distances += (v1[i] - v2[i]) * (v1[i] - v2[i]);
-    }
-    return sum_of_distances / v1.size();
-}
-
 template <typename FactoryT, typename CiphertextT, typename ParamsT>
 void test(ParamsT params) {
     double virtual_memory, resident_memory;

@@ -92,11 +92,15 @@ void test_nn(ParamsT params) {
     //     HETensor<CiphertextT> *output =
     //         dynamic_cast<HETensor<CiphertextT> *>(layer->output().get());
     //     TensorP<double> out = output->decryptDouble();
-    //     for (size_t i = 0; i < out->shape[1]; i++) {
-    //         cout << fixed << showpoint << setprecision(5)
-    //              << out->operator[]({0, i}) << " ";
+    //     if (out->shape.size == 2) {
+    //         for (size_t i = 0; i < out->shape[1]; i++) {
+    //             cout << fixed << showpoint << setprecision(5)
+    //                  << out->operator[]({0, i}) << " ";
+    //         }
+    //         cout << endl;
+    //     } else {
+    //         cout << "IDK to print that shape" << endl;
     //     }
-    //     cout << endl;
     // }
     time_end = chrono::high_resolution_clock::now();
     operations_duration =
