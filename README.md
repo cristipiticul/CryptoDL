@@ -21,21 +21,21 @@
 
 When dealing with sensitive information, most applications use end-to-end encryption during data transfer. For example, a medical cloud application may process XRays and reply with a possible diagnosis.
 
-<img src="doc/1_scenario.png" alt="Hospital sends XRay to server, which returns the diagnosis" width="400"/>
+<img src="doc/1_scenario.png" alt="Hospital sends XRay to server, which returns the diagnosis" width="600"/>
 
 The XRay image and diagnosis cannot be seen by anyone in the middle.
 
-<img src="doc/2_transport_security.png" alt="Transport security: request and response are encrypted" width="400"/>
+<img src="doc/2_transport_security.png" alt="Transport security: request and response are encrypted" width="600"/>
 
 **Homomorphic Encryption (HE)** is the "holy grail" of confidentiality: **allows operations on encrypted data**.
 
-<img src="doc/3_homomorphic_encryption.png" alt="Homomorphic encryption: data is not decrypted on the server" width="400"/>
+<img src="doc/3_homomorphic_encryption.png" alt="Homomorphic encryption: data is not decrypted on the server" width="600"/>
 
 ## How does Homomorphic Encryption work?
 
 The current schemes encrypt multiple numbers in a polynomial. The two polinomials are added in a special way. [This YouTube video from Wei Dai (Microsoft)](https://www.youtube.com/watch?v=SEBdYXxijSo&feature=youtu.be) explains the math concepts behind homomorphic encryption.
 
-<img src="doc/4_how_it_works.png" alt="Addition of encrypted numbers" width="400"/>
+<img src="doc/4_how_it_works.png" alt="Addition of encrypted numbers" width="600"/>
 
 ### Limitations of Homomorphic Encryption
 - **Only addition and multiplications are allowed!**
@@ -46,13 +46,13 @@ The current schemes encrypt multiple numbers in a polynomial. The two polinomial
 
 ## Scenario 1: diagnosis from heart attribute measurements
 
-<img src="doc/5_scenario_1.png" alt="Table with heart information data, and a drawing of neural networks" width="400"/>
+<img src="doc/5_scenario_1.png" alt="Table with heart information data, and a drawing of neural networks" width="600"/>
 
 See [info.txt](datasets/arrhythmia/info.txt) for dataset details.
 
 ## Scenario 2: diagnosis from chest XRays
 
-<img src="doc/6_scenario_2.png" alt="An XRay, and a drawing of a convolutional neural network" width="400"/>
+<img src="doc/6_scenario_2.png" alt="An XRay, and a drawing of a convolutional neural network" width="600"/>
 
 See [info.txt](datasets/chestmnist/info.txt) for dataset details.
 
